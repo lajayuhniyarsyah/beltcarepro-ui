@@ -31,8 +31,6 @@
 							<i class="linecons-cog"></i>
 						</a>
 					</div>
-		
-					
 				</header>
 				
 				
@@ -57,9 +55,21 @@
 								</a>
 							</li>
 							<li>
+								<a href="home.php?page=data_area">
+									<i class="linecons-user"></i>
+									<span class="title">Data Area</span>
+								</a>
+							</li>
+							<li>
 								<a href="home.php?page=data_conveyor">
 									<i class="linecons-user"></i>
 									<span class="title">Data Conveyor</span>
+								</a>
+							</li>
+							<li>
+								<a href="home.php?page=data_conveyor_asset">
+									<i class="linecons-user"></i>
+									<span class="title">Data Conveyor Asset</span>
 								</a>
 							</li>
 						</ul>
