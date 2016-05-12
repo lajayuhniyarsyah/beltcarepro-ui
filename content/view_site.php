@@ -10,7 +10,7 @@
 				<a href="home.php"><i class="fa-home"></i>Dashboard</a>
 			</li>
 			<li>
-				<a href="home.php?page=data_customer">Data Customer Site</a>
+				<a href="home.php?page=data_site">Data Customer Site</a>
 			</li>
 			<li class="active">
 				<strong>View Customer Site</strong>

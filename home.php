@@ -40,11 +40,17 @@
 				            case "add_area":
 				                $pg =  "content/add_area.php";
 				            break;
+				            case "view_area":
+				                $pg =  "content/view_area.php";
+				            break;
 				            case "data_conveyor":
 				                $pg =  "content/data_conveyor.php";
 				            break;
 				            case "add_conveyor":
 				                $pg =  "content/add_conveyor.php";
+				            break;
+				            case "view_conveyor":
+				                $pg =  "content/view_conveyor.php";
 				            break;
 				        	case "data_conveyor_asset":
 				                $pg =  "content/data_conveyor_asset.php";

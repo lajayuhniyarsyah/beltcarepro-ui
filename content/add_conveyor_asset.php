@@ -9,7 +9,7 @@
 				<a href="home.php"><i class="fa-home"></i>Dashboard</a>
 			</li>
 			<li>
-				<a href="home.php?page=data_area">Data Conveyor Asset </a>
+				<a href="home.php?page=data_conveyor_asset">Data Conveyor Asset </a>
 			</li>
 			<li class="active">
 				<strong>Create Conveyor Asset</strong>

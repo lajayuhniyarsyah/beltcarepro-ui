@@ -9,7 +9,7 @@
 				<a href="home.php"><i class="fa-home"></i>Dashboard</a>
 			</li>
 			<li>
-				<a href="home.php?page=data_area">Data Conveyor Customer </a>
+				<a href="home.php?page=data_conveyor">Data Conveyor Customer </a>
 			</li>
 			<li class="active">
 				<strong>Create Conveyor Customer</strong>
@@ -128,7 +128,7 @@
 							</div>
 						</div>
 						<div class="form-group">
-							<label class="col-sm-2 control-label" for="field-1">Site Name</label>
+							<label class="col-sm-2 control-label" for="field-1">Area Name</label>
 							<script type="text/javascript">
 									jQuery(document).ready(function($)
 									{
@@ -228,7 +228,7 @@
 						<a href="javascript:;" onclick="jQuery('#create-area').modal('show', {backdrop: 'static'});">
 							<button class="btn btn-info btn-icon btn-icon-standalone">
 								<i class="fa-plus-circle"></i>
-								<span>Add Conveyor</span>
+								<span>Add Conveyor Asset</span>
 							</button>
 						</a>
 					</div>

@@ -37,6 +37,19 @@
 .font16{
   font-size: 16px;
 }
+.judul-detail{
+  font-size: 12px;
+}
+.images-conveyor{
+  float: left;
+  top: 0px;
+}
+
+
+
+
+
+
 /* ================== css Animation ================ */
 .element {
   margin: 0 auto;
