@@ -15,12 +15,12 @@
 				<strong>Create Conveyor Asset</strong>
 			</li>
 		</ol>
-
 	</div>
 </div>
 			
 <div class="row">
 	<div class="col-sm-12">
+	<form role="form" id="form1" method="post" class="validate form-horizontal">
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<h3 class="panel-title font-bold">FORM CREATE CONVEYOR ASSET</h3>
@@ -34,17 +34,16 @@
 				</div>
 			</div>
 			<div class="panel-body">
-				<form role="form" class="form-horizontal" role="form">
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-1">Part</label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" id="field-1" name="name" placeholder="Part Conveyor">
+							<input type="text" class="form-control" name="name" data-validate="required" data-message-required="Please Input Part Conveyor." placeholder="Part Conveyor" />
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-1">Code</label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" id="field-1" name="name" placeholder="Code Conveyor">
+							<input type="text" class="form-control" name="code" data-validate="required" data-message-required="Please Input Code Part." placeholder="Code Part" />
 						</div>
 					</div>
 					<div class="form-group-separator"></div>
@@ -109,6 +108,7 @@
 						</script>
 						<div class="col-sm-10">
 							<select class="form-control" id="brand">
+								<option value="">Please Select Brand......</option>
 								<option value="PT">MARTIN</option>
 								<option value="CV">REMA TIP TOP</option>
 							</select>
@@ -131,6 +131,7 @@
 						</script>
 						<div class="col-sm-10">
 							<select class="form-control" id="status">
+								<option value="">Please Select Status......</option>
 								<option value="good">GOOD</option>
 								<option value="lvl1">LEVEL 1</option>
 								<option value="lvl2">LEVEL 2</option>
@@ -148,12 +149,10 @@
 							<input type="checkbox" checked class="iswitch">
 						</div>
 					</div>
-				</form>
-		
 			</div>
 			
 		</div>
-
+		</form>
 	</div>
 </div>
 

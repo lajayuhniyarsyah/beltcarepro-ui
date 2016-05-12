@@ -28,6 +28,9 @@
 				            case "data_site":
 				                $pg =  "content/data_site.php";
 				            break;
+				       		case "view_site":
+				                $pg =  "content/view_site.php";
+				            break;
 				            case "add_customer_site":
 				                $pg =  "content/add_customer_site.php";
 				            break;
