@@ -17,5 +17,6 @@
 	  <!-- <link rel="stylesheet" href="assets/css/custom.css"> -->
 	  <script src="assets/js/jquery-1.11.1.min.js"></script>
 	<script src="assets/js/highcharts/js/highcharts.js"></script>
+
 </haed>
 
