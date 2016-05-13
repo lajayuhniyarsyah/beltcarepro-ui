@@ -58,6 +58,27 @@
 				            case "add_conveyor_asset":
 				                $pg =  "content/add_conveyor_asset.php";
 				            break;
+				            case "data_part":
+				                $pg =  "content/data_part.php";
+				            break;
+				            case "add_part":
+				                $pg =  "content/add_part.php";
+				            break;
+				            case "data_part_type":
+				                $pg =  "content/data_part_type.php";
+				            break;
+							case "add_part_type":
+				                $pg =  "content/add_part_type.php";
+				            break;
+				            case "data_brand":
+				                $pg =  "content/data_brand.php";
+				            break;
+				            case "add_brand":
+				                $pg =  "content/add_brand.php";
+				            break;
+				            case "data_action":
+				                $pg =  "content/data_action.php";
+				            break;
 				        }
 				    }else{
 				        $pg="content/dasboard.php";

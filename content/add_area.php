@@ -36,7 +36,7 @@
 			</div>
 			<div class="panel-body">
 					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-5">Customer Name</label>
+						<label class="col-sm-2 control-label" for="field-5">Customer Name <span class="font-red"> * </span></label>
 							<script type="text/javascript">
 								jQuery(document).ready(function($)
 								{
@@ -72,7 +72,7 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-1">Site Name</label>
+						<label class="col-sm-2 control-label" for="field-1">Site Name <span class="font-red"> * </span></label>
 						<script type="text/javascript">
 								jQuery(document).ready(function($)
 								{
@@ -108,7 +108,7 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-1">Area Name</label>
+						<label class="col-sm-2 control-label" for="field-1">Area Name <span class="font-red"> * </span></label>
 						<div class="col-sm-10">
 							<input type="text" class="form-control" name="name" data-validate="required" data-message-required="Please Input Customer Site Area Name." placeholder="Customer Site Area Name" />
 						</div>
@@ -116,7 +116,7 @@
 
 					<div class="form-group-separator"></div>
 					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-5">Description</label>
+						<label class="col-sm-2 control-label" for="field-5">Description <span class="font-red"> * </span></label>
 						<div class="col-sm-10">
 							<textarea class="form-control" cols="5" id="field-5" name="desc"></textarea>
 						</div>
