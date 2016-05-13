@@ -44,12 +44,29 @@
   float: left;
   top: 0px;
 }
+.font-red{
+  color: red;
+}
+.widget-list{
+  font-size: 14px !Important;
+  font-weight: bold;
+}
+.judul-action{
+  /*text-transform: uppercase;*/
+  font-size: 14px !Important;
+}
 
-
-
-
-
-
+.label.label-blue {
+    background-color: #3498DB;
+    color: #fff;
+}
+.label.label-red {
+    background-color: red;
+    color: #fff;
+}
+.ul-margin-left{
+  margin-left: 30px;
+}
 /* ================== css Animation ================ */
 .element {
   margin: 0 auto;
