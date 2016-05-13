@@ -43,6 +43,7 @@
   <script src="assets/js/handlebars.min.js"></script>
   <script src="assets/js/multiselect/js/jquery.multi-select.js"></script>
 
+  <script src="assets/js/jquery-validate/jquery.validate.min.js"></script>
 
   <!-- JavaScripts initializations and stuff -->
   <script src="assets/js/xenon-custom.js"></script>

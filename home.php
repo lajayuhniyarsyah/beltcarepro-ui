@@ -28,6 +28,9 @@
 				            case "data_site":
 				                $pg =  "content/data_site.php";
 				            break;
+				       		case "view_site":
+				                $pg =  "content/view_site.php";
+				            break;
 				            case "add_customer_site":
 				                $pg =  "content/add_customer_site.php";
 				            break;
@@ -37,11 +40,17 @@
 				            case "add_area":
 				                $pg =  "content/add_area.php";
 				            break;
+				            case "view_area":
+				                $pg =  "content/view_area.php";
+				            break;
 				            case "data_conveyor":
 				                $pg =  "content/data_conveyor.php";
 				            break;
 				            case "add_conveyor":
 				                $pg =  "content/add_conveyor.php";
+				            break;
+				            case "view_conveyor":
+				                $pg =  "content/view_conveyor.php";
 				            break;
 				        	case "data_conveyor_asset":
 				                $pg =  "content/data_conveyor_asset.php";

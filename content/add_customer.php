@@ -21,66 +21,62 @@
 			
 <div class="row">
 	<div class="col-sm-12">
-		<div class="panel panel-default">
-			<div class="panel-heading">
-				<h3 class="panel-title font-bold">FORM CREATE CUSTOMER</h3>
-				<div class="panel-options">
-					<a href="home.php?page=add_customer">
-						<button class="btn btn-info btn-icon btn-icon-standalone">
+		<form role="form" id="form1" method="post" class="validate form-horizontal">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3 class="panel-title font-bold">FORM CREATE CUSTOMER</h3>
+					<div class="panel-options">
+						<button type="submit" class="btn btn-info btn-icon btn-icon-standalone">
 							<i class="fa-plus-circle"></i>
 							<span>Create Customer</span>
 						</button>
-					</a>
+					</div>
+				</div>
+				<div class="panel-body">
+						<div class="form-group">
+							<label class="col-sm-2 control-label" for="field-1">Customer Name</label>
+							<div class="col-sm-10">
+								<input type="text" class="form-control" name="name" data-validate="required" data-message-required="Please Input Customer Name." placeholder="Customer Name" />
+							</div>
+						</div>
+						<div class="form-group-separator"></div>
+						<div class="form-group">
+							<label class="col-sm-2 control-label" for="field-5">Description</label>
+							<div class="col-sm-10">
+								<textarea class="form-control" cols="5" id="field-5" name="desc"></textarea>
+							</div>
+						</div>
+						<div class="form-group-separator"></div>
+						<div class="form-group">
+							<label class="col-sm-2 control-label" for="field-5">CO Type</label>
+							<script type="text/javascript">
+								jQuery(document).ready(function($)
+								{
+									$("#co-type").selectBoxIt().on('open', function()
+									{
+										// Adding Custom Scrollbar
+										$(this).data('selectBoxSelectBoxIt').list.perfectScrollbar();
+									});
+								});
+							</script>
+							<div class="col-sm-10">
+								<select class="form-control" id="co-type">
+									<option value="PT">PT</option>
+									<option value="CV">CV</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group-separator"></div>
+						<div class="form-group">
+							<label class="col-sm-2 control-label" for="field-5">Active</label>
+
+							<div class="col-sm-10">
+								<input type="checkbox" checked class="iswitch">
+							</div>
+						</div>
 				</div>
 			</div>
-			<div class="panel-body">
-				<form role="form" class="form-horizontal" role="form">
-					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-1">Customer Name</label>
-						<div class="col-sm-10">
-							<input type="text" class="form-control" id="field-1" name="name" placeholder="Customer Name">
-						</div>
-					</div>
-					<div class="form-group-separator"></div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-5">Description</label>
-						<div class="col-sm-10">
-							<textarea class="form-control" cols="5" id="field-5" name="desc"></textarea>
-						</div>
-					</div>
-					<div class="form-group-separator"></div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-5">CO Type</label>
-						<script type="text/javascript">
-							jQuery(document).ready(function($)
-							{
-								$("#co-type").selectBoxIt().on('open', function()
-								{
-									// Adding Custom Scrollbar
-									$(this).data('selectBoxSelectBoxIt').list.perfectScrollbar();
-								});
-							});
-						</script>
-						<div class="col-sm-10">
-							<select class="form-control" id="co-type">
-								<option value="PT">PT</option>
-								<option value="CV">CV</option>
-							</select>
-						</div>
-					</div>
-					<div class="form-group-separator"></div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-5">Active</label>
-
-						<div class="col-sm-10">
-							<input type="checkbox" checked class="iswitch">
-						</div>
-					</div>
-				</form>
-		
-			</div>
-		</div>
-
+		</form>
 	</div>
 </div>
 

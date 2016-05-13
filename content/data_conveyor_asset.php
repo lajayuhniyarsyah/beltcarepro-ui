@@ -40,6 +40,7 @@
 						{column_number : 3, filter_type: 'text'},
 						{column_number : 4, filter_type: 'text'},
 						{column_number : 5},
+						{column_number : 6},
 					]);
 				});
 				</script>
@@ -52,6 +53,7 @@
 							<th><center>Customer Area</center></th>
 							<th><center>Customer Site</center></th>
 							<th><center>Customer Name</center></th>
+							<th><center>Brand</center></th>
 							<th><center>Status</center></th>
 							<th width="15%"><center>Action</center></th>
 						</tr>
@@ -64,6 +66,7 @@
 								<td>AREA  <?=$i?></td>
 								<td>SITE  <?=$i?></td>
 								<td>FREEPORT INDONESIA <?=$i?></td>
+								<td>MARTIN</td>
 								<td class="center">Active</td>
 								<td>
 									<center>
