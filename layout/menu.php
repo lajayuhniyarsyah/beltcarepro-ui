@@ -45,7 +45,7 @@
 							<li>
 								<a href="home.php?page=data_action">
 									<i class="linecons-user"></i>
-									<span class="title">Data Action</span>
+									<span class="title">Action</span>
 								</a>
 							</li>
 						</ul>
@@ -59,31 +59,31 @@
 							<li>
 								<a href="home.php?page=data_customer">
 									<i class="linecons-user"></i>
-									<span class="title">Data Customer</span>
+									<span class="title">Customer</span>
 								</a>
 							</li>
 							<li>
 								<a href="home.php?page=data_site">
 									<i class="linecons-user"></i>
-									<span class="title">Data Site</span>
+									<span class="title">Site</span>
 								</a>
 							</li>
 							<li>
 								<a href="home.php?page=data_area">
 									<i class="linecons-user"></i>
-									<span class="title">Data Area</span>
+									<span class="title">Area</span>
 								</a>
 							</li>
 							<li>
 								<a href="home.php?page=data_conveyor">
 									<i class="linecons-user"></i>
-									<span class="title">Data Conveyor</span>
+									<span class="title">Conveyor</span>
 								</a>
 							</li>
 							<li>
 								<a href="home.php?page=data_conveyor_asset">
 									<i class="linecons-user"></i>
-									<span class="title">Data Conveyor Asset</span>
+									<span class="title">Conveyor Asset</span>
 								</a>
 							</li>	
 						</ul>
@@ -97,19 +97,19 @@
 							<li>
 								<a href="home.php?page=data_part">
 									<i class="linecons-user"></i>
-									<span class="title">Data Part</span>
+									<span class="title">Part</span>
 								</a>
 							</li>
 							<li>
 								<a href="home.php?page=data_part_type">
 									<i class="linecons-user"></i>
-									<span class="title">Data Part Type</span>
+									<span class="title">Part Type</span>
 								</a>
 							</li>
 							<li>
 								<a href="home.php?page=data_brand">
 									<i class="linecons-user"></i>
-									<span class="title">Data Brand</span>
+									<span class="title">Brand</span>
 								</a>
 							</li>
 						</ul>
