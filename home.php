@@ -82,6 +82,9 @@
 				            case "add_inspection":
 				            	$pg =  "content/add_inspection.php";
 				            break;
+				            case "add_do_inspection":
+				            	$pg =  "content/add_do_inspection.php";
+				            break;
 				        }
 				    }else{
 				        $pg="content/dasboard.php";

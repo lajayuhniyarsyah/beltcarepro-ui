@@ -172,10 +172,12 @@
 		</div>
 		<div class="panel-heading">
 			<div class="panel-options">
-				<button class="btn btn-primary btn-icon btn-icon-standalone">
-					<i class="fa-play-circle-o"></i>
-					<span>Do Inspection</span>
-				</button>
+				<a href="home.php?page=add_do_inspection">
+					<button class="btn btn-primary btn-icon btn-icon-standalone">
+						<i class="fa-play-circle-o"></i>
+						<span>Do Inspection</span>
+					</button>
+				</a>
 			</div>
 		</div>
 	</div>
