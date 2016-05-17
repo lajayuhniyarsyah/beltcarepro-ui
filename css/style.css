@@ -67,6 +67,11 @@
 .ul-margin-left{
   margin-left: 30px;
 }
+
+input[type="file"] {
+    display: block;
+    padding-top: 0;
+}
 /* ================== css Animation ================ */
 .element {
   margin: 0 auto;

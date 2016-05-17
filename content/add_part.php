@@ -73,7 +73,12 @@
 							</select>
 						</div>
 					</div>
-
+					<div class="form-group">
+						<label class="col-sm-2 control-label" for="field-5">Icon</label>
+						<div class="col-sm-10">
+							<input type="file" class="form-control" id="field-4">
+						</div>
+					</div>
 					<div class="form-group-separator"></div>
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-5">Important Level <span class="font-red"> * </span></label>
@@ -100,11 +105,11 @@
 
 					<div class="form-group-separator"></div>
 					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-5">Status<span class="font-red"> * </span></label>
+						<label class="col-sm-2 control-label" for="field-5">Point<span class="font-red"> * </span></label>
 						<script type="text/javascript">
 							jQuery(document).ready(function($)
 							{
-								$("#status").selectBoxIt().on('open', function()
+								$("#point").selectBoxIt().on('open', function()
 								{
 									// Adding Custom Scrollbar
 									$(this).data('selectBoxSelectBoxIt').list.perfectScrollbar();
@@ -112,8 +117,8 @@
 							});
 						</script>
 						<div class="col-sm-10">
-							<select class="form-control" id="status">
-								<option value="">Please Select Status......</option>
+							<select class="form-control" id="point">
+								<option value="">Please Select Point......</option>
 								<option value="10">10</option>
 								<option value="8">8</option>
 								<option value="5">5</option>

@@ -34,12 +34,12 @@
 				</div>
 			</div>
 			<div class="panel-body">
-					<div class="form-group">
+			<!-- 		<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-1">Part</label>
 						<div class="col-sm-10">
 							<input type="text" class="form-control" name="name" data-validate="required" data-message-required="Please Input Part Conveyor." placeholder="Part Conveyor" />
 						</div>
-					</div>
+					</div> -->
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-1">Code</label>
 						<div class="col-sm-10">
@@ -117,6 +117,21 @@
 
 					<div class="form-group-separator"></div>
 
+					<div class="form-group">
+						<label class="col-sm-2 control-label">Installed Date</label>
+						
+						<div class="col-sm-10">
+							<div class="input-group">
+								<input type="text" class="form-control datepicker" data-format="D, dd MM yyyy">
+								
+								<div class="input-group-addon">
+									<a href="#"><i class="linecons-calendar"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="form-group-separator"></div>
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-5">Status</label>
 						<script type="text/javascript">

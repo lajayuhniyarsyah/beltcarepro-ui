@@ -50,7 +50,7 @@
 						</div>
 						<div class="form-group-separator"></div>
 						<div class="form-group">
-							<label class="col-sm-2 control-label" for="field-5">Map</label>
+							<label class="col-sm-2 control-label" for="field-5">Layout</label>
 							<div class="col-sm-10">
 								<input type="file" class="form-control" id="field-4">
 							</div>
