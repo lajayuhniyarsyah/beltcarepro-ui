@@ -79,6 +79,9 @@
 				            case "data_action":
 				                $pg =  "content/data_action.php";
 				            break;
+				            case "add_inspection":
+				            	$pg =  "content/add_inspection.php";
+				            break;
 				        }
 				    }else{
 				        $pg="content/dasboard.php";
