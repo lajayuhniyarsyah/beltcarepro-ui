@@ -46,7 +46,7 @@
 							<input type="text" class="form-control" name="code" data-validate="required" data-message-required="Please Input Part Code." placeholder="Part Code" />
 						</div>
 					</div>
-					<div class="form-group-separator"></div>
+<!-- 					<div class="form-group-separator"></div>
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-5">Part Type <span class="font-red"> * </span></label>
 						<script type="text/javascript">
@@ -72,7 +72,7 @@
 								<option value="4">CLEANER</option>
 							</select>
 						</div>
-					</div>
+					</div> -->
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-5">Icon</label>
 						<div class="col-sm-10">

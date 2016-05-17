@@ -58,9 +58,6 @@
 										<a href="home.php?page=edit_customer" class="btn btn-secondary btn-sm btn-icon icon-left">
 										Edit
 										</a>
-										<a href="home.php?page=view_customer" class="btn btn-info btn-sm btn-icon icon-left">
-											Profile
-										</a>
 									</center>
 								</td>
 							</tr>

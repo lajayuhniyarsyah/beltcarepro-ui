@@ -38,9 +38,8 @@
 						{column_number : 1, filter_type: 'text'},
 						{column_number : 2, filter_type: 'text'},
 						{column_number : 3, filter_type: 'text'},
-						{column_number : 4, filter_type: 'text'},
+						{column_number : 4},
 						{column_number : 5},
-						{column_number : 6},
 					]);
 				});
 				</script>
@@ -48,7 +47,6 @@
 				<table class="table table-striped table-bordered" id="customer">
 					<thead>
 						<tr class="replace-inputs">
-							<th><center>Part</center></th>
 							<th><center>Code</center></th>
 							<th><center>Customer Area</center></th>
 							<th><center>Customer Site</center></th>
@@ -61,7 +59,6 @@
 					<tbody>
 					    <?php for($i=1; $i<100; $i++){ ?>
 							<tr>
-								<td>PART A00<?=$i?></td>
 								<td>CODE 000<?=$i?></td>
 								<td>AREA  <?=$i?></td>
 								<td>SITE  <?=$i?></td>
@@ -73,7 +70,7 @@
 										<a href="home.php?page=edit_customer" class="btn btn-secondary btn-sm btn-icon icon-left">
 										Edit
 										</a>
-										<a href="home.php?page=view_customer" class="btn btn-info btn-sm btn-icon icon-left">
+										<a href="home.php?page=view_conveyor_asset" class="btn btn-info btn-sm btn-icon icon-left">
 											Profile
 										</a>
 									</center>
