@@ -33,12 +33,13 @@
 					</div>
 				</div>
 				<div class="panel-body">
-						<!-- <div class="form-group required validate-has-error"> -->
-						<div class="form-group required">
+						
+						<!-- <div class="form-group required"> -->
+						<div class="form-group required validate-has-error">
 							<label class="col-sm-2 control-label" for="field-1">Customer Name <span class="font-red">*</span></label>
 							<div class="col-sm-10">
 								<input type="text" class="form-control" name="name" data-validate="required" data-message-required="Please Input Customer Name." placeholder="Customer Name" />
-								<span class="validate-has-error message">Please Input Customer Name.</span>
+								<span class="validate-has-error">Please Input Customer Name.</span>
 							</div>
 						</div>
 						<div class="form-group-separator"></div>

@@ -119,8 +119,14 @@
 					<td>Belt Conveyor terbakar dari flamed coal </td>
 					<td class="center">False</td>
 					<td class="center">
-						<a href="javascript:;" onclick="jQuery('#modal-6').modal('show', {backdrop: 'static'});" >
-							<img src="images/inspection/thumbnail/1384822703-576-1.png" class="img-squre" alt="user-pic" />
+						<a href="images/inspection/1384822703-576-1.png" rel="lightbox[example]" title="Belt (Section) BLS002 <b>Level 1</b>">
+							<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
+						</a>
+						<a href="images/inspection/1384826082-588-1.png" rel="lightbox[example]" title="Belt (Section) BLS002 <b>Level 1</b>">
+							<img src="images/inspection/thumbnail/1384826082-588-1.png" alt="Belt (Section) BLS002 <b>Level 1</b>" class="bordered hide"/>
+						</a>
+						<a href="images/inspection/1385553119-1001-1.png" rel="lightbox[example]" title="Belt (Section) BLS002 <b>Level 1</b>">
+							<img src="images/inspection/thumbnail/1385553119-1001-1.png" alt="Belt (Section) BLS002 <b>Level 1</b>" class="bordered hide" />
 						</a>
 					</td>
 					<td class="center">
@@ -135,8 +141,8 @@
 					<td>Belt Terbakar dan putus, dikarnakan blocking material di dalam chute </td>
 					<td class="center">False</td>
 					<td class="center">
-						<a href="javascript:;" onclick="jQuery('#modal-1').modal('show', {backdrop: 'static'});" >
-							<img src="images/inspection/thumbnail/1384826082-588-1.png" class="img-squre" alt="user-pic" />
+						<a href="images/inspection/1385448120-1001-1.png" rel="lightbox[example]" title="Belt (Section) BLS002 <b>Level 1</b>">
+							<img src="images/inspection/thumbnail/1385448120-1001-1.png" alt="Belt (Section) BLS002 <b>Level 1</b>" class="bordered" />
 						</a>
 					</td>
 					<td class="center">

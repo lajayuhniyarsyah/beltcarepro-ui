@@ -1,3 +1,4 @@
+
 	<!-- Imported styles on this page -->
   <link rel="stylesheet" href="assets/js/datatables/dataTables.bootstrap.css">
 	<link rel="stylesheet" href="assets/js/daterangepicker/daterangepicker-bs3.css">

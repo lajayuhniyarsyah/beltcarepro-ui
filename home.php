@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<?php include "layout/head.php"; ?>
-	<body class="page-body">
+	<body class="page-body" onload="initLightbox()">
 		<?php include "layout/header.php"; ?>
 			<div class="page-container">
 				<?php include "layout/menu.php"; ?>
