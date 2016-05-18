@@ -15,15 +15,26 @@
 	<link rel="stylesheet" href="assets/css/xenon-skins.css">
 
 	<!-- CSS Litebox -->
-	<link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/colorbox.css"/>
+
+	<!-- Css Upload Image -->
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css" type="text/css" />
+	<link rel="stylesheet" href="js/jquery.ui.plupload/css/jquery.ui.plupload.css" type="text/css" />
 
 	<link rel="stylesheet" href="css/style.css">
-	<script src="assets/js/jquery-1.11.1.min.js"></script>
+	
+	<script src="assets/js/jquery-1.11.1.min.js"></script>	
+	<script src="assets/js/bootstrap.min.js"></script>
+
+	<!-- Js Image Litebox -->
+	<script src="js/jquery.colorbox.js"></script>
+
+	<!-- JS Upload Image -->
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/plupload.full.min.js"></script>
+	<script type="text/javascript" src="js/jquery.ui.plupload/jquery.ui.plupload.js"></script>
+
 	<script src="assets/js/highcharts/js/highcharts.js"></script>
-
-	<script type="text/javascript" src="js/litebox/prototype.lite.js"></script>
-	<script type="text/javascript" src="js/litebox/moo.fx.js"></script>
-	<script type="text/javascript" src="js/litebox/litebox-1.0.js"></script>
-
+	
 </haed>
 
