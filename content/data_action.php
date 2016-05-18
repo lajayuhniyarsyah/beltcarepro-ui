@@ -20,25 +20,6 @@
 	<div class="panel panel-color panel-info">
 		<div class="panel-heading">
 			<h3 class="panel-title">ACTION STATUS FREEPORT INDONESIA,PT </h3>
-			<!-- 
-			<div class="panel-options">
-				<a href="#">
-					<i class="linecons-cog"></i>
-				</a>
-				
-				<a href="#" data-toggle="panel">
-					<span class="collapse-icon">&ndash;</span>
-					<span class="expand-icon">+</span>
-				</a>
-				
-				<a href="#" data-toggle="reload">
-					<i class="fa-rotate-right"></i>
-				</a>
-				
-				<a href="#" data-toggle="remove">
-					&times;
-				</a>
-			</div> -->
 		</div>
 
 	<div class="panel-body">
@@ -150,6 +131,7 @@
 					<th><center>Date</center></th>
 					<th><center>Type</center></th>
 					<th><center>Status</center></th>
+					<th><center>Action</center></th>
 				</tr>
 			</thead>
 			<tbody>
@@ -161,6 +143,13 @@
 					<td>2016/04/04</td>
 					<td class="center">Inspection </td>
 					<td class="center">Done</td>
+					<td class="center">
+						<center>
+							<a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
+							Inspection View
+							</a>
+						</center>
+					</td>
 				</tr>
 				<tr>
 					<td>HOL/NRG/002</td>
@@ -170,6 +159,13 @@
 					<td>2016/04/07</td>
 					<td class="center">Inspection </td>
 					<td class="center">Done</td>
+					<td class="center">
+						<center>
+							<a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
+							Inspection View
+							</a>
+						</center>
+					</td>
 				</tr>
 				<tr>
 					<td>HOL/NRG/003</td>
@@ -179,6 +175,13 @@
 					<td>2016/04/11</td>
 					<td class="center">Inspection </td>
 					<td class="center">Done</td>
+					<td class="center">
+						<center>
+							<a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
+							Inspection View
+							</a>
+						</center>
+					</td>
 				</tr>
 				<tr>
 					<td>HOL/NRG/004</td>
@@ -188,6 +191,13 @@
 					<td>2016/04/13</td>
 					<td class="center">Inspection </td>
 					<td class="center">Cancel</td>
+					<td class="center">
+						<center>
+							<!-- <a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
+							Inspection View
+							</a> -->
+						</center>
+					</td>
 				</tr>
 				<tr>
 					<td>HOL/NRG/005</td>
@@ -197,6 +207,13 @@
 					<td>2016/04/15</td>
 					<td class="center">Corrective </td>
 					<td class="center">Done</td>
+					<td class="center">
+						<center>
+							<a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
+							Inspection View
+							</a>
+						</center>
+					</td>
 				</tr>
 				<tr>
 					<td>HOL/NRG/006</td>
@@ -206,6 +223,13 @@
 					<td>2016/04/15</td>
 					<td class="center">Corrective </td>
 					<td class="center">Scheduled</td>
+					<td class="center">
+						<center>
+							<a href="home.php?page=add_inspection" class="btn btn-danger btn-sm btn-icon icon-left">
+							Inspection Action
+							</a>
+						</center>
+					</td>
 				</tr>
 			</tbody>
 		</table>

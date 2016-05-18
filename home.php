@@ -58,17 +58,26 @@
 				            case "add_conveyor_asset":
 				                $pg =  "content/add_conveyor_asset.php";
 				            break;
+				            case "view_conveyor_asset":
+				                $pg =  "content/view_conveyor_asset.php";
+				            break;
 				            case "data_part":
 				                $pg =  "content/data_part.php";
 				            break;
 				            case "add_part":
 				                $pg =  "content/add_part.php";
 				            break;
+				            case "view_part":
+				                $pg =  "content/view_part.php";
+				            break;
 				            case "data_part_type":
 				                $pg =  "content/data_part_type.php";
 				            break;
 							case "add_part_type":
 				                $pg =  "content/add_part_type.php";
+				            break;
+				            case "view_data_part_type":
+				                $pg =  "content/view_data_part_type.php";
 				            break;
 				            case "data_brand":
 				                $pg =  "content/data_brand.php";
@@ -78,6 +87,12 @@
 				            break;
 				            case "data_action":
 				                $pg =  "content/data_action.php";
+				            break;
+				            case "add_inspection":
+				            	$pg =  "content/add_inspection.php";
+				            break;
+				            case "add_do_inspection":
+				            	$pg =  "content/add_do_inspection.php";
 				            break;
 				        }
 				    }else{

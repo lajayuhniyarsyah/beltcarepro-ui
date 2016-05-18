@@ -38,7 +38,6 @@
 						{column_number : 1, filter_type: 'text'},
 						{column_number : 2},
 						{column_number : 3},
-						{column_number : 4}
 					]);
 				});
 				</script>
@@ -50,7 +49,6 @@
 							<th><center>Code</center></th>
 							<th><center>Level</center></th>
 							<th><center>Point</center></th>
-							<th><center>Type</center></th>
 							<th width="15%"><center>Action</center></th>
 						</tr>
 					</thead>
@@ -65,7 +63,6 @@
 								<td>CODE 00<?=$i?></td>
 								<td>1</td>
 								<td>10</td>
-								<td>ROLLER</td>
 								<td>
 									<center>
 										<a href="home.php?page=edit_customer" class="btn btn-secondary btn-sm btn-icon icon-left">
