@@ -110,7 +110,6 @@
 					<tr>
 						<th>#</th>
 						<th>Name</th>
-						<th>Progress / Condition</th>
 						<th width="5%">Status</th>
 					</tr>
 				</thead>
@@ -119,52 +118,24 @@
 					<tr>
 						<td>1</td>
 						<td>Belt Conveyor</td>
-						<td class="middle-align">
-							<div class="progress">
-								<div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-									<span class="sr-only">20% Complete</span>
-								</div>
-							</div>
-						</td>
 						<td><center><input type="checkbox" class="cbr"></center></td>
 					</tr>
 					
 					<tr>
 						<td>2</td>
 						<td>Frame</td>
-						<td class="middle-align">
-							<div class="progress">
-								<div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%">
-									<span class="sr-only">70% Complete</span>
-								</div>
-							</div>
-						</td>
 						<td><center><input type="checkbox" class="cbr"></center></td>
 					</tr>
 					
 					<tr>
 						<td>3</td>
 						<td>Roller</td>
-						<td class="middle-align">
-							<div class="progress">
-								<div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-									<span class="sr-only">60% Complete</span>
-								</div>
-							</div>
-						</td>
 						<td><center><input type="checkbox" class="cbr"></center></td>
 					</tr>
 
 					<tr>
 						<td>4</td>
 						<td>Pulley</td>
-						<td class="middle-align">
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="width: 92%">
-									<span class="sr-only">92% Complete</span>
-								</div>
-							</div>
-						</td>
 						<td><center><input type="checkbox" class="cbr"></center></td>
 					</tr>
 				</tbody>

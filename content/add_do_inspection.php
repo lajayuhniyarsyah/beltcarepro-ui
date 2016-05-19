@@ -1,3 +1,4 @@
+
 <div class="page-title">
 	<div class="title-env">
 		<h1 class="title">Create Do Inspection</h1>
@@ -30,38 +31,41 @@
 			</div>
 		</div>
 		<div class="panel-body">
-			<table class="table">
-				<thead>
-					<tr>
-						<th class="col-md-2">Date</th>
-						<th class="col-md-10"> 4 April 2016</th>
-					</tr>
-					<tr>
-						<th class="col-md-2">Site / Project</th>
-						<th class="col-md-10"> HOLCIM, PT / NAROGONG</th>
-					</tr>
-					<tr>
-						<th class="col-md-2">Conveyor</th>
-						<th class="col-md-10"> NRG00001</th>
-					</tr>
-					<tr>
-						<th class="col-md-2">Action Type</th>
-						<th class="col-md-10"> Inspection</th>
-					</tr>
-					<tr>
-						<th class="col-md-2">Inspect On</th>
-						<th class="col-md-10"> 
-							<div class="input-group">
-								<input type="text" class="form-control datepicker" data-format="D, dd MM yyyy" value="Tue, 17 May 2016">
-								
-								<div class="input-group-addon">
-									<a href="#"><i class="linecons-calendar"></i></a>
+			<form id="form" method="post" action="../dump.php">
+				<table class="table">
+					<thead>
+						<tr>
+							<th class="col-md-2">Date</th>
+							<th class="col-md-10"> 4 April 2016</th>
+						</tr>
+						<tr>
+							<th class="col-md-2">Site / Project</th>
+							<th class="col-md-10"> HOLCIM, PT / NAROGONG</th>
+						</tr>
+						<tr>
+							<th class="col-md-2">Conveyor</th>
+							<th class="col-md-10"> NRG00001</th>
+						</tr>
+						<tr>
+							<th class="col-md-2">Action Type</th>
+							<th class="col-md-10"> Inspection</th>
+						</tr>
+						<tr>
+							<th class="col-md-2">Inspect On</th>
+							<th class="col-md-10"> 
+								<div class="input-group">
+									<input type="text" class="form-control datepicker" data-format="D, dd MM yyyy" value="Tue, 17 May 2016">
+									
+									<div class="input-group-addon">
+										<a href="#"><i class="linecons-calendar"></i></a>
+									</div>
 								</div>
-							</div>
-						</th>
-					</tr>
-				</thead>
-			</table>
+							</th>
+						</tr>
+					</thead>
+				</table>
+			</form>
+
 		</div>
 	</div>
 </div>
@@ -80,24 +84,20 @@
 				</a>
 			</div>
 		</div>
+
 		<div class="panel-body">
 			<script type="text/javascript">
 			jQuery(document).ready(function($)
 			{
-
 				$("#action").dataTable().yadcf([
-					// {column_number : 0, filter_type: 'text'},
-					// {column_number : 1, filter_type: 'text'},
-					// {column_number : 2, filter_type: 'text'},
-					// {column_number : 3, filter_type: 'text'},
-					// {column_number : 4, filter_type: 'text'},
-					// {column_number : 5},
-					// {column_number : 6},
 				]);
 
+				$(".beltsection-bls0002").colorbox({rel:'beltsection-bls0002'});
+				$(".group1").colorbox({rel:'group1'});
 			});
 			</script>
-		<table class="table table-striped table-bordered" id="action">
+
+		<table class="table table-striped table-bordered" id="action"  onload="initLightbox()">
 			<thead>
 				<tr class="replace-inputs">
 					<th><center>#ID</center></th>
@@ -119,8 +119,14 @@
 					<td>Belt Conveyor terbakar dari flamed coal </td>
 					<td class="center">False</td>
 					<td class="center">
-						<a href="javascript:;" onclick="jQuery('#modal-6').modal('show', {backdrop: 'static'});" >
-							<img src="images/inspection/thumbnail/1384822703-576-1.png" class="img-squre" alt="user-pic" />
+						<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002" title="Belt (Section)">
+							<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
+						</a>
+						<a href="images/inspection/1384826082-588-1.png" class="beltsection-bls0002" title="Belt (Section)">
+							<img src="images/inspection/thumbnail/1384826082-588-1.png" alt="Belt (Section)" class="bordered hide"/>
+						</a>
+						<a href="images/inspection/1385553119-1001-1.png"class="beltsection-bls0002" title="Belt (Section)">
+							<img src="images/inspection/thumbnail/1385553119-1001-1.png" alt="Belt (Section) BLS002 <b>Level 1</b>" class="bordered hide" />
 						</a>
 					</td>
 					<td class="center">
@@ -135,8 +141,8 @@
 					<td>Belt Terbakar dan putus, dikarnakan blocking material di dalam chute </td>
 					<td class="center">False</td>
 					<td class="center">
-						<a href="javascript:;" onclick="jQuery('#modal-1').modal('show', {backdrop: 'static'});" >
-							<img src="images/inspection/thumbnail/1384826082-588-1.png" class="img-squre" alt="user-pic" />
+						<a href="images/inspection/1385448120-1001-1.png" class="group1" title="Belt (Section) BLS002 <b>Level 1</b>">
+							<img src="images/inspection/thumbnail/1385448120-1001-1.png" alt="Belt (Section) BLS002 <b>Level 1</b>" class="bordered" />
 						</a>
 					</td>
 					<td class="center">
@@ -205,6 +211,7 @@
 				</tr>
 			</tbody>
 		</table>
+
 			<button class="btn btn-blue btn-icon btn-icon-standalone">
 				<i class="fa-close"></i>
 				<span>Cancel</span>
@@ -212,61 +219,13 @@
 			<button class="btn btn-blue btn-icon btn-icon-standalone">
 				<i class="fa-save"></i>
 				<span>Save</span>
-			</button>			
+			</button>	
 		</div>
 	</div>
 </div>
-
-
-<!-- Modal =========== -->
-
-<div class="modal fade" id="modal-1">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title uppercase text-center">Belt (Section) BLS003 <b>Level 4</b></h4>
-			</div>
-			
-			<div class="modal-body">
-				<img src="images/inspection/1384826082-588-1.png" class="img-squre" alt="user-pic" />
-				<br/>
-				Belt Terbakar dan putus, dikarnakan blocking material di dalam chute,
-				Belt Terbakar dan putus, dikarnakan blocking material di dalam chute
-				Belt Terbakar dan putus, dikarnakan blocking material di dalam chute
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-
-<div class="modal fade" id="modal-6">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			
-			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title uppercase text-center">Belt (Section) BLS002 <b>Level 1</b></h4>
-			</div>
-			
-			<div class="modal-body">
-				<img src="images/inspection/1384822703-576-1.png" class="img-squre" alt="user-pic" />
-				<br/>
-				Belt Conveyor terbakar dari flamed coal 
-			</div>
-			
-			
-		</div>
-	</div>
-</div>
-
-
-
 
 <div class="modal fade" id="add_inspection_part">
-	<div class="modal-dialog">
+	<div class="modal-dialog" style="width:800px !Important">
 		<div class="modal-content">
 			
 			<div class="modal-header">
@@ -411,7 +370,10 @@
 					</div>
 
 					<div class="kotak-gallery">
-						<section class="gallery-env">
+						<div id="uploader">
+							<p>Your browser doesn't have Flash, Silverlight or HTML5 support.</p>
+						</div>
+						<!-- <section class="gallery-env">
 							<div class="row">
 								<div class="col-sm-12 gallery-right">
 									<div class="album-header line-judul">
@@ -427,7 +389,6 @@
 										</ul>
 									</div>
 						
-									<!-- Sorting Information -->
 									<div class="album-sorting-info">
 										<div class="album-sorting-info-inner clearfix">
 											<a href="#" class="btn btn-secondary btn-xs btn-single btn-icon btn-icon-standalone pull-right" data-action="sort">
@@ -440,10 +401,8 @@
 										</div>
 									</div>
 						
-									<!-- Album Images -->
 									<div class="album-images row">
 						
-										<!-- Album Image -->
 										<div class="col-md-3 col-sm-4 col-xs-6">
 											<div class="album-image">
 												<a href="#" class="thumb" data-action="edit">
@@ -452,7 +411,6 @@
 											</div>
 										</div>
 						
-										<!-- Album Image -->
 										<div class="col-md-3 col-sm-4 col-xs-6">
 											<div class="album-image">
 												<a href="#" class="thumb" data-action="edit">
@@ -461,7 +419,6 @@
 											</div>
 										</div>
 						
-										<!-- Album Image -->
 										<div class="col-md-3 col-sm-4 col-xs-6">
 											<div class="album-image">
 												<a href="#" class="thumb" data-action="edit">
@@ -469,8 +426,6 @@
 												</a>
 											</div>
 										</div>
-						
-										<!-- Album Image -->
 										<div class="col-md-3 col-sm-4 col-xs-6">
 											<div class="album-image">
 												<a href="#" class="thumb" data-action="edit">
@@ -482,7 +437,7 @@
 
 								</div>
 							</div>
-						</section>
+						</section> -->
 					</div>
 				</div>
 				
@@ -490,7 +445,81 @@
 					<button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
 					<button type="button" class="btn btn-info">Save changes</button>
 				</div>
-			
+				
+
+				<script type="text/javascript">
+				// Initialize the widget when the DOM is ready
+				$(function() {
+					$("#uploader").plupload({
+						// General settings
+						runtimes : 'html5,flash,silverlight,html4',
+						url : '../upload.php',
+
+						// User can upload no more then 20 files in one go (sets multiple_queues to false)
+						max_file_count: 20,
+						
+						chunk_size: '1mb',
+
+						// Resize images on clientside if we can
+						resize : {
+							width : 200, 
+							height : 200, 
+							quality : 90,
+							crop: true // crop to exact dimensions
+						},
+						
+						filters : {
+							// Maximum file size
+							max_file_size : '1000mb',
+							// Specify what files to browse for
+							mime_types: [
+								{title : "Image files", extensions : "jpg,gif,png"},
+								{title : "Zip files", extensions : "zip"}
+							]
+						},
+
+						// Rename files by clicking on their titles
+						rename: true,
+						
+						// Sort files
+						sortable: true,
+
+						// Enable ability to drag'n'drop files onto the widget (currently only HTML5 supports that)
+						dragdrop: true,
+
+						// Views to activate
+						views: {
+							list: true,
+							thumbs: true, // Show thumbs
+							active: 'thumbs'
+						},
+
+						// Flash settings
+						flash_swf_url : '../../js/Moxie.swf',
+
+						// Silverlight settings
+						silverlight_xap_url : '../../js/Moxie.xap'
+					});
+
+
+					// Handle the case when form was submitted before uploading has finished
+					$('#form').submit(function(e) {
+						// Files in queue upload them first
+						if ($('#uploader').plupload('getFiles').length > 0) {
+
+							// When all files are uploaded submit form
+							$('#uploader').on('complete', function() {
+								$('#form')[0].submit();
+							});
+
+							$('#uploader').plupload('start');
+						} else {
+							alert("You must have at least one file in the queue.");
+						}
+						return false; // Keep the form from submitting
+					});
+				});
+				</script>
 			
 		</div>
 	</div>

@@ -1,3 +1,4 @@
+
 	<!-- Imported styles on this page -->
   <link rel="stylesheet" href="assets/js/datatables/dataTables.bootstrap.css">
 	<link rel="stylesheet" href="assets/js/daterangepicker/daterangepicker-bs3.css">
@@ -11,7 +12,7 @@
   <link rel="stylesheet" href="assets/js/datatables/dataTables.bootstrap.css">
 
   <!-- Bottom Scripts -->
-  <script src="assets/js/bootstrap.min.js"></script>
+  
   <script src="assets/js/TweenMax.min.js"></script>
   <script src="assets/js/resizeable.js"></script>
   <script src="assets/js/joinable.js"></script>

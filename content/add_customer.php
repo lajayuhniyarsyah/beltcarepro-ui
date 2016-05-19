@@ -33,10 +33,13 @@
 					</div>
 				</div>
 				<div class="panel-body">
-						<div class="form-group">
-							<label class="col-sm-2 control-label" for="field-1">Customer Name</label>
+						
+						<!-- <div class="form-group required"> -->
+						<div class="form-group required validate-has-error">
+							<label class="col-sm-2 control-label" for="field-1">Customer Name <span class="font-red">*</span></label>
 							<div class="col-sm-10">
 								<input type="text" class="form-control" name="name" data-validate="required" data-message-required="Please Input Customer Name." placeholder="Customer Name" />
+								<span class="validate-has-error">Please Input Customer Name.</span>
 							</div>
 						</div>
 						<div class="form-group-separator"></div>
@@ -192,10 +195,10 @@
 				<div class="row">
 					<div class="col-md-12">
 						
-						<div class="form-group">
-							<label for="field-1" class="control-label">Name</label>
-							
-							<input type="text" class="form-control" id="field-1" placeholder="Detail Site Customer">
+						<div class="form-group required">
+							<label for="field-1" class="control-label">Name <span class="font-red">*</span></label>
+							<input type="text" class="form-control" name="name" data-validate="required" data-message-required="Please Input Customer Name." placeholder="Customer Name" />
+							<span class="validate-has-error message">Please Input Customer Name.</span>
 						</div>	
 						
 					</div>
@@ -240,7 +243,7 @@
 					<div class="col-md-12">
 						
 						<div class="form-group">
-							<label for="field-1" class="control-label">Name</label>
+							<label for="field-1" class="control-label">Name <span class="font-red">*</span></label>
 							
 							<input type="text" class="form-control" id="field-1" placeholder="Detail Area Customer">
 						</div>	

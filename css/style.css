@@ -90,7 +90,15 @@ input[type="file"] {
   border-bottom: 1px solid #ccc;
   padding: 7px 29px !Important;
 }
-
+.message{
+  display: none !Important;
+}
+.plupload_logo, .plupload_header_title, .plupload_header_text{
+  display: none;
+}
+/*#uploader_start{
+  display: none;
+}*/
 /* ================== css Animation ================ */
 .element {
   margin: 0 auto;
