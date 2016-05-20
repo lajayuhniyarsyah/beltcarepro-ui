@@ -37,6 +37,9 @@
 .font16{
   font-size: 16px;
 }
+.font14{
+  font-size: 14px;
+}
 .judul-detail{
   font-size: 12px;
 }
@@ -96,6 +99,47 @@ input[type="file"] {
 .plupload_logo, .plupload_header_title, .plupload_header_text{
   display: none;
 }
+.float-right{
+  float: right;
+}
+.judul-groups{
+  font-size: 14px;
+  color: black;
+}
+.ms-container .ms-list{
+  height: 350px !Important;
+}
+.sparator{
+  width: 100%;
+  border:4px solid #ccc;
+  margin-bottom: 5px;
+}
+
+.jdl-page{
+  font-size: 16px; 
+  color: black;
+  font-weight: bold;
+  background-color: #DADFE1;
+  display: block;
+  padding: 5px;
+}
+
+.jdl-page-view{
+  font-size: 14px; 
+  color: black;
+  font-weight: bold;
+  background-color: #DADFE1;
+  display: block;
+  padding: 5px;
+}
+
+
+hr.style11 {
+  height: 6px;
+  background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
 /*#uploader_start{
   display: none;
 }*/
