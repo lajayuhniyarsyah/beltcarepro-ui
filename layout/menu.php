@@ -1,4 +1,4 @@
-		<div class="sidebar-menu toggle-others fixed collapsed">
+		<div class="sidebar-menu toggle-others fixed collapsed" id="menu-beltcarepro">
 			<div class="sidebar-menu-inner">
 				<header class="logo-env">
 					<!-- logo -->
