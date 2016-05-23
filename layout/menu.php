@@ -1,4 +1,4 @@
-		<div class="sidebar-menu toggle-others fixed collapsed">
+		<div class="sidebar-menu toggle-others fixed collapsed" id="menu-beltcarepro">
 			<div class="sidebar-menu-inner">
 				<header class="logo-env">
 					<!-- logo -->
@@ -110,6 +110,20 @@
 								<a href="home.php?page=data_brand">
 									<i class="linecons-user"></i>
 									<span class="title">Brand</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">
+							<i class="linecons-user"></i>
+							<span class="title">User</span>
+						</a>
+						<ul>
+							<li>
+								<a href="home.php?page=data_user">
+									<i class="linecons-user"></i>
+									<span class="title">User</span>
 								</a>
 							</li>
 						</ul>

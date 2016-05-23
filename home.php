@@ -94,6 +94,15 @@
 				            case "add_do_inspection":
 				            	$pg =  "content/add_do_inspection.php";
 				            break;
+				            case "data_user":
+				            	$pg =  "content/data_user.php";
+				            break;
+				            case "add_user":
+				            	$pg =  "content/add_user.php";
+				            break;
+				            case "view_user":
+				            	$pg =  "content/view_user.php";
+				            break;
 				        }
 				    }else{
 				        $pg="content/dasboard.php";
