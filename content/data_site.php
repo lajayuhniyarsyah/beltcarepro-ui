@@ -41,43 +41,44 @@
 				});
 				</script>
 				
-				<table class="table table-striped table-bordered" id="customer">
-					<thead>
-						<tr class="replace-inputs">
-							<th><center>Customer Site</center></th>
-							<th><center>Customer Name</center></th>
-							<th><center>Status</center></th>
-							<th width="15%"><center>Action</center></th>
-						</tr>
-					</thead>
-					<tbody>
-					    <?php for($i=1; $i<100; $i++){ ?>
-							<tr>
-								<td>SITE  <?=$i?></td>
-								<td>FREEPORT INDONESIA <?=$i?></td>
-								<td class="center">Active</td>
-								<td>
-									<center>
-										<a href="home.php?page=edit_customer" class="btn btn-secondary btn-sm btn-icon icon-left">
-										Edit
-										</a>
-										<a href="home.php?page=view_site" class="btn btn-info btn-sm btn-icon icon-left">
-											Profile
-										</a>
-									</center>
-								</td>
+				<div class="table-responsive"> 
+					<table class="table table-striped table-bordered" id="customer">
+						<thead>
+							<tr class="replace-inputs">
+								<th><center>Customer Site</center></th>
+								<th><center>Customer Name</center></th>
+								<th><center>Status</center></th>
+								<th width="15%"><center>Action</center></th>
 							</tr>
-						<?php } ?>
-					</tbody>
-					<tfoot>
-						<tr class="replace-inputs">
-							<th>Customer Name</th>
-							<th>CO Type</th>
-							<th>Status</th>
-							<th>Action</th>
-						</tr>
-					</tfoot>
-				</table>
-				
+						</thead>
+						<tbody>
+						    <?php for($i=1; $i<100; $i++){ ?>
+								<tr>
+									<td>SITE  <?=$i?></td>
+									<td>FREEPORT INDONESIA <?=$i?></td>
+									<td class="center">Active</td>
+									<td>
+										<center>
+											<a href="home.php?page=edit_customer" class="btn btn-secondary btn-sm btn-icon icon-left">
+											Edit
+											</a>
+											<a href="home.php?page=view_site" class="btn btn-info btn-sm btn-icon icon-left">
+												Profile
+											</a>
+										</center>
+									</td>
+								</tr>
+							<?php } ?>
+						</tbody>
+						<tfoot>
+							<tr class="replace-inputs">
+								<th>Customer Name</th>
+								<th>CO Type</th>
+								<th>Status</th>
+								<th>Action</th>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
 			</div>
 </div>

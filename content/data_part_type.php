@@ -39,33 +39,34 @@
 				});
 				</script>
 				
-				<table class="table table-striped table-bordered" id="part_type">
-					<thead>
-						<tr class="replace-inputs">
-							<th><center>Name</center></th>
-							<th><center>Code</center></th>
-							<th width="15%"><center>Action</center></th>
-						</tr>
-					</thead>
-					<tbody>
-					    <?php for($i=1; $i<100; $i++){ ?>
-							<tr>
-								<td>NAME <?=$i?></td>
-								<td>CODE <?=$i?></td>
-								<td>
-									<center>
-										<a href="home.php?page=edit_customer" class="btn btn-secondary btn-sm btn-icon icon-left">
-										Edit
-										</a>
-										<a href="home.php?page=view_data_part_type" class="btn btn-info btn-sm btn-icon icon-left">
-											Profile
-										</a>
-									</center>
-								</td>
+				<div class="table-responsive"> 
+					<table class="table table-striped table-bordered" id="part_type">
+						<thead>
+							<tr class="replace-inputs">
+								<th><center>Name</center></th>
+								<th><center>Code</center></th>
+								<th width="15%"><center>Action</center></th>
 							</tr>
-						<?php } ?>
-					</tbody>
-				</table>
-				
+						</thead>
+						<tbody>
+						    <?php for($i=1; $i<100; $i++){ ?>
+								<tr>
+									<td>NAME <?=$i?></td>
+									<td>CODE <?=$i?></td>
+									<td>
+										<center>
+											<a href="home.php?page=edit_customer" class="btn btn-secondary btn-sm btn-icon icon-left">
+											Edit
+											</a>
+											<a href="home.php?page=view_data_part_type" class="btn btn-info btn-sm btn-icon icon-left">
+												Profile
+											</a>
+										</center>
+									</td>
+								</tr>
+							<?php } ?>
+						</tbody>
+					</table>
+				</div>
 			</div>
 </div>

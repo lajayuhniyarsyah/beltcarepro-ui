@@ -81,31 +81,32 @@
 						]);
 					});
 				</script>
-				
-				<table class="table table-striped table-bordered" id="detail-conveyor-asset">
-					<thead>
-						<tr class="replace-inputs">
-							<th><center>Part</center></th>
-							<th><center>Code</center></th>
-							<th><center>Customer Area</center></th>
-							<th><center>Customer Site</center></th>
-							<th><center>Customer Name</center></th>
-							<th><center>Brand</center></th>
-						</tr>
-					</thead>
-					<tbody>
-					    <?php for($i=1; $i<100; $i++){ ?>
-							<tr>
-								<td>PART A00<?=$i?></td>
-								<td>CODE 000<?=$i?></td>
-								<td>AREA  <?=$i?></td>
-								<td>SITE  <?=$i?></td>
-								<td>FREEPORT INDONESIA <?=$i?></td>
-								<td>MARTIN</td>
+				<div class="table-responsive"> 
+					<table class="table table-striped table-bordered" id="detail-conveyor-asset">
+						<thead>
+							<tr class="replace-inputs">
+								<th><center>Part</center></th>
+								<th><center>Code</center></th>
+								<th><center>Customer Area</center></th>
+								<th><center>Customer Site</center></th>
+								<th><center>Customer Name</center></th>
+								<th><center>Brand</center></th>
 							</tr>
-						<?php } ?>
-					</tbody>
+						</thead>
+						<tbody>
+						    <?php for($i=1; $i<100; $i++){ ?>
+								<tr>
+									<td>PART A00<?=$i?></td>
+									<td>CODE 000<?=$i?></td>
+									<td>AREA  <?=$i?></td>
+									<td>SITE  <?=$i?></td>
+									<td>FREEPORT INDONESIA <?=$i?></td>
+									<td>MARTIN</td>
+								</tr>
+							<?php } ?>
+						</tbody>
 				</table>
+				</div>
 
 			</div>
 			

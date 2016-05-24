@@ -103,6 +103,25 @@
 				            case "view_user":
 				            	$pg =  "content/view_user.php";
 				            break;
+				            case "data_work":
+				            	$pg =  "content/data_work.php";
+				            break;
+				            case "add_work":
+				            	$pg =  "content/add_work.php";
+				            break;
+				            case "view_work":
+				            	$pg =  "content/view_work.php";
+				            break;
+				            case "data_work_step":
+				            	$pg =  "content/data_work_step.php";
+				            break;
+				            case "add_work_step":
+				            	$pg =  "content/add_work_step.php";
+				            break;
+				            case "view_work_step":
+				            	$pg =  "content/view_work_step.php";
+				            break;
+
 				        }
 				    }else{
 				        $pg="content/dasboard.php";

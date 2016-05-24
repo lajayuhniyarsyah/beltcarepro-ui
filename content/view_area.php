@@ -80,28 +80,30 @@
 					});
 				</script>
 				
-				<table class="table table-striped table-bordered" id="detail-conveyor">
-					<thead>
-						<tr class="replace-inputs">
-							<th><center>Code</center></th>
-							<th><center>Description</center></th>
-							<th><center>Name Area</center></th>
-							<th><center>Name Site</center></th>
-							<th><center>Status</center></th>
-						</tr>
-					</thead>
-					<tbody>
-					    <?php for($i=1; $i<5; $i++){ ?>
-							<tr>
-								<td>code <?=$i?></td>
-								<td>Des <?=$i?></td>
-								<td>Area <?=$i?></td>
-								<td>Site <?=$i?></td>
-								<td>OK</td>
+				<div class="table-responsive"> 
+					<table class="table table-striped table-bordered" id="detail-conveyor">
+						<thead>
+							<tr class="replace-inputs">
+								<th><center>Code</center></th>
+								<th><center>Description</center></th>
+								<th><center>Name Area</center></th>
+								<th><center>Name Site</center></th>
+								<th><center>Status</center></th>
 							</tr>
-						<?php } ?>
-					</tbody>
-				</table>
+						</thead>
+						<tbody>
+						    <?php for($i=1; $i<5; $i++){ ?>
+								<tr>
+									<td>code <?=$i?></td>
+									<td>Des <?=$i?></td>
+									<td>Area <?=$i?></td>
+									<td>Site <?=$i?></td>
+									<td>OK</td>
+								</tr>
+							<?php } ?>
+						</tbody>
+					</table>
+				</div>
 
 			</div>
 			

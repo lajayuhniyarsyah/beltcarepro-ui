@@ -158,28 +158,30 @@
 							$("#conveyor").dataTable().yadcf();
 						});
 						</script>
-						<table class="table table-striped table-bordered" id="conveyor">
-							<thead>
-								<tr class="replace-inputs">
-									<th><center>Code</center></th>
-									<th><center>Customer Area</center></th>
-									<th><center>Customer Site</center></th>
-									<th><center>Customer Name</center></th>
-									<th><center>Status</center></th>
-								</tr>
-							</thead>
-							<tbody>
-							    <?php for($i=1; $i<4; $i++){ ?>
-									<tr>
-										<td>CODE 000<?=$i?></td>
-										<td>AREA  <?=$i?></td>
-										<td>SITE  <?=$i?></td>
-										<td>FREEPORT INDONESIA <?=$i?></td>
-										<td class="center">Active</td>
+						<div class="table-responsive"> 
+							<table class="table table-striped table-bordered" id="conveyor">
+								<thead>
+									<tr class="replace-inputs">
+										<th><center>Code</center></th>
+										<th><center>Customer Area</center></th>
+										<th><center>Customer Site</center></th>
+										<th><center>Customer Name</center></th>
+										<th><center>Status</center></th>
 									</tr>
-								<?php } ?>
-							</tbody>
-						</table>
+								</thead>
+								<tbody>
+								    <?php for($i=1; $i<4; $i++){ ?>
+										<tr>
+											<td>CODE 000<?=$i?></td>
+											<td>AREA  <?=$i?></td>
+											<td>SITE  <?=$i?></td>
+											<td>FREEPORT INDONESIA <?=$i?></td>
+											<td class="center">Active</td>
+										</tr>
+									<?php } ?>
+								</tbody>
+							</table>
+						</div>
 						<a href="javascript:;" onclick="jQuery('#create-area').modal('show', {backdrop: 'static'});">
 							<button class="btn btn-info btn-icon btn-icon-standalone">
 								<i class="fa-plus-circle"></i>

@@ -42,41 +42,43 @@
 					]);
 				});
 				</script>
-				
-				<table class="table table-striped table-bordered" id="User">
-					<thead>
-						<tr class="replace-inputs">
-							<th><center>Name</center></th>
-							<th><center>Position</center></th>
-							<th><center>Customer</center></th>
-							<th><center>Site</center></th>
-							<th><center>User</center></th>
-							<th width="15%"><center>Action</center></th>
-						</tr>
-					</thead>
-					<tbody>
-					    <?php for($i=1; $i<10; $i++){ ?>
-							<tr>
-								<td>User Name <?=$i?></td>
-								<td>Planner</td>
-								<td>Freeport Indonesia, PT</td>
-								<td>Site Bontang</td>
-								<td class="center">True</td>
-								<td>
-									<center>
-										<a href="home.php?page=edit_customer" class="btn btn-secondary btn-sm btn-icon icon-left">
-										Edit
-										</a>
-										<a href="home.php?page=view_user" class="btn btn-info btn-sm btn-icon icon-left">
-											Profile
-										</a>
-									</center>
+					<div class="table-responsive"> 
+						<table id="User" class="table table-condensed table-striped table-bordered">
+							<thead>
+								<tr class="replace-inputs">
+									<th><center>Name</center></th>
+									<th><center>Position</center></th>
+									<th><center>Customer</center></th>
+									<th><center>Site</center></th>
+									<th><center>User</center></th>
+									<th width="15%"><center>Action</center></th>
+								</tr>
+							</thead>
+							<tbody>
+							    <?php for($i=1; $i<10; $i++){ ?>
+									<tr>
+										<td>User Name <?=$i?></td>
+										<td>Planner</td>
+										<td>Freeport Indonesia, PT</td>
+										<td>Site Bontang</td>
+										<td class="center">True</td>
+										<td>
+											<center>
+												<a href="home.php?page=edit_customer" class="btn btn-secondary btn-sm btn-icon icon-left">
+												Edit
+												</a>
+												<a href="home.php?page=view_user" class="btn btn-info btn-sm btn-icon icon-left">
+													Profile
+												</a>
+											</center>
 
-								</td>
-							</tr>
-						<?php } ?>
-					</tbody>
-				</table>
-				
+										</td>
+									</tr>
+								<?php } ?>
+							</tbody>
+						</table>
+					</div>
 			</div>
 </div>
+
+
