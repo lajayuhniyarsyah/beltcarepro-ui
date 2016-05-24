@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<?php include "layout/head.php"; ?>
-	<body class="page-body">
+	<body class="page-body" onload="noBack();" onpageshow="if (event.persisted) noBack();" onunload="">
 		<?php include "layout/header.php"; ?>
 			<div class="page-container">
 				<?php include "layout/menu.php"; ?>
