@@ -121,118 +121,120 @@
 
 			});
 			</script>
-		<table class="table table-striped table-bordered" id="action">
-			<thead>
-				<tr class="replace-inputs">
-					<th><center>#No</center></th>
-					<th><center>Customer</center></th>
-					<th><center>Site</center></th>
-					<th><center>Conveyor</center></th>
-					<th><center>Date</center></th>
-					<th><center>Type</center></th>
-					<th><center>Status</center></th>
-					<th><center>Action</center></th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td>HOL/NRG/001</td>
-					<td>HOLCIM, PT</td>
-					<td>NAROGONG </td>
-					<td>NRG001</td>
-					<td>2016/04/04</td>
-					<td class="center">Inspection </td>
-					<td class="center">Done</td>
-					<td class="center">
-						<center>
-							<a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
-							Inspection View
-							</a>
-						</center>
-					</td>
-				</tr>
-				<tr>
-					<td>HOL/NRG/002</td>
-					<td>HOLCIM, PT</td>
-					<td>NAROGONG </td>
-					<td>NRG001</td>
-					<td>2016/04/07</td>
-					<td class="center">Inspection </td>
-					<td class="center">Done</td>
-					<td class="center">
-						<center>
-							<a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
-							Inspection View
-							</a>
-						</center>
-					</td>
-				</tr>
-				<tr>
-					<td>HOL/NRG/003</td>
-					<td>HOLCIM, PT</td>
-					<td>NAROGONG </td>
-					<td>NRG001</td>
-					<td>2016/04/11</td>
-					<td class="center">Inspection </td>
-					<td class="center">Done</td>
-					<td class="center">
-						<center>
-							<a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
-							Inspection View
-							</a>
-						</center>
-					</td>
-				</tr>
-				<tr>
-					<td>HOL/NRG/004</td>
-					<td>HOLCIM, PT</td>
-					<td>NAROGONG </td>
-					<td>NRG002</td>
-					<td>2016/04/13</td>
-					<td class="center">Inspection </td>
-					<td class="center">Cancel</td>
-					<td class="center">
-						<center>
-							<!-- <a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
-							Inspection View
-							</a> -->
-						</center>
-					</td>
-				</tr>
-				<tr>
-					<td>HOL/NRG/005</td>
-					<td>HOLCIM, PT</td>
-					<td>NAROGONG </td>
-					<td>NRG002</td>
-					<td>2016/04/15</td>
-					<td class="center">Corrective </td>
-					<td class="center">Done</td>
-					<td class="center">
-						<center>
-							<a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
-							Inspection View
-							</a>
-						</center>
-					</td>
-				</tr>
-				<tr>
-					<td>HOL/NRG/006</td>
-					<td>HOLCIM, PT</td>
-					<td>NAROGONG </td>
-					<td>NRG003</td>
-					<td>2016/04/15</td>
-					<td class="center">Corrective </td>
-					<td class="center">Scheduled</td>
-					<td class="center">
-						<center>
-							<a href="home.php?page=add_inspection" class="btn btn-danger btn-sm btn-icon icon-left">
-							Inspection Action
-							</a>
-						</center>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+			<div class="table-responsive"> 
+				<table class="table table-striped table-bordered" id="action">
+					<thead>
+						<tr class="replace-inputs">
+							<th><center>#No</center></th>
+							<th><center>Customer</center></th>
+							<th><center>Site</center></th>
+							<th><center>Conveyor</center></th>
+							<th><center>Date</center></th>
+							<th><center>Type</center></th>
+							<th><center>Status</center></th>
+							<th><center>Action</center></th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>HOL/NRG/001</td>
+							<td>HOLCIM, PT</td>
+							<td>NAROGONG </td>
+							<td>NRG001</td>
+							<td>2016/04/04</td>
+							<td class="center">Inspection </td>
+							<td class="center">Done</td>
+							<td class="center">
+								<center>
+									<a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
+									Inspection View
+									</a>
+								</center>
+							</td>
+						</tr>
+						<tr>
+							<td>HOL/NRG/002</td>
+							<td>HOLCIM, PT</td>
+							<td>NAROGONG </td>
+							<td>NRG001</td>
+							<td>2016/04/07</td>
+							<td class="center">Inspection </td>
+							<td class="center">Done</td>
+							<td class="center">
+								<center>
+									<a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
+									Inspection View
+									</a>
+								</center>
+							</td>
+						</tr>
+						<tr>
+							<td>HOL/NRG/003</td>
+							<td>HOLCIM, PT</td>
+							<td>NAROGONG </td>
+							<td>NRG001</td>
+							<td>2016/04/11</td>
+							<td class="center">Inspection </td>
+							<td class="center">Done</td>
+							<td class="center">
+								<center>
+									<a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
+									Inspection View
+									</a>
+								</center>
+							</td>
+						</tr>
+						<tr>
+							<td>HOL/NRG/004</td>
+							<td>HOLCIM, PT</td>
+							<td>NAROGONG </td>
+							<td>NRG002</td>
+							<td>2016/04/13</td>
+							<td class="center">Inspection </td>
+							<td class="center">Cancel</td>
+							<td class="center">
+								<center>
+									<!-- <a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
+									Inspection View
+									</a> -->
+								</center>
+							</td>
+						</tr>
+						<tr>
+							<td>HOL/NRG/005</td>
+							<td>HOLCIM, PT</td>
+							<td>NAROGONG </td>
+							<td>NRG002</td>
+							<td>2016/04/15</td>
+							<td class="center">Corrective </td>
+							<td class="center">Done</td>
+							<td class="center">
+								<center>
+									<a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
+									Inspection View
+									</a>
+								</center>
+							</td>
+						</tr>
+						<tr>
+							<td>HOL/NRG/006</td>
+							<td>HOLCIM, PT</td>
+							<td>NAROGONG </td>
+							<td>NRG003</td>
+							<td>2016/04/15</td>
+							<td class="center">Corrective </td>
+							<td class="center">Scheduled</td>
+							<td class="center">
+								<center>
+									<a href="home.php?page=add_inspection" class="btn btn-danger btn-sm btn-icon icon-left">
+									Inspection Action
+									</a>
+								</center>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 					
 		</div>
 	</div>

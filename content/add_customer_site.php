@@ -114,31 +114,33 @@
 				</div>
 				<div id="collapseTwo-2" class="panel-collapse collapse in">
 					<div class="panel-body">
-						<table class="table table-bordered table-striped" id="example-2">
-							<thead>
-								<tr>
-									<th>Nama Area</th>
-									<th>Nama Site</th>
-									<th><center>Action</center></th>
-								</tr>
-							</thead>
-							<tbody class="middle-align">
-								<tr>
-									<td>AREA 001</td>
-									<td>SITE FREEPORT INDONESIA, PT</td>
-									<td>
-										<center>
-											<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
-											Edit
-											</a>
-											<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
-												Delete
-											</a>
-										</center>
-									</td>
-								</tr>
-							</tbody>
-						</table>
+						<div class="table-responsive"> 
+							<table class="table table-bordered table-striped" id="example-2">
+								<thead>
+									<tr>
+										<th>Nama Area</th>
+										<th>Nama Site</th>
+										<th><center>Action</center></th>
+									</tr>
+								</thead>
+								<tbody class="middle-align">
+									<tr>
+										<td>AREA 001</td>
+										<td>SITE FREEPORT INDONESIA, PT</td>
+										<td>
+											<center>
+												<a href="#" class="btn btn-secondary btn-sm btn-icon icon-left">
+												Edit
+												</a>
+												<a href="#" class="btn btn-danger btn-sm btn-icon icon-left">
+													Delete
+												</a>
+											</center>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
 						<a href="javascript:;" onclick="jQuery('#create-area').modal('show', {backdrop: 'static'});">
 							<button class="btn btn-info btn-icon btn-icon-standalone">
 								<i class="fa-plus-circle"></i>

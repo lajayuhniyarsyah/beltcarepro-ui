@@ -1,4 +1,4 @@
-
+  <script src="js/custom.js"></script>
 	<!-- Imported styles on this page -->
   <link rel="stylesheet" href="assets/js/datatables/dataTables.bootstrap.css">
 	<link rel="stylesheet" href="assets/js/daterangepicker/daterangepicker-bs3.css">
@@ -48,4 +48,4 @@
 
   <!-- JavaScripts initializations and stuff -->
   <script src="assets/js/xenon-custom.js"></script>
-  <script src="js/custom.js"></script>
+

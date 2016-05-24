@@ -28,26 +28,28 @@
 			</div>
 		</div>
 		<div class="panel-body">
-			<table class="table">
-				<thead>
-					<tr>
-						<th class="col-md-2">Date</th>
-						<th class="col-md-10">: 4 April 2016</th>
-					</tr>
-					<tr>
-						<th class="col-md-2">Site / Project</th>
-						<th class="col-md-10">: HOLCIM, PT / NAROGONG</th>
-					</tr>
-					<tr>
-						<th class="col-md-2">Conveyor</th>
-						<th class="col-md-10">: NRG00001</th>
-					</tr>
-					<tr>
-						<th class="col-md-2">Action Type</th>
-						<th class="col-md-10">: Inspection</th>
-					</tr>
-				</thead>
-			</table>
+			<div class="table-responsive"> 
+				<table class="table">
+					<thead>
+						<tr>
+							<th class="col-md-2">Date</th>
+							<th class="col-md-10">: 4 April 2016</th>
+						</tr>
+						<tr>
+							<th class="col-md-2">Site / Project</th>
+							<th class="col-md-10">: HOLCIM, PT / NAROGONG</th>
+						</tr>
+						<tr>
+							<th class="col-md-2">Conveyor</th>
+							<th class="col-md-10">: NRG00001</th>
+						</tr>
+						<tr>
+							<th class="col-md-2">Action Type</th>
+							<th class="col-md-10">: Inspection</th>
+						</tr>
+					</thead>
+				</table>
+			</div>
 		</div>
 	</div>
 </div>
@@ -61,35 +63,37 @@
 	</div>
 	
 	<div class="panel-body">
-		<table class="table table-striped">
-			<thead>
-				<tr>
-					<th>#</th>
-					<th>Name</th>
-					<th>Position</th>
-				</tr>
-			</thead>
-			
-			<tbody>
-				<tr>
-					<td>1</td>
-					<td>Agustian</td>
-					<td>Supervisior</td>
-				</tr>
+		<div class="table-responsive"> 
+			<table class="table table-striped">
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Name</th>
+						<th>Position</th>
+					</tr>
+				</thead>
 				
-				<tr>
-					<td>2</td>
-					<td>Joko</td>
-					<td>Inspection</td>
-				</tr>
-				
-				<tr>
-					<td>3</td>
-					<td>Alfian</td>
-					<td>Inspection</td>
-				</tr>
-			</tbody>
-		</table>
+				<tbody>
+					<tr>
+						<td>1</td>
+						<td>Agustian</td>
+						<td>Supervisior</td>
+					</tr>
+					
+					<tr>
+						<td>2</td>
+						<td>Joko</td>
+						<td>Inspection</td>
+					</tr>
+					
+					<tr>
+						<td>3</td>
+						<td>Alfian</td>
+						<td>Inspection</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
 	</div>
 </div>
 	
@@ -105,41 +109,43 @@
 		</div>
 		
 		<div class="panel-body">
-			<table class="table table-model-2 table-hover">
-				<thead>
-					<tr>
-						<th>#</th>
-						<th>Name</th>
-						<th width="5%">Status</th>
-					</tr>
-				</thead>
-				
-				<tbody>
-					<tr>
-						<td>1</td>
-						<td>Belt Conveyor</td>
-						<td><center><input type="checkbox" class="cbr"></center></td>
-					</tr>
+			<div class="table-responsive"> 
+				<table class="table table-model-2 table-hover">
+					<thead>
+						<tr>
+							<th>#</th>
+							<th>Name</th>
+							<th width="5%">Status</th>
+						</tr>
+					</thead>
 					
-					<tr>
-						<td>2</td>
-						<td>Frame</td>
-						<td><center><input type="checkbox" class="cbr"></center></td>
-					</tr>
-					
-					<tr>
-						<td>3</td>
-						<td>Roller</td>
-						<td><center><input type="checkbox" class="cbr"></center></td>
-					</tr>
+					<tbody>
+						<tr>
+							<td>1</td>
+							<td>Belt Conveyor</td>
+							<td><center><input type="checkbox" class="cbr"></center></td>
+						</tr>
+						
+						<tr>
+							<td>2</td>
+							<td>Frame</td>
+							<td><center><input type="checkbox" class="cbr"></center></td>
+						</tr>
+						
+						<tr>
+							<td>3</td>
+							<td>Roller</td>
+							<td><center><input type="checkbox" class="cbr"></center></td>
+						</tr>
 
-					<tr>
-						<td>4</td>
-						<td>Pulley</td>
-						<td><center><input type="checkbox" class="cbr"></center></td>
-					</tr>
-				</tbody>
-			</table>
+						<tr>
+							<td>4</td>
+							<td>Pulley</td>
+							<td><center><input type="checkbox" class="cbr"></center></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
 		<div class="panel-heading">
 			<div class="panel-options">

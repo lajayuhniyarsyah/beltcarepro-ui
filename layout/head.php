@@ -35,11 +35,6 @@
 	<script type="text/javascript" src="js/jquery.ui.plupload/jquery.ui.plupload.js"></script>
 
 	<script src="assets/js/highcharts/js/highcharts.js"></script>
-	 <SCRIPT type="text/javascript">    
-	     window.history.forward();
-	     function noBack() { 
-	          window.history.forward(); 
-	     }
-	</SCRIPT>
+
 </haed>
 

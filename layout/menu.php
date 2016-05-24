@@ -1,3 +1,4 @@
+
 		<div class="sidebar-menu toggle-others fixed collapsed" id="menu-beltcarepro">
 			<div class="sidebar-menu-inner">
 				<header class="logo-env">
@@ -37,7 +38,7 @@
 						
 				<ul id="main-menu" class="main-menu">
 					<li>
-						<a href="#">
+						<a href="#" class="test">
 							<i class="linecons-user"></i>
 							<span class="title">Action</span>
 						</a>
@@ -112,6 +113,18 @@
 									<span class="title">Brand</span>
 								</a>
 							</li>
+							<li>
+								<a href="home.php?page=data_work_step">
+									<i class="linecons-user"></i>
+									<span class="title">Work Step</span>
+								</a>
+							</li>
+							<li>
+								<a href="home.php?page=data_work">
+									<i class="linecons-user"></i>
+									<span class="title">Work</span>
+								</a>
+							</li>
 						</ul>
 					</li>
 					<li>
@@ -133,4 +146,4 @@
 			</div>
 		
 		</div>
-	
+
