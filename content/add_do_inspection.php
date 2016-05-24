@@ -328,7 +328,28 @@
 									<label for="field-7" class="control-label">Broken Level</label>
 								</div>
 								<div class="col-md-9">
-									<label>
+									<div class="style-radio">
+										<input type="radio" name="radio" id="radio1" class="radio" checked/>
+										<label class="label-radio level1" for="radio1">Level 1</label>
+									</div>
+
+									<div class="style-radio">
+										<input type="radio" name="radio" id="radio3" class="radio"/>
+										<label class="label-radio level2" for="radio3">Level 2</label>
+									</div>
+
+									<div class="style-radio">
+										<input type="radio" name="radio" id="radio2" class="radio"/>
+										<label class="label-radio level3" for="radio2">Level 3</label>
+									</div>
+
+									
+
+									<div class="style-radio">
+										<input type="radio" name="radio" id="radio4" class="radio"/>
+										<label class="label-radio level4" for="radio4">Level 4</label>
+									</div>
+									<!-- <label>
 										<input type="radio" name="radio-3"class="cbr cbr-success">
 										level 1
 									</label>
@@ -346,7 +367,7 @@
 									<label>
 										<input type="radio" name="radio-3"class="cbr cbr-red">
 										level 4
-									</label>
+									</label> -->
 								</div>
 							</div>	
 						</div>
