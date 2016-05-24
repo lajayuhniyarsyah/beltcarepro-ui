@@ -275,36 +275,7 @@
 									</select>
 								</div>
 							</div>
-							<div class="col-sm-6">
-								<div class="float-right">
-									<script type="text/javascript">
-										jQuery(document).ready(function($)
-										{
-											$("#user_permision").multiSelect({
-												afterInit: function()
-												{
-													this.$selectableContainer.add(this.$selectionContainer).find('.ms-list').perfectScrollbar();
-												},
-												afterSelect: function()
-												{
-													this.$selectableContainer.add(this.$selectionContainer).find('.ms-list').perfectScrollbar('update');
-												}
-											});
-										});
-									</script>
-									<div class="col-sm-3"><span class="text-right">User Permissions</span></div>
-
-									<div class="col-sm-9">
-										<select class="form-control" multiple="multiple" id="user_permision" name="my-select[]">
-											<option value="1">Staff Admin</option>
-											<option value="2">Staff Admin Supprt</option>
-											<option value="3">Staff Workshop</option>
-											<option value="4">Supervisior Admin</option>
-											<option value="5">Supervisior Admin Support</option>
-										</select>
-									</div>
-								</div>
-							</div>
+							
 						</div>
 
 						<div class="form-group">
