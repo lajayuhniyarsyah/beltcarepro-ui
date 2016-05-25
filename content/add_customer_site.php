@@ -27,7 +27,7 @@
 				<h3 class="panel-title font-bold">FORM CREATE CUSTOMER SITE</h3>
 				<div class="panel-options">
 					<a href="#">
-						<button class="btn btn-info btn-icon btn-icon-standalone">
+						<button class="btn btn-info btn-icon btn-icon-standalone error_validasi">
 							<i class="fa-plus-circle"></i>
 							<span>Create Customer Site</span>
 						</button>
@@ -36,9 +36,13 @@
 			</div>
 			<div class="panel-body">
 					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-1">Site Name</label>
+						<label class="col-sm-2 control-label" for="field-1">Site Name <span class="font-red"> * </span></label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" name="name" data-validate="required" data-message-required="Please Input Customer Site Name." placeholder="Customer Site Name" />
+							<input type="text" 
+							class="form-control validasi" 
+							name="name" 
+							data-validate="required" 
+							data-message-required="Please Input Customer Site Name." placeholder="Customer Site Name" />
 						</div>
 					</div>
 					<div class="form-group-separator"></div>

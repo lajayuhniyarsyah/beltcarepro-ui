@@ -27,7 +27,7 @@
 				<h3 class="panel-title font-bold">FORM CREATE CUSTOMER SITE AREA</h3>
 				<div class="panel-options">
 					<a href="#">
-						<button class="btn btn-info btn-icon btn-icon-standalone">
+						<button class="btn btn-info btn-icon btn-icon-standalone error_validasi">
 							<i class="fa-plus-circle"></i>
 							<span>Create Customer Site Area</span>
 						</button>
@@ -68,7 +68,7 @@
 								});
 							</script>
 						<div class="col-sm-10">
-							<input type="hidden" name="data_customer" id="data_customer" />
+							<input type="hidden" name="data_customer" id="data_customer" data-validate="required" class="form-control validasi" data-message-required="Please Input Data Customer." placeholder="Data Customer" />
 						</div>
 					</div>
 					<div class="form-group">
@@ -104,19 +104,19 @@
 								});
 							</script>
 						<div class="col-sm-10">
-							<input type="hidden" name="data_site" id="data_site" />
+							<input type="hidden" name="data_site" id="data_site" data-validate="required" class="form-control validasi" data-message-required="Please Input Data Site." placeholder="Data Site" />
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-1">Area Name <span class="font-red"> * </span></label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" name="name" data-validate="required" data-message-required="Please Input Customer Site Area Name." placeholder="Customer Site Area Name" />
+							<input type="text" class="form-control validasi" name="name" data-validate="required" data-message-required="Please Input  Area Name." placeholder="Customer Site Area Name" />
 						</div>
 					</div>
 
 					<div class="form-group-separator"></div>
 					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-5">Description <span class="font-red"> * </span></label>
+						<label class="col-sm-2 control-label" for="field-5">Description</label>
 						<div class="col-sm-10">
 							<textarea class="form-control" cols="5" id="field-5" name="desc"></textarea>
 						</div>
@@ -153,10 +153,7 @@
 				<div id="collapseTwo-2" class="panel-collapse collapse in">
 					<div class="panel-body">
 						<script type="text/javascript">
-						jQuery(document).ready(function($)
-						{
-							$("#conveyor").dataTable().yadcf();
-						});
+						
 						</script>
 						<div class="table-responsive"> 
 							<table class="table table-striped table-bordered" id="conveyor">

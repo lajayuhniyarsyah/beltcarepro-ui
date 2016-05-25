@@ -26,7 +26,7 @@
 				<div class="panel-heading">
 					<h3 class="panel-title font-bold">FORM CREATE CUSTOMER</h3>
 					<div class="panel-options">
-						<button type="submit" class="btn btn-info btn-icon btn-icon-standalone">
+						<button type="submit" class="btn btn-info btn-icon btn-icon-standalone error_validasi">
 							<i class="fa-plus-circle"></i>
 							<span>Create Customer</span>
 						</button>
@@ -38,7 +38,7 @@
 						<div class="form-group required validate-has-error">
 							<label class="col-sm-2 control-label" for="field-1">Customer Name <span class="font-red">*</span></label>
 							<div class="col-sm-10">
-								<input type="text" class="form-control" name="name" data-validate="required" data-message-required="Please Input Customer Name." placeholder="Customer Name" />
+								<input type="text" class="form-control validasi" name="name" data-validate="required" data-message-required="Please Input Customer Name." placeholder="Customer Name" />
 								<span class="validate-has-error">Please Input Customer Name.</span>
 							</div>
 						</div>
