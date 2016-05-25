@@ -38,7 +38,11 @@
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-1">Site Name <span class="font-red"> * </span></label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control validasi" name="name" data-validate="required" data-message-required="Please Input Customer Site Name." placeholder="Customer Site Name" />
+							<input type="text" 
+							class="form-control validasi" 
+							name="name" 
+							data-validate="required" 
+							data-message-required="Please Input Customer Site Name." placeholder="Customer Site Name" />
 						</div>
 					</div>
 					<div class="form-group-separator"></div>

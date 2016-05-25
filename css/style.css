@@ -140,6 +140,12 @@ hr.style11 {
     border: 0;
 }
 
+th {
+    white-space: nowrap;
+    min-width: 100px !Important;
+}
+
+
 table .replace-inputs th {
     white-space: nowrap;
     min-width: 100px;
