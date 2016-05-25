@@ -161,7 +161,7 @@
 						<label class="col-sm-2 control-label" for="field-5">Active</label>
 
 						<div class="col-sm-10">
-							<input type="checkbox" checked class="iswitch">
+							<input type="checkbox" checked class="iswitch iswitch-red">
 						</div>
 					</div>
 			</div>
