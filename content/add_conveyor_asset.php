@@ -26,7 +26,7 @@
 				<h3 class="panel-title font-bold">FORM CREATE CONVEYOR ASSET</h3>
 				<div class="panel-options">
 					<a href="#">
-						<button class="btn btn-info btn-icon btn-icon-standalone">
+						<button class="btn btn-info btn-icon btn-icon-standalone error_validasi">
 							<i class="fa-plus-circle"></i>
 							<span>Create Conveyor Asset</span>
 						</button>
@@ -41,9 +41,9 @@
 						</div>
 					</div> -->
 					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-1">Code</label>
+						<label class="col-sm-2 control-label" for="field-1">Code <span class="font-red"> * </span></label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" name="code" data-validate="required" data-message-required="Please Input Code Part." placeholder="Code Part" />
+							<input type="text" class="form-control validasi" name="code" data-validate="required" data-message-required="Please Input Code Part." placeholder="Code Part" />
 						</div>
 					</div>
 					<div class="form-group-separator"></div>
@@ -57,7 +57,7 @@
 		
 
 					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-1">Conveyor Name</label>
+						<label class="col-sm-2 control-label" for="field-1">Conveyor Name <span class="font-red"> * </span></label>
 						<script type="text/javascript">
 								jQuery(document).ready(function($)
 								{
@@ -95,7 +95,7 @@
 
 
 					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-5">Brand</label>
+						<label class="col-sm-2 control-label" for="field-5">Brand <span class="font-red"> * </span></label>
 						<script type="text/javascript">
 							jQuery(document).ready(function($)
 							{
@@ -107,7 +107,7 @@
 							});
 						</script>
 						<div class="col-sm-10">
-							<select class="form-control" id="brand">
+							<select class="form-control validasi" id="brand" data-validate="required" data-message-required="Please Input Brand">
 								<option value="">Please Select Brand......</option>
 								<option value="PT">MARTIN</option>
 								<option value="CV">REMA TIP TOP</option>
@@ -118,11 +118,11 @@
 					<div class="form-group-separator"></div>
 
 					<div class="form-group">
-						<label class="col-sm-2 control-label">Installed Date</label>
+						<label class="col-sm-2 control-label">Installed Date <span class="font-red"> * </span></label>
 						
 						<div class="col-sm-10">
 							<div class="input-group">
-								<input type="text" class="form-control datepicker" data-format="D, dd MM yyyy">
+								<input type="text" class="form-control datepicker validasi" data-format="D, dd MM yyyy" data-validate="required" data-message-required="Please Input Installed Date">
 								
 								<div class="input-group-addon">
 									<a href="#"><i class="linecons-calendar"></i></a>
@@ -133,7 +133,7 @@
 					
 					<div class="form-group-separator"></div>
 					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-5">Status</label>
+						<label class="col-sm-2 control-label" for="field-5">Status <span class="font-red"> * </span></label>
 						<script type="text/javascript">
 							jQuery(document).ready(function($)
 							{
@@ -145,7 +145,7 @@
 							});
 						</script>
 						<div class="col-sm-10">
-							<select class="form-control" id="status">
+							<select class="form-control validasi" id="status" data-validate="required" data-message-required="Please Input Status">
 								<option value="">Please Select Status......</option>
 								<option value="good">GOOD</option>
 								<option value="lvl1">LEVEL 1</option>

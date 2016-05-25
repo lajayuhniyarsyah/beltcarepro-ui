@@ -26,7 +26,7 @@
 				<h3 class="panel-title font-bold">FORM CREATE CONVEYOR PART</h3>
 				<div class="panel-options">
 					<a href="#">
-						<button class="btn btn-info btn-icon btn-icon-standalone">
+						<button class="btn btn-info btn-icon btn-icon-standalone error_validasi">
 							<i class="fa-plus-circle"></i>
 							<span>Create Conveyor Part</span>
 						</button>
@@ -37,42 +37,15 @@
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-1">Part Name<span class="font-red"> * </span></label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" name="name" data-validate="required" data-message-required="Please Input Part Name." placeholder="Part Name" />
+							<input type="text" class="form-control validasi" name="name" data-validate="required" data-message-required="Please Input Part Name." placeholder="Part Name" />
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-1">Part Code <span class="font-red"> * </span></label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" name="code" data-validate="required" data-message-required="Please Input Part Code." placeholder="Part Code" />
+							<input type="text" class="form-control validasi" name="code" data-validate="required" data-message-required="Please Input Part Code." placeholder="Part Code" />
 						</div>
 					</div>
-<!-- 					<div class="form-group-separator"></div>
-					<div class="form-group">
-						<label class="col-sm-2 control-label" for="field-5">Part Type <span class="font-red"> * </span></label>
-						<script type="text/javascript">
-							jQuery(document).ready(function($)
-							{
-								$("#status").select2({
-									placeholder: 'Select your Part Type...',
-									allowClear: true
-								}).on('select2-open', function()
-								{
-									// Adding Custom Scrollbar
-									$(this).data('select2').results.addClass('overflow-hidden').perfectScrollbar();
-								});
-								
-							});
-						</script>
-						<div class="col-sm-10">
-							<select class="form-control" id="status">
-								<option value="">Please Select Part Type......</option>
-								<option value="1">ROLLER</option>
-								<option value="2">BELT</option>
-								<option value="3">PULLEY</option>
-								<option value="4">CLEANER</option>
-							</select>
-						</div>
-					</div> -->
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-5">Icon</label>
 						<div class="col-sm-10">
@@ -93,7 +66,7 @@
 							});
 						</script>
 						<div class="col-sm-10">
-							<select class="form-control" id="level">
+							<select class="form-control validasi" name="level" id="level" data-validate="required" data-message-required="Please Input level.">
 								<option value="">Please Select level......</option>
 								<option value="1">1</option>
 								<option value="2">2</option>
@@ -117,7 +90,7 @@
 							});
 						</script>
 						<div class="col-sm-10">
-							<select class="form-control" id="point">
+							<select class="form-control validasi" name="point" id="point" data-validate="required" data-message-required="Please Input Point.">
 								<option value="">Please Select Point......</option>
 								<option value="10">10</option>
 								<option value="8">8</option>

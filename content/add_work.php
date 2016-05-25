@@ -37,7 +37,7 @@
 				<div class="form-group">
 					<label class="col-sm-2 control-label" for="field-1">Work Name<span class="font-red"> * </span></label>
 					<div class="col-sm-10">
-						<input type="text" class="form-control" name="name" data-validate="required" data-message-required="Please Input Brand Name." placeholder="Brand Name" />
+						<input type="text" class="form-control" name="name" data-validate="required" data-message-required="Please Input Work Name." placeholder="Work Name" />
 					</div>
 				</div>
 

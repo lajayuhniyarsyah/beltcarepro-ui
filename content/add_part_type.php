@@ -26,7 +26,7 @@
 				<h3 class="panel-title font-bold">FORM CREATE PART TYPE</h3>
 				<div class="panel-options">
 					<a href="#">
-						<button class="btn btn-info btn-icon btn-icon-standalone">
+						<button class="btn btn-info btn-icon btn-icon-standalone error_validasi">
 							<i class="fa-plus-circle"></i>
 							<span>Create Part type</span>
 						</button>
@@ -37,13 +37,13 @@
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-1">Part Type Name<span class="font-red"> * </span></label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" name="name" data-validate="required" data-message-required="Please Input Part Name." placeholder="Part Name" />
+							<input type="text" class="form-control validasi" name="name" data-validate="required" data-message-required="Please Input Part Name." placeholder="Part Name" />
 						</div>
 					</div>
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-1">Part Type Code <span class="font-red"> * </span></label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" name="code" data-validate="required" data-message-required="Please Input Part Code." placeholder="Part Code" />
+							<input type="text" class="form-control validasi" name="code" data-validate="required" data-message-required="Please Input Part Code." placeholder="Part Code" />
 						</div>
 					</div>
 
