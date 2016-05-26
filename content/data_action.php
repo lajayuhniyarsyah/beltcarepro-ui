@@ -1,7 +1,6 @@
 <div class="page-title">
 	<div class="title-env">
 		<h1 class="title">List Schedule Action FREEPORT INDONESIA,PT </h1>
-		<p class="description">Pages Action</p>
 	</div>
 	<div class="breadcrumb-env">
 		<ol class="breadcrumb bc-1" >

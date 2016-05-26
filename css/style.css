@@ -140,11 +140,11 @@ hr.style11 {
     border: 0;
 }
 
-th {
-    white-space: nowrap;
-    min-width: 100px !Important;
-}
 
+
+.dow{
+  max-width: 20px !important;
+}
 
 table .replace-inputs th {
     white-space: nowrap;
@@ -236,6 +236,63 @@ input.radio:focus ~ label:before {
   box-shadow: 0 0 0 1px #cecece;
 }
 
+.yadcf-filter-range-date{
+  width: 70px !important;
+}
+.icon-menu{
+  width: 50px;
+}
+.judul-menu{
+  display: block;
+}
+.icon-menu-detail{
+  width: 20px;
+}
+
+.plupload_wrapper {
+    font: 11px/12px Verdana,sans-serif;
+    min-width: 0px !important;
+    width: 100%;
+}
+@media only screen and (max-width: 770px) {
+   .icon-menu{
+    width: 30px;
+    display: block;
+    float: left;
+  }
+  .sidebar-menu .main-menu a > span{
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .judul-menu{
+    display: none;
+  }
+
+  .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    min-height: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+  }
+
+  .page-container .main-content {
+    padding: 0px !important;
+    margin-top: 20px;
+  }
+
+  .page-container .main-content .page-title .title-env, .page-container .main-content .page-title .breadcrumb-env{
+    margin-left: 10px;
+  }
+  .page-container .sidebar-menu .sidebar-menu-inner .main-menu{
+    margin-bottom: 15px;
+  }
+
+  th {
+    white-space: nowrap;
+    min-width: 100px;
+}
+
+}
 
 /*#uploader_start{
   display: none;
@@ -428,7 +485,7 @@ input.radio:focus ~ label:before {
   position: relative;
   overflow: hidden;
   text-indent: -9999px;
-  width: 40px;
+  width: 50px;
   height: 40px;
   -moz-transform: rotate(0deg) scale(1);
   -ms-transform: rotate(0deg) scale(1);
@@ -440,24 +497,21 @@ input.radio:focus ~ label:before {
   transform-origin: 50% 50%;
 }
 .warning:not(:required):after, .warning:not(:required):before {
-  position: absolute;
-  content: "";
   background-image: url("../images/warning2.png");
-  /*background: red;*/
+    background-repeat: no-repeat;
+    content: "";
+    position: absolute;
 }
 .warning:not(:required):before {
-  /*background-image: url("../images/warning1.png");*/
-  /*top: 12px;*/
-  left: 0;
-  width: 40px;
-  height: 40px;
+  height: 50px;
+    left: -2px;
+    width: 50px;
 }
 .warning:not(:required):after {
   background-image: url("../images/warning2.png");
-  top: 0;
-  /*left: 12px;*/
-  width: 24px;
-  height: 12px;
+    height: 12px;
+    top: 0;
+    width: 95px;
 }
 
 
