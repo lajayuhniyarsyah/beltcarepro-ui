@@ -111,12 +111,12 @@
 									<span class="title"> Assets</span>
 								</a>
 								<ul>
-									<li>
+									<li class="menu-level3">
 										<a href="home.php?page=data_conveyor">
 											<span class="title">Conveyor</span>
 										</a>
 									</li>
-									<li>
+									<li class="menu-level3">
 										<a href="home.php?page=data_conveyor_asset">
 											<span class="title">Conveyor Asset</span>
 										</a>

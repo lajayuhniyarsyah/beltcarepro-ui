@@ -208,6 +208,18 @@ input.radio:empty ~ label:before {
 .level4{
   background-color: #d5080f;
 }
+.menu-level3{
+    background-color: rgba(24, 5, 0, 0.1);
+    background: rgba(24, 5, 0, 0.1);
+    color: rgba(24, 5, 0, 0.1);
+}
+
+
+.sidebar-menu.collapsed .main-menu > li > ul > li > ul > li > a {
+     display: block;
+    padding-left: 52px;
+    width: 100%;
+}
 /* toggle hover */
 input.radio:hover:not(:checked) ~ label:before {
   content:'\2714';
