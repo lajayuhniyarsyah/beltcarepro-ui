@@ -86,13 +86,6 @@
 		</div>
 
 		<div class="panel-body">
-		<script type="text/javascript">
- 			jQuery(document).ready(function($)
- 			{
-				$(".beltsection-bls0002").colorbox({rel:'beltsection-bls0002'});
-				$(".group1").colorbox({rel:'group1'});
- 			});
- 			</script>
 			<div class="table-responsive"> 
 				<table class="table table-striped table-bordered" id="action"  onload="initLightbox()">
 					<thead>
