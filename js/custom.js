@@ -98,5 +98,12 @@
 		});	
 	});
 
+	//  Image Lightbox
+	$('.image-Lightbox').each(function() {
+		var rel_image = $(this).attr( "rel-image" );
+		$("."+rel_image).colorbox({rel:rel_image});
+	});
+	
+
 });
  
