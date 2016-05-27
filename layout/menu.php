@@ -38,20 +38,141 @@
 						
 				<ul id="main-menu" class="main-menu">
 					<li>
-						<a href="#" class="test">
-							<i class="linecons-user"></i>
+						<a href="home.php" class="test">
+							<img src="images/icon/dasboard.png" class="icon-menu" />
+							<div class="judul-menu">Dashboard</div>
+							<span class="title">Dashboard</span>
+						</a>
+					</li>
+					<li>
+						<a href="home.php?page=data_action" class="test">
+							<img src="images/icon/action.png" class="icon-menu" />
+							<div class="judul-menu">Action</div>
 							<span class="title">Action</span>
+						</a>
+					</li>
+
+					<li>
+						<a href="#" class="test">
+							<img src="images/icon/report.png" class="icon-menu" />
+							<div class="judul-menu">Report</div>
+							<span class="title">Report</span>
 						</a>
 						<ul>
 							<li>
-								<a href="home.php?page=data_action">
-									<i class="linecons-user"></i>
-									<span class="title">Action</span>
+								<a href="home.php?page=data_customer">
+									<img src="images/icon/detail_report.png" class="icon-menu-detail" />
+									<span class="title">Report Customer</span>
+								</a>
+							</li>
+							<li>
+								<a href="home.php?page=data_site">
+									<img src="images/icon/detail_report.png" class="icon-menu-detail" />
+									<span class="title">Report Site</span>
+								</a>
+							</li>
+							<li>
+								<a href="home.php?page=data_area">
+									<img src="images/icon/detail_report.png" class="icon-menu-detail" />
+									<span class="title">Report Area</span>
 								</a>
 							</li>
 						</ul>
 					</li>
+
 					<li>
+						<a href="#" class="test">
+							<img src="images/icon/company_info.png" class="icon-menu" />
+							<div class="judul-menu">Company</div>
+							<span class="title">Company</span>
+						</a>
+						<ul>
+							<li>
+								<a href="home.php?page=data_customer">
+									<img src="images/icon/customer.png" class="icon-menu-detail" />
+									<span class="title">Customer</span>
+								</a>
+							</li>
+							<li>
+								<a href="home.php?page=data_site">
+									<img src="images/icon/site.png" class="icon-menu-detail" />
+									<span class="title">Site</span>
+								</a>
+							</li>
+							<li>
+								<a href="home.php?page=data_area">
+									<img src="images/icon/area.png" class="icon-menu-detail" />
+									<span class="title">Area</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="test">
+									<img src="images/icon/asset.png" class="icon-menu-detail" />
+									<span class="title"> Assets</span>
+								</a>
+								<ul>
+									<li class="menu-level3">
+										<a href="home.php?page=data_conveyor">
+											<span class="title">Conveyor</span>
+										</a>
+									</li>
+									<li class="menu-level3">
+										<a href="home.php?page=data_conveyor_asset">
+											<span class="title">Conveyor Asset</span>
+										</a>
+									</li>
+								</ul>
+							</li>	
+						</ul>
+					</li>
+
+					<li>
+						<a href="#" class="test">
+							<img src="images/icon/user.png" class="icon-menu" />
+							<div class="judul-menu"> Admin</div>
+							<span class="title"> Admin</span>
+						</a>
+						<ul>
+							<li>
+								<a href="home.php?page=data_part">
+									<img src="images/icon/part.png" class="icon-menu-detail" />
+									<span class="title">Part</span>
+								</a>
+							</li>
+							<li>
+								<a href="home.php?page=data_part_type">
+									<img src="images/icon/part_type.png" class="icon-menu-detail" />
+									<span class="title">Part Type</span>
+								</a>
+							</li>
+							<li>
+								<a href="home.php?page=data_brand">
+									<img src="images/icon/brand.png" class="icon-menu-detail" />
+									<span class="title">Brand</span>
+								</a>
+							</li>
+							<li>
+								<a href="home.php?page=data_work">
+									<img src="images/icon/work.png" class="icon-menu-detail" />
+									<span class="title">Work</span>
+								</a>
+							</li>
+							<li>
+								<a href="home.php?page=data_work_step">
+									<img src="images/icon/work_step.png" class="icon-menu-detail" />
+									<span class="title">Work Step</span>
+								</a>
+							</li>
+							<li>
+								<a href="home.php?page=data_user">
+									<img src="images/icon/detail_user.png" class="icon-menu-detail" />
+									<span class="title">User</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+
+				<!-- 	<li>
 						<a href="#">
 							<i class="linecons-user"></i>
 							<span class="title">Customer</span>
@@ -92,45 +213,7 @@
 					<li>
 						<a href="#">
 							<i class="linecons-user"></i>
-							<span class="title">Setting</span>
-						</a>
-						<ul>
-							<li>
-								<a href="home.php?page=data_part">
-									<i class="linecons-user"></i>
-									<span class="title">Part</span>
-								</a>
-							</li>
-							<li>
-								<a href="home.php?page=data_part_type">
-									<i class="linecons-user"></i>
-									<span class="title">Part Type</span>
-								</a>
-							</li>
-							<li>
-								<a href="home.php?page=data_brand">
-									<i class="linecons-user"></i>
-									<span class="title">Brand</span>
-								</a>
-							</li>
-							<li>
-								<a href="home.php?page=data_work_step">
-									<i class="linecons-user"></i>
-									<span class="title">Work Step</span>
-								</a>
-							</li>
-							<li>
-								<a href="home.php?page=data_work">
-									<i class="linecons-user"></i>
-									<span class="title">Work</span>
-								</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<a href="#">
-							<i class="linecons-user"></i>
-							<span class="title">User</span>
+							<span class="title">Master</span>
 						</a>
 						<ul>
 							<li>
@@ -140,7 +223,7 @@
 								</a>
 							</li>
 						</ul>
-					</li>
+					</li> -->
 				</ul>
 				
 			</div>

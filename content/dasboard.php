@@ -1,3 +1,18 @@
+<div class="page-title">
+	<div class="title-env">
+		<h1 class="title">DASHBOARD FREEPORT INDONESIA,PT </h1>
+	</div>
+	<div class="breadcrumb-env">
+		<ol class="breadcrumb bc-1" >
+			<li class="active">
+				<a href="#"><i class="fa-home"></i>Dashboard</a>
+			</li>
+			
+		</ol>
+
+	</div>
+</div>
+
 <div class="row">
 <div class="beltcarepro-conv-dash-state col-sm-3">
   <div class="xe-widget xe-counter xe-counter-red" data-count=".num" data-from="0" data-to="85.3" data-suffix="%" data-duration="2">
