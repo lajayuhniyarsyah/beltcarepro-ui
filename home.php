@@ -94,6 +94,9 @@
 				            case "add_do_inspection":
 				            	$pg =  "content/add_do_inspection.php";
 				            break;
+				            case "add_corrective":
+				            	$pg = "content/add_corrective.php";
+				            break;
 				            case "data_user":
 				            	$pg =  "content/data_user.php";
 				            break;

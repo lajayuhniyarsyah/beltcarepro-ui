@@ -209,8 +209,8 @@
 							<td class="center">Done</td>
 							<td class="center">
 								<center>
-									<a href="home.php?page=add_inspection" class="btn btn-secondary btn-sm btn-icon icon-left">
-									Inspection View
+									<a href="home.php?page=add_corrective" class="btn btn-danger btn-sm btn-icon icon-left">
+									Corrective View
 									</a>
 								</center>
 							</td>

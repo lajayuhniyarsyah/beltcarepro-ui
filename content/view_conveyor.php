@@ -32,7 +32,12 @@
 			</div>
 			
 			<div class="panel-body">
-				<span class="images-conveyor"><img src="images/conveyor/conveyor.jpg"></span>
+				<span class="images-conveyor">
+				<a href="images/conveyor/thumb/conveyor.jpg" class="conveyor-image image-Lightbox" rel-image="conveyor-image" title="Conveyor Image">
+					<img src="images/conveyor/conveyor.jpg">
+				</a>
+				
+				</span>
 
 				<div class="form-group">
 					<div class="col-sm-12">

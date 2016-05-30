@@ -47,6 +47,22 @@
   float: left;
   top: 0px;
 }
+
+.images-conveyor {
+  position: relative;
+}
+
+.images-conveyor img {
+  border: 10px solid #fff;
+  -webkit-box-shadow: 1px 1px 3px 1px #777;
+  -moz-box-shadow: 1px 1px 3px 1px #777;
+    box-shadow: 1px 1px 3px 1px #777;
+}
+
+
+.images-conveyor img{
+  max-width: 250px;
+}
 .font-red{
   color: red;
 }
@@ -152,6 +168,79 @@ table .replace-inputs th {
 }
 
 
+
+/* hide input */
+input.checkbox:empty {
+  margin-left: -9999px;
+}
+
+/* style label */
+input.checkbox:empty ~ label {
+  position: relative;
+  float: left;
+  line-height: 2.5em;
+  text-indent: 3.25em;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+input.checkbox:empty ~ label:before {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  content: '';
+  width: 2.5em;
+  background: #ECF0F1;
+
+  content:'\2718';
+  text-indent: .9em;
+  color: #C2C2C2;
+}
+
+
+/* toggle hover */
+input.checkbox:hover:not(:checked) ~ label:before {
+  content:'\2714';
+  text-indent: .9em;
+  color: #C2C2C2;
+}
+
+input.checkbox:hover:not(:checked) ~ label {
+  color: #888;
+}
+
+/* toggle on */
+input.checkbox:checked ~ label:before {
+  content:'\2714';
+  text-indent: .9em;
+  color: #9CE2AE;
+  background-color: #4DCB6D;
+}
+
+input.checkbox:checked ~ label {
+  color: #777;
+}
+
+/* radio focus */
+input.checkbox:focus ~ label:before {
+  box-shadow: 0 0 0 1px #cecece;
+}
+
+.waiting-action{
+  background-color: #22A7F0;
+  padding-right: 5px;
+}
+
+
+
+
+
+
 .style-radio {
   /*clear: both;*/
   margin-top: -15px;
@@ -165,9 +254,10 @@ table .replace-inputs th {
   font-weight: bold;
 }
 
+
 /* hide input */
 input.radio:empty {
-  margin-left: -999px;
+  margin-left: -9999px;
 }
 
 /* style label */
@@ -192,6 +282,11 @@ input.radio:empty ~ label:before {
   content: '';
   width: 2.5em;
   background: #ECF0F1;
+}
+
+.status-step{
+  background-color: #069fad;
+  padding-right: 5px;
 }
 
 .level1{
@@ -266,6 +361,87 @@ input.radio:focus ~ label:before {
     min-width: 0px !important;
     width: 100%;
 }
+.judul-table{
+  border-bottom: 2px solid #000;
+}
+.min-padding-left{
+  padding-left: 8px !important;
+}
+.judul-detail-table{
+  font-size: 18px !important;
+  font-weight: bold;
+}
+.no-bold th{
+  font-weight: 
+}
+.collapse:hover{
+  cursor: pointer;
+}
+.clickable{
+  cursor: pointer;
+}
+.color-table th{
+     /*background-color: #BFBFBF;*/
+}
+.header-table{
+  background-color: #40bbea;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.judul-table-detail{
+    background: #40bbea;
+    display: block;
+    font-size: 16px;
+    margin-left: 40px;
+    padding:5px;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.hiddenRow {
+   padding: 0 !important;
+   margin-top: 10px;
+}
+
+.accordion-label {
+    position: relative;
+  text-align: center;
+}
+.glyphicon {
+  position: absolute;
+  left: -9px;
+  top: 45%;
+  font-size: 125%;
+  color: @brand-primary;
+}
+
+.accordion-toggle td:first-child:before {
+    font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
+      content: "\e114";    /* adjust as needed, taken from bootstrap.css */
+    font-size: 125%;
+    color: @brand-primary;
+  }
+  .accordion-toggle.collapsed td:first-child:before {
+    content: "\e080";    /* adjust as needed, taken from bootstrap.css */
+  }
+.collapsed{
+  cursor: pointer;
+}
+.detail-table{
+  margin-top: 30px;
+}
+.detail-table li{
+    background-color: #ECF0F1;
+    display: block;
+    margin-top: -15px;
+    padding:0px;
+}
+
 @media only screen and (max-width: 770px) {
    .icon-menu{
     width: 30px;

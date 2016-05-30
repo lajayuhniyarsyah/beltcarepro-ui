@@ -109,13 +109,13 @@
 							<td>Belt Conveyor terbakar dari flamed coal </td>
 							<td class="center">False</td>
 							<td class="center">
-								<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002" title="Belt (Section)">
+								<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
 									<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
 								</a>
-								<a href="images/inspection/1384826082-588-1.png" class="beltsection-bls0002" title="Belt (Section)">
+								<a href="images/inspection/1384826082-588-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
 									<img src="images/inspection/thumbnail/1384826082-588-1.png" alt="Belt (Section)" class="bordered hide"/>
 								</a>
-								<a href="images/inspection/1385553119-1001-1.png"class="beltsection-bls0002" title="Belt (Section)">
+								<a href="images/inspection/1385553119-1001-1.png"class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
 									<img src="images/inspection/thumbnail/1385553119-1001-1.png" alt="Belt (Section) BLS002 <b>Level 1</b>" class="bordered hide" />
 								</a>
 							</td>
@@ -131,7 +131,7 @@
 							<td>Belt Terbakar dan putus, dikarnakan blocking material di dalam chute </td>
 							<td class="center">False</td>
 							<td class="center">
-								<a href="images/inspection/1385448120-1001-1.png" class="group1" title="Belt (Section) BLS002 <b>Level 1</b>">
+								<a href="images/inspection/1385448120-1001-1.png" class="group1 image-Lightbox" rel-image="group1" title="Belt (Section) BLS002 <b>Level 1</b>">
 									<img src="images/inspection/thumbnail/1385448120-1001-1.png" alt="Belt (Section) BLS002 <b>Level 1</b>" class="bordered" />
 								</a>
 							</td>
