@@ -249,9 +249,6 @@
 				                      					Shutdown Conveyor Make sure conveyor stoped
 				                      				</td>
 				                      				<td class="float-right col-md-3">
-				                      					<!-- <a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
-															<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
-														</a> -->
 														<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
 															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
 																<i>+</i>
@@ -715,6 +712,10 @@
 		
 
 		<div class="table-responsive well well-lg"> 
+		<div class="panel-heading">
+			<h3 class="panel-title"><b>TEAM</b></h3>
+		</div>
+
 			<table class="table table-striped">
 				<thead>
 					<tr>
@@ -749,8 +750,14 @@
 				<div class="panel-options">
 					<a href="home.php?page=add_do_inspection">
 						<button class="btn btn-primary btn-icon btn-icon-standalone">
-							<i class="fa-play-circle-o"></i>
+							<i class="fa-close"></i>
 							<span>Cancel This Work</span>
+						</button>
+					</a>
+					<a href="home.php?page=add_do_inspection">
+						<button class="btn btn-primary btn-icon btn-icon-standalone">
+							<i class="fa-check"></i>
+							<span>Done This Work</span>
 						</button>
 					</a>
 				</div>
