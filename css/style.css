@@ -288,6 +288,10 @@ input.radio:empty ~ label:before {
   background-color: #069fad;
   padding-right: 5px;
 }
+.waiting-step{
+  background-color: #3498DB;
+  padding-right: 5px; 
+}
 
 .level1{
   background-color: #069fad;
@@ -419,7 +423,12 @@ input.radio:focus ~ label:before {
   font-size: 125%;
   color: @brand-primary;
 }
-
+.accordion-toggle{
+  cursor: pointer;
+}
+.active-accordion{
+  background-color: red;
+}
 .accordion-toggle td:first-child:before {
     font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
       content: "\e114";    /* adjust as needed, taken from bootstrap.css */
