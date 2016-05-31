@@ -237,13 +237,19 @@ input.checkbox:focus ~ label:before {
 }
 
 
-
+.valign-top{
+  vertical-align: top !important;
+}
 
 
 
 .style-radio {
   /*clear: both;*/
+  font-size: 10px;
   margin-top: -15px;
+}
+.btn.btn-icon-standalone.btn-sm span {
+    padding-left: 35px;
 }
 
 .label-radio {
@@ -287,6 +293,10 @@ input.radio:empty ~ label:before {
 .status-step{
   background-color: #069fad;
   padding-right: 5px;
+}
+.waiting-step{
+  background-color: #3498DB;
+  padding-right: 5px; 
 }
 
 .level1{
@@ -419,7 +429,12 @@ input.radio:focus ~ label:before {
   font-size: 125%;
   color: @brand-primary;
 }
-
+.accordion-toggle{
+  cursor: pointer;
+}
+.active-accordion{
+  background-color: red;
+}
 .accordion-toggle td:first-child:before {
     font-family: 'Glyphicons Halflings';  /* essential for enabling glyphicon */
       content: "\e114";    /* adjust as needed, taken from bootstrap.css */

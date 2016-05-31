@@ -210,7 +210,7 @@
 							<td class="center">
 								<center>
 									<a href="home.php?page=add_corrective" class="btn btn-danger btn-sm btn-icon icon-left">
-									Corrective View
+									Corrective Action
 									</a>
 								</center>
 							</td>
@@ -225,8 +225,8 @@
 							<td class="center">Scheduled</td>
 							<td class="center">
 								<center>
-									<a href="home.php?page=add_inspection" class="btn btn-danger btn-sm btn-icon icon-left">
-									Inspection Action
+									<a href="home.php?page=view_corrective" class="btn btn-secondary btn-sm btn-icon icon-left">
+									 View Corrective
 									</a>
 								</center>
 							</td>

@@ -33,19 +33,27 @@
 					<thead>
 						<tr>
 							<th class="col-md-2">Date</th>
-							<th class="col-md-10">: 4 April 2016</th>
+							<th class="col-md-5">: 4 April 2016</th>
+							<th class="col-md-2">Doc No</th>
+							<th class="col-md-3">: 1111111111</th>
 						</tr>
 						<tr>
 							<th class="col-md-2">Site / Project</th>
-							<th class="col-md-10">: HOLCIM, PT / NAROGONG</th>
+							<th class="col-md-5">: HOLCIM, PT / NAROGONG</th>
+							<th class="col-md-2">Action Ref</th>
+							<th class="col-md-3">: <a href="#"><div class="label label-danger">#HOL/NRG/11111</div></a></th>
 						</tr>
 						<tr>
 							<th class="col-md-2">Conveyor</th>
-							<th class="col-md-10">: NRG00001</th>
+							<th class="col-md-10" colspan="4">: NRG00001</th>
 						</tr>
 						<tr>
 							<th class="col-md-2">Action Type</th>
-							<th class="col-md-10">: Inspection</th>
+							<th class="col-md-10" colspan="4">: Inspection</th>
+						</tr>
+						<tr>
+							<th class="col-md-2" >Notes</th>
+							<th class="col-md-10" colspan="4">: Notes Inspection Shutdown Conveyor Make sure conveyor stoped Notes Inspection Shutdown Conveyor Make sure conveyor stoped Notes</th>
 						</tr>
 					</thead>
 				</table>
