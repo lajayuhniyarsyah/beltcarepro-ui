@@ -51,6 +51,9 @@
 .images-conveyor {
   position: relative;
 }
+.table-responsive{
+  padding: 15px;
+}
 
 .images-conveyor img {
   border: 10px solid #fff;
@@ -97,7 +100,10 @@ input[type="file"] {
     display: block;
     padding-top: 0;
 }
-
+.validate-has-error{
+  color: red;
+  font-size: 10px;
+}
 .modal-body img{
   width: 100% !Important;
 }
@@ -127,7 +133,7 @@ input[type="file"] {
 }
 .sparator{
   width: 100%;
-  border:4px solid #ccc;
+  border:0px solid #ccc;
   margin-bottom: 5px;
 }
 
@@ -148,7 +154,9 @@ input[type="file"] {
   display: block;
   padding: 5px;
 }
-
+.dropdown-menu.daterangepicker .calendar-date table > tbody > tr > td.in-range {
+    background-color: rgba(104, 184, 40, 0.3);
+}
 
 hr.style11 {
   height: 6px;
@@ -294,6 +302,11 @@ input.radio:empty ~ label:before {
   background-color: #069fad;
   padding-right: 5px;
 }
+
+.default-checkbox{
+  background-color: #069fad;
+  padding-right: 5px;
+}
 .waiting-step{
   background-color: #3498DB;
   padding-right: 5px; 
@@ -357,13 +370,13 @@ input.radio:focus ~ label:before {
   width: 70px !important;
 }
 .icon-menu{
-  width: 50px;
+  width: 40px;
 }
 .judul-menu{
   display: block;
 }
 .icon-menu-detail{
-  width: 20px;
+  width: 15px;
 }
 
 .plupload_wrapper {

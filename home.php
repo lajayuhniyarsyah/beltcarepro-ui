@@ -127,7 +127,18 @@
 				            case "view_work_step":
 				            	$pg =  "content/view_work_step.php";
 				            break;
-
+				            case "data_routine_inspection":
+				            	$pg =  "content/data_routine_inspection.php";
+				            break;
+				            case "add_routine_inspection":
+				            	$pg =  "content/add_routine_inspection.php";
+				            break;
+				            case "view_routine_inspection":
+				            	$pg =  "content/view_routine_inspection.php";
+				            break;
+				            case "posted_routine_inspection":
+				            	$pg =  "content/posted_routine_inspection.php";
+				            break;
 				        }
 				    }else{
 				        $pg="content/dasboard.php";

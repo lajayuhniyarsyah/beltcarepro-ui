@@ -45,11 +45,31 @@
 						</a>
 					</li>
 					<li>
-						<a href="home.php?page=data_action" class="test">
+						<a href="#" class="test">
 							<img src="images/icon/action.png" class="icon-menu" />
 							<div class="judul-menu">Action</div>
 							<span class="title">Action</span>
 						</a>
+						<ul>
+							<li>
+								<a href="home.php?page=data_action">
+									<img src="images/icon/action_schedule.png" class="icon-menu-detail" />
+									<span class="title">Action Schedule</span>
+								</a>
+							</li>
+							<li>
+								<a href="home.php?page=data_routine_inspection">
+									<img src="images/icon/work_step.png" class="icon-menu-detail" />
+									<span class="title">Routine Inspection</span>
+								</a>
+							</li>
+							<li>
+								<a href="home.php?page=data_routine_corrective">
+									<img src="images/icon/corrective.png" class="icon-menu-detail" />
+									<span class="title">Routine Corrective</span>
+								</a>
+							</li>
+						</ul>
 					</li>
 
 					<li>

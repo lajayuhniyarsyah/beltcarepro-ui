@@ -8,7 +8,7 @@
 				<a href="home.php"><i class="fa-home"></i>Dashboard</a>
 			</li>
 			<li class="active">
-				<a href="home.php?page=data_conveyor">Data Action </a>
+				Data Action
 			</li>
 		</ol>
 
