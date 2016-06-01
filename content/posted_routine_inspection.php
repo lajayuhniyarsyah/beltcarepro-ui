@@ -29,59 +29,77 @@
 		</div>
 		<div class="panel-body">
 			<!-- <div class="table-responsive">  -->
-			<form role="form" id="form1" method="post" class="validate">
-				<table class="table">
-					<thead>
-						<tr>
-							<th class="col-md-2">Date</th>
-							<th class="col-md-4"> 2013-08-02,2013-08-15
-							</th>
-							<th class="col-md-2">Only Weekday</th>
-							<th class="col-md-4">
-								<div class="style-radio">
-									<input type="checkbox" name="radio" id="toggle-1.1" class="checkbox" disabled />
-									<label class="label-radio default-checkbox" for="toggle-1.1">Only Weekday</label>
-								</div>
-							</th>
-						</tr>
-						<tr>
-							<th class="col-md-2">Customer / Site</th>
-							<th class="col-md-4" colspan="4">
-								HOLCIM INDOCEMENT, PT / NAROGONG	
-							</th>
-						</tr>
+			<form role="form" id="form1" method="post" class="validate form-horizontal">
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Date</label>
+					<div class="col-sm-10">
+						2013-08-02,2013-08-15
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
 
 
-						<tr>
-							<th class="col-md-2">Conveyor</th>
-							<th class="col-md-4">
-								NRG-0001
-							</th>
-							
-						</tr>
-						
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Only Weekday</label>
+					<div class="col-sm-10">
+						<div class="style-radio">
+							<input type="checkbox" name="radio" id="toggle-1.1" class="checkbox" disabled />
+							<label class="label-radio default-checkbox" for="toggle-1.1">Only Weekday</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
 
 
-						<tr>
-							<th class="col-md-2">Routine Interval</th>
-							<th class="col-md-10" colspan="4">
-								<div class="label label-danger">30 Day</div>
-							</th>
-						</tr>
-						<tr>
-							<th class="col-md-2">Action Type</th>
-							<th class="col-md-10" colspan="4">
-								Inspection
-							</th>
-						</tr>
-						<tr>
-							<th class="col-md-2" >Doc No</th>
-							<th class="col-md-10" colspan="4">
-								#HOL/NRG/001
-							</th>
-						</tr>
-					</thead>
-				</table>
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Customer <span class="font-red">*</span></label>
+					<div class="col-sm-10">
+						FREEPORT INDONESIA, PT
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Site <span class="font-red">*</span></label>
+					<div class="col-sm-10">
+						SITE NAROGONG 
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Conveyor <span class="font-red">*</span></label>
+					<div class="col-sm-10">
+						CONV_NRG-0001
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Interval</label>
+					<div class="col-sm-2">
+						10 Days
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Action Type</label>
+					<div class="col-sm-10">
+						Inspection
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Doc No</label>
+					<div class="col-sm-10">
+						#HOL/NRG/002
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
 			</form>
 			<!-- </div> -->
 		</div>

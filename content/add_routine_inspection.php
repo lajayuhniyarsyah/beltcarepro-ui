@@ -27,165 +27,182 @@
 		</div>
 		<div class="panel-body">
 			<!-- <div class="table-responsive">  -->
-			<form role="form" id="form1" method="post" class="validate">
-				<table class="table">
-					<thead>
-						<tr>
-							<th class="col-md-2">Date</th>
-							<th class="col-md-4">	
-								<input type="text" id="field-2" class="form-control daterange" data-format="YYYY-MM-DD" data-start-date="2013-08-02" data-end-date="2013-08-15" data-separator="," />
-							</th>
-							<th class="col-md-2">Only Weekday</th>
-							<th class="col-md-4">
-								<div class="style-radio">
-									<input type="checkbox" name="radio" id="toggle-1.1" class="checkbox"/>
-									<label class="label-radio default-checkbox" for="toggle-1.1">Only Weekday</label>
-								</div>
-							</th>
-						</tr>
-						<tr>
-							<th class="col-md-2">Customer</th>
-							<th class="col-md-4" colspan="4">
-								<script type="text/javascript">
-									jQuery(document).ready(function($)
-									{
-										$("#data_customer").select2({
-											minimumInputLength: 1,
-											placeholder: 'Search',
-											ajax: {
-												url: "data/data_customer.php",
-												dataType: 'json',
-												quietMillis: 100,
-												data: function(term, page) {
-													return {
-														limit: -1,
-														q: term
-													};
-												},
-												results: function(data, page ) {
-													return { results: data }
-												}
-											},
-											formatResult: function(student) { 
-												return "<div class='select2-user-result'>" + student.name + "</div>"; 
-											},
-											formatSelection: function(student) { 
-												return  student.name; 
-											}
-											
-										});
-									});
-								</script>
-								<input type="hidden" class="form-control validasi" name="data_customer" id="data_customer" data-validate="required" data-message-required="Please Input Data Customer." placeholder="Search Data Customer" />
-							</th>
-						</tr>
+			<form role="form" id="form1" method="post" class="validate form-horizontal">
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Date <span class="font-red">*</span></label>
+					<div class="col-sm-10">
+						<input type="text" id="field-2" class="form-control daterange" data-format="YYYY-MM-DD" data-start-date="2013-08-02" data-end-date="2013-08-15" data-separator="," />
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
 
 
-						<tr>
-							<th class="col-md-2">Site</th>
-							<th class="col-md-4">
-							<script type="text/javascript">
-									jQuery(document).ready(function($)
-									{
-										$("#data_site").select2({
-											minimumInputLength: 1,
-											placeholder: 'Search',
-											ajax: {
-												url: "data/data_customer.php",
-												dataType: 'json',
-												quietMillis: 100,
-												data: function(term, page) {
-													return {
-														limit: -1,
-														q: term
-													};
-												},
-												results: function(data, page ) {
-													return { results: data }
-												}
-											},
-											formatResult: function(student) { 
-												return "<div class='select2-user-result'>" + student.name + "</div>"; 
-											},
-											formatSelection: function(student) { 
-												return  student.name; 
-											}
-											
-										});
-									});
-								</script>
-								<input type="hidden" class="form-control validasi" name="data_site" id="data_site" data-validate="required" data-message-required="Please Input Data Site." placeholder="Search Data Site" />
-							</th>
-							<th class="col-md-2">Conveyor</th>
-							<th class="col-md-4">
-								<script type="text/javascript">
-									jQuery(document).ready(function($)
-									{
-										$("#data_conveyor").select2({
-											minimumInputLength: 1,
-											placeholder: 'Search',
-											ajax: {
-												url: "data/data_customer.php",
-												dataType: 'json',
-												quietMillis: 100,
-												data: function(term, page) {
-													return {
-														limit: -1,
-														q: term
-													};
-												},
-												results: function(data, page ) {
-													return { results: data }
-												}
-											},
-											formatResult: function(student) { 
-												return "<div class='select2-user-result'>" + student.name + "</div>"; 
-											},
-											formatSelection: function(student) { 
-												return  student.name; 
-											}
-											
-										});
-									});
-								</script>
-								<input type="hidden" name="data_conveyor" id="data_conveyor" placeholder="Search Conveyor" />
-							</th>
-						</tr>
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Only Weekday</label>
+					<div class="col-sm-10">
+						<div class="style-radio">
+							<input type="checkbox" name="radio" id="toggle-1.1" class="checkbox"/>
+							<label class="label-radio default-checkbox" for="toggle-1.1">Only Weekday</label>
+						</div>
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Customer <span class="font-red">*</span></label>
+					<div class="col-sm-10">
+						<script type="text/javascript">
+							jQuery(document).ready(function($)
+							{
+								$("#data_customer").select2({
+									minimumInputLength: 1,
+									placeholder: 'Search',
+									ajax: {
+										url: "data/data_customer.php",
+										dataType: 'json',
+										quietMillis: 100,
+										data: function(term, page) {
+											return {
+												limit: -1,
+												q: term
+											};
+										},
+										results: function(data, page ) {
+											return { results: data }
+										}
+									},
+									formatResult: function(student) { 
+										return "<div class='select2-user-result'>" + student.name + "</div>"; 
+									},
+									formatSelection: function(student) { 
+										return  student.name; 
+									}
+									
+								});
+							});
+						</script>
+						<input type="hidden" class="form-control validasi" name="data_customer" id="data_customer" data-validate="required" data-message-required="Please Input Data Customer." placeholder="Search Data Customer" />
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Site <span class="font-red">*</span></label>
+					<div class="col-sm-10">
+						<script type="text/javascript">
+							jQuery(document).ready(function($)
+							{
+								$("#data_site").select2({
+									minimumInputLength: 1,
+									placeholder: 'Search',
+									ajax: {
+										url: "data/data_customer.php",
+										dataType: 'json',
+										quietMillis: 100,
+										data: function(term, page) {
+											return {
+												limit: -1,
+												q: term
+											};
+										},
+										results: function(data, page ) {
+											return { results: data }
+										}
+									},
+									formatResult: function(student) { 
+										return "<div class='select2-user-result'>" + student.name + "</div>"; 
+									},
+									formatSelection: function(student) { 
+										return  student.name; 
+									}
+									
+								});
+							});
+						</script>
+						<input type="hidden" class="form-control validasi" name="data_site" id="data_site" data-validate="required" data-message-required="Please Input Data Site." placeholder="Search Data Site" />
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Conveyor <span class="font-red">*</span></label>
+					<div class="col-sm-10">
+						<script type="text/javascript">
+							jQuery(document).ready(function($)
+							{
+								$("#data_conveyor").select2({
+									minimumInputLength: 1,
+									placeholder: 'Search',
+									ajax: {
+										url: "data/data_customer.php",
+										dataType: 'json',
+										quietMillis: 100,
+										data: function(term, page) {
+											return {
+												limit: -1,
+												q: term
+											};
+										},
+										results: function(data, page ) {
+											return { results: data }
+										}
+									},
+									formatResult: function(student) { 
+										return "<div class='select2-user-result'>" + student.name + "</div>"; 
+									},
+									formatSelection: function(student) { 
+										return  student.name; 
+									}
+									
+								});
+							});
+						</script>
+						<input type="hidden" name="data_conveyor" id="data_conveyor" placeholder="Search Conveyor" />
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Interval</label>
+					<div class="col-sm-2">
+						<input type="text" class="form-control" name="number" data-validate="number" value="10" />
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Action Type</label>
+					<div class="col-sm-10">
+						<script type="text/javascript">
+							jQuery(document).ready(function($)
+							{
+								$("#type").selectBoxIt().on('open', function()
+								{
+									$(this).data('selectBoxSelectBoxIt').list.perfectScrollbar();
+								});
+							});
+						</script>
+						<select class="form-control" id="type">
+							<option value="">Please Select Type......</option>
+							<option value="inspection">Inspection</option>
+							<option value="corrective">Corrective</option>
+							<option value="proactive">Proactive</option>
+						</select>
 						
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
 
+				<div class="form-group required">
+					<label class="col-sm-2 control-label" for="field-1">Doc No</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="code" data-validate="required" data-message-required="Please Input Document No"/>
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
 
-						<tr>
-							<th class="col-md-2">Routine Interval</th>
-							<th class="col-md-10" colspan="4"><input type="text" class="form-control" name="number" data-validate="number" value="10" /></th>
-						</tr>
-						<tr>
-							<th class="col-md-2">Action Type</th>
-							<th class="col-md-10" colspan="4">
-								<script type="text/javascript">
-									jQuery(document).ready(function($)
-									{
-										$("#type").selectBoxIt().on('open', function()
-										{
-											$(this).data('selectBoxSelectBoxIt').list.perfectScrollbar();
-										});
-									});
-								</script>
-								<select class="form-control" id="type">
-									<option value="">Please Select Type......</option>
-									<option value="inspection">Inspection</option>
-									<option value="corrective">Corrective</option>
-									<option value="proactive">Proactive</option>
-								</select>
-							</th>
-						</tr>
-						<tr>
-							<th class="col-md-2" >Doc No</th>
-							<th class="col-md-10" colspan="4">
-								<input type="text" class="form-control" name="code" data-validate="required" data-message-required="Please Input Document No"/>
-							</th>
-						</tr>
-					</thead>
-				</table>
 			</form>
 			<!-- </div> -->
 		</div>
