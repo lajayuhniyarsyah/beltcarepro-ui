@@ -140,6 +140,37 @@
 
 
 
+
+	// Default status Inspect
+	$('.status-inspect').each(function() {
+		if ($(this).is(':checked')) {
+	    	$(this).siblings('label').html('Done');
+	    	$(this).siblings('label').addClass('status-step');
+	    	$(this).siblings('label').removeClass('waiting-step');
+	  	} else {
+	    	$(this).siblings('label').html('Waiting');
+	    	$(this).siblings('label').addClass('waiting-step');
+	    	$(this).siblings('label').removeClass('status-step');
+	  	}
+	});
+
+
+	// Default status Inspect Checkbox Click
+	$('.status-inspect').click(function() {
+	  if($(this).is(':checked')) {
+	    $(this).siblings('label').html('Done');
+	    $(this).siblings('label').addClass('status-step');
+	    $(this).siblings('label').removeClass('waiting-step');
+	  } else {
+	    $(this).siblings('label').html('Waiting');
+	    $(this).siblings('label').addClass('waiting-step');
+	    $(this).siblings('label').removeClass('status-step');
+	  }
+	});
+
+
+
+
 	// status Progress action default
 	$('.accordion-toggle').each(function(){
 		var data_target = $(this).attr( "data-target" );

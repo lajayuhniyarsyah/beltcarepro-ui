@@ -118,7 +118,7 @@
 					</table>
 				</div>
 
-				<div class="col-md-22 well well-lg min-padding-left">
+				<div class="col-md-12 well well-lg min-padding-left">
 					<div class="col-md-6">
 						<table class="table">
 							<thead>
