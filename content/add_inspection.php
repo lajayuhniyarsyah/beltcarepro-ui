@@ -28,28 +28,31 @@
 			</div>
 		</div>
 		<div class="panel-body">
-			<div class="table-responsive"> 
-				<table class="table">
-					<thead>
-						<tr>
-							<th class="col-md-2">Date</th>
-							<th class="col-md-5">
-								<div class="input-group">
-									<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="4/1/2016" disabled>
-										<div class="input-group-addon">
-											<a href="#"><i class="linecons-calendar"></i></a>
-										</div>
-									</div>
-							</th>
-							<th class="col-md-2">Doc No</th>
-							<th class="col-md-3">
-								<input type="text" name="doc_no" id="doc_no" class="form-control" value="Contract No 1/XII/15" disabled/>
-							</th>
-						</tr>
-						<tr>
-							<th class="col-md-2">Site / Project</th>
-							<th class="col-md-5">
-								<script type="text/javascript">
+			<form role="form" id="form1" method="post" class="validate form-horizontal">
+				<div class="form-group required">
+					<label class="col-sm-1 control-label" for="field-1">Date <span class="font-red">*</span></label>
+					<div class="col-sm-5">
+						<div class="input-group">
+							<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="4/1/2016" disabled>
+								<div class="input-group-addon">
+									<a href="#"><i class="linecons-calendar"></i></a>
+								</div>
+						</div>
+					</div>
+					<label class="col-sm-2 control-label" for="field-1">Doc No <span class="font-red">*</span></label>
+					<div class="col-sm-3">
+						<div class="input-group">
+							<input type="text" name="doc_no" id="doc_no" class="form-control" value="Contract No 1/XII/15" disabled/>
+						</div>
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+
+				<div class="form-group required">
+					<label class="col-sm-1 control-label" for="field-1">Site / Project</label>
+					<div class="col-sm-5">
+						<script type="text/javascript">
 									jQuery(document).ready(function($)
 									{
 										$("#data_customer").select2({
@@ -80,72 +83,84 @@
 									});
 								</script>
 								<input type="hidden" class="form-control validasi" name="data_customer" id="data_customer" data-validate="required" value="" data-message-required="Please Input Data Customer." placeholder="NAROGONG / HOLCIM,PT" disabled />
-							</th>
-							<th class="col-md-2">Action Ref</th>
-							<th class="col-md-3">: <a href="#"><div class="label label-danger">#HOL/NRG/11111</div></a></th>
-						</tr>
-						<tr>
-							<th class="col-md-2">Conveyor</th>
-							<th class="col-md-10" colspan="4">
-								<script type="text/javascript">
-									jQuery(document).ready(function($)
-									{
-										$("#data_conveyor").select2({
-											minimumInputLength: 1,
-											placeholder: 'Search',
-											ajax: {
-												url: "data/data_customer.php",
-												dataType: 'json',
-												quietMillis: 100,
-												data: function(term, page) {
-													return {
-														limit: -1,
-														q: term
-													};
-												},
-												results: function(data, page ) {
-													return { results: data }
-												}
-											},
-											formatResult: function(student) { 
-												return "<div class='select2-user-result'>" + student.name + "</div>"; 
-											},
-											formatSelection: function(student) { 
-												return  student.name; 
-											}
-											
-										});
-									});
-								</script>
-								<input type="hidden" name="data_conveyor" id="data_conveyor" placeholder="NRG00001" /></th>
-						</tr>
-						<tr>
-							<th class="col-md-2">Action Type</th>
-							<th class="col-md-10" colspan="4">
-							<script type="text/javascript">
-									jQuery(document).ready(function($)
-									{
-										$("#type").selectBoxIt().on('open', function()
-										{
-											$(this).data('selectBoxSelectBoxIt').list.perfectScrollbar();
-										});
-									});
-								</script>
-								<select class="form-control" id="type" disabled>
-									<option value="inspection">Inspection</option>
-									<option value="corrective">Corrective</option>
-									<option value="proactive">Proactive</option>
-								</select>
-								</th>
-						</tr>
-						<tr>
-							<th class="col-md-2" style="vertical-align:top">Notes</th>
-							<th class="col-md-10" colspan="4">
-							<textarea class="form-control" cols="5" id="field-5" name="notes" disabled>Some notes here Maybe it can multilines Please prepare it Some</textarea>
-						</tr>
-					</thead>
-				</table>
-			</div>
+					</div>
+					<label class="col-sm-2 control-label" for="field-1">Action Ref <span class="font-red">*</span></label>
+					<div class="col-sm-3">
+						: <a href="#"><div class="label label-danger">#HOL/NRG/11111</div></a>
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+				<div class="form-group required">
+					<label class="col-sm-1 control-label" for="field-1">Conveyor</label>
+					<div class="col-sm-11">
+					<script type="text/javascript">
+						jQuery(document).ready(function($)
+						{
+							$("#data_conveyor").select2({
+								minimumInputLength: 1,
+								placeholder: 'Search',
+								ajax: {
+									url: "data/data_customer.php",
+									dataType: 'json',
+									quietMillis: 100,
+									data: function(term, page) {
+										return {
+											limit: -1,
+											q: term
+										};
+									},
+									results: function(data, page ) {
+										return { results: data }
+									}
+								},
+								formatResult: function(student) { 
+									return "<div class='select2-user-result'>" + student.name + "</div>"; 
+								},
+								formatSelection: function(student) { 
+									return  student.name; 
+								}
+								
+							});
+						});
+					</script>
+					<input type="hidden" name="data_conveyor" id="data_conveyor" placeholder="NRG00001" />
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+
+				<div class="form-group required">
+					<label class="col-sm-1 control-label" for="field-1">Action Type</label>
+					<div class="col-sm-11">
+					<script type="text/javascript">
+						jQuery(document).ready(function($)
+						{
+							$("#type").selectBoxIt().on('open', function()
+							{
+								$(this).data('selectBoxSelectBoxIt').list.perfectScrollbar();
+							});
+						});
+					</script>
+					<select class="form-control" id="type" disabled>
+						<option value="inspection">Inspection</option>
+						<option value="corrective">Corrective</option>
+						<option value="proactive">Proactive</option>
+					</select>
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+				<div class="form-group required">
+					<label class="col-sm-1 control-label" for="field-1">Notes</label>
+					<div class="col-sm-11">
+						<textarea class="form-control" cols="5" id="field-5" name="notes" disabled>Some notes here Maybe it can multilines Please prepare it Some</textarea>
+					</div>
+				</div>
+				<div class="form-group-separator"></div>
+
+
+			</form>
 		</div>
 	</div>
 </div>
