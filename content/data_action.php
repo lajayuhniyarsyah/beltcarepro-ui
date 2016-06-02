@@ -100,7 +100,15 @@
 <div class="col-md-12">				
 	<div class="panel panel-default">
 		<div class="panel-heading">
-			<h3 class="panel-title">List Action</h3>
+			<h3 class="panel-title">LIST ACTION SCHEDULE</h3>
+			<div class="panel-options">
+				<a href="home.php?page=add_action">
+					<button class="btn btn-primary btn-icon btn-icon-standalone">
+						<i class="fa-plus-circle"></i>
+						<span>Add Action </span>
+					</button>
+				</a>
+			</div>
 		</div>
 		<div class="panel-body">
 			<script type="text/javascript">
@@ -236,5 +244,9 @@
 			</div>
 					
 		</div>
+
 	</div>
 </div>
+
+
+

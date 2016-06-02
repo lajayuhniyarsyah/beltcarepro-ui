@@ -1,7 +1,7 @@
 <div class="page-title">
 	<div class="title-env">
-		<h1 class="title">Action Inspection View</h1>
-		<p class="description">Detail Schedule Action Inspection View Customer Freeport Indonesia, PT <b>4 April 2016</b></p>
+		<h1 class="title">Create Action </h1>
+		<p class="description">Create New Action Customer Freeport Indonesia, PT <b>4 April 2016</b></p>
 	</div>
 	<div class="breadcrumb-env">
 		<ol class="breadcrumb bc-1" >
@@ -12,7 +12,7 @@
 				<a href="home.php?page=data_action">Data Schedule Action</a>
 			</li>
 			<li class="active">
-				<strong>Inspection View</strong>
+				<strong>Create Action</strong>
 			</li>
 		</ol>
 
@@ -28,12 +28,12 @@
 			</div>
 		</div>
 		<div class="panel-body">
-			<form role="form" id="form1" method="post" class="validate form-horizontal">
+			<form role="form" id="form1" method="post" class="validate form-horizontal label-left">
 				<div class="form-group required">
 					<label class="col-sm-2 control-label" for="field-1">Date <span class="font-red">*</span></label>
 					<div class="col-sm-4">
 						<div class="input-group">
-							<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="4/1/2016" disabled>
+							<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="4/1/2016">
 								<div class="input-group-addon">
 									<a href="#"><i class="linecons-calendar"></i></a>
 								</div>
@@ -42,7 +42,7 @@
 					<label class="col-sm-2 control-label" for="field-1">Doc No <span class="font-red">*</span></label>
 					<div class="col-sm-3">
 						<div class="input-group">
-							<input type="text" name="doc_no" id="doc_no" class="form-control" value="Contract No 1/XII/15" disabled/>
+							<input type="text" name="doc_no" id="doc_no" class="form-control" value="Contract No 1/XII/15"/>
 						</div>
 					</div>
 				</div>
@@ -50,7 +50,7 @@
 
 
 				<div class="form-group required">
-					<label class="col-sm-2 control-label" for="field-1">Site / Project</label>
+					<label class="col-sm-2 control-label" for="field-1">Site / Project  <span class="font-red">*</span></label>
 					<div class="col-sm-4">
 						<script type="text/javascript">
 									jQuery(document).ready(function($)
@@ -82,7 +82,7 @@
 										});
 									});
 								</script>
-								<input type="hidden" class="form-control validasi" name="data_customer" id="data_customer" data-validate="required" value="" data-message-required="Please Input Data Customer." placeholder="NAROGONG / HOLCIM,PT" disabled />
+								<input type="hidden" class="form-control validasi" name="data_customer" id="data_customer" data-validate="required" value="" data-message-required="Please Input Data Customer." placeholder="Search Customer" />
 					</div>
 					<label class="col-sm-2 control-label" for="field-1">Action Ref <span class="font-red">*</span></label>
 					<div class="col-sm-3">
@@ -92,7 +92,7 @@
 				<div class="form-group-separator"></div>
 
 				<div class="form-group required">
-					<label class="col-sm-2 control-label" for="field-1">Conveyor</label>
+					<label class="col-sm-2 control-label" for="field-1">Conveyor  <span class="font-red">*</span></label>
 					<div class="col-sm-10">
 					<script type="text/javascript">
 						jQuery(document).ready(function($)
@@ -124,14 +124,14 @@
 							});
 						});
 					</script>
-					<input type="hidden" name="data_conveyor" id="data_conveyor" placeholder="NRG00001" />
+					<input type="hidden" class="form-control validasi" name="data_conveyor" id="data_conveyor" data-validate="required" value="" data-message-required="Please Input Data Conveyor." placeholder="Search Conveyor" />
 					</div>
 				</div>
 				<div class="form-group-separator"></div>
 
 
 				<div class="form-group required">
-					<label class="col-sm-2 control-label" for="field-1">Action Type</label>
+					<label class="col-sm-2 control-label" for="field-1">Action Type  <span class="font-red">*</span></label>
 					<div class="col-sm-10">
 					<script type="text/javascript">
 						jQuery(document).ready(function($)
@@ -142,7 +142,7 @@
 							});
 						});
 					</script>
-					<select class="form-control" id="type" disabled>
+					<select class="form-control" id="type">
 						<option value="inspection">Inspection</option>
 						<option value="corrective">Corrective</option>
 						<option value="proactive">Proactive</option>
@@ -154,7 +154,7 @@
 				<div class="form-group required">
 					<label class="col-sm-2 control-label" for="field-1">Notes</label>
 					<div class="col-sm-10">
-						<textarea class="form-control" cols="5" id="field-5" name="notes" disabled>Some notes here Maybe it can multilines Please prepare it Some</textarea>
+						<textarea class="form-control" cols="5" id="field-5" name="notes">Some notes here Maybe it can multilines Please prepare it Some</textarea>
 					</div>
 				</div>
 				<div class="form-group-separator"></div>
@@ -171,12 +171,7 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<b>INSPECTION TEAM</b>
-			<a href="javascript:;" onclick="jQuery('#add_team').modal('show', {backdrop: 'static'});" class="float-right">
-				<button class="btn btn-info btn-icon btn-icon-standalone">
-					<i class="fa-plus-circle"></i>
-					<span>Add Team</span>
-				</button>
-			</a>
+			
 		</div>
 		
 		<div class="panel-body">
@@ -211,6 +206,15 @@
 					</tbody>
 				</table>
 			</div>
+		</div>
+
+		<div class="panel-heading">
+			<a href="javascript:;" onclick="jQuery('#add_team').modal('show', {backdrop: 'static'});" class="float-left">
+				<button class="btn btn-info btn-icon btn-icon-standalone">
+					<i class="fa-plus-circle"></i>
+					<span>Add Team</span>
+				</button>
+			</a>
 		</div>
 	</div>
 </div>
@@ -287,9 +291,9 @@
 				<table class="table table-model-2 table-hover">
 					<thead>
 						<tr>
-							<th>#</th>
-							<th>Name</th>
-							<th width="5%">Status</th>
+							<th class="col-sm-1">#</th>
+							<th class="col-sm-8">Name</th>
+							<th class="col-sm-2">Status</th>
 						</tr>
 					</thead>
 					<tbody>
@@ -348,18 +352,85 @@
 				</table>
 			</div>
 		</div>
+
 		<div class="panel-heading">
-			<div class="panel-options">
-				<a href="home.php?page=add_do_inspection">
+			<a href="javascript:;" onclick="jQuery('#add_part_to_inspection').modal('show', {backdrop: 'static'});" class="float-left">
+				<button class="btn btn-info btn-icon btn-icon-standalone">
+					<i class="fa-plus-circle"></i>
+					<span>Add Part To Inspection</span>
+				</button>
+			</a>
+			<a href="home.php?page=add_do_inspection" class="float-right">
 					<button class="btn btn-primary btn-icon btn-icon-standalone">
 						<i class="fa-play-circle-o"></i>
 						<span>Do Inspection</span>
 					</button>
 				</a>
-			</div>
 		</div>
 	</div>
 	
 </div>
 
 
+
+
+
+<div class="modal fade" id="add_part_to_inspection">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Add Part Inspection</h4>
+			</div>
+			
+			<div class="modal-body">
+			
+				<div class="row">
+					<div class="col-md-12">
+						<script type="text/javascript">
+							jQuery(document).ready(function($)
+							{
+								$("#data_part").select2({
+									minimumInputLength: 1,
+									placeholder: 'Search',
+									ajax: {
+										url: "data/data_part.php",
+										dataType: 'json',
+										quietMillis: 100,
+										data: function(term, page) {
+											return {
+												limit: -1,
+												q: term
+											};
+										},
+										results: function(data, page ) {
+											return { results: data }
+										}
+									},
+									formatResult: function(student) { 
+										return "<div class='select2-user-result'>" + student.name + "</div>"; 
+									},
+									formatSelection: function(student) { 
+										return  student.name; 
+									}
+									
+								});
+							});
+						</script>
+						<input type="hidden" class="form-control validasi" name="data_part" id="data_part" data-validate="required" data-message-required="Please Input Data Part Inspection." placeholder="Select Part Inspection" />
+						
+						
+					</div>
+				</div>
+			
+				
+			</div>
+			
+			<div class="modal-footer">
+				<button type="button" class="btn btn-white" data-dismiss="modal">Close</button>
+				<button type="button" class="btn btn-info">Save changes</button>
+			</div>
+		</div>
+	</div>
+</div>
