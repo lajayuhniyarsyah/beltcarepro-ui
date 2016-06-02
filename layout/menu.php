@@ -27,11 +27,11 @@
 					</div>
 		
 					<!-- This will open the popup with user profile settings, you can use for any purpose, just be creative -->
-					<div class="settings-icon">
+					<!-- <div class="settings-icon">
 						<a href="#" data-toggle="settings-pane" data-animate="true">
 							<i class="linecons-cog"></i>
 						</a>
-					</div>
+					</div> -->
 				</header>
 				
 				
@@ -41,14 +41,14 @@
 						<a href="home.php" class="test">
 							<img src="images/icon/dasboard.png" class="icon-menu" />
 							<div class="judul-menu">Dashboard</div>
-							<span class="title">Dashboard</span>
+							<!-- <span class="title">Dashboard</span> -->
 						</a>
 					</li>
 					<li>
 						<a href="#" class="test">
 							<img src="images/icon/action.png" class="icon-menu" />
 							<div class="judul-menu">Action</div>
-							<span class="title">Action</span>
+							<!-- <span class="title">Action</span> -->
 						</a>
 						<ul>
 							<li>
@@ -76,7 +76,7 @@
 						<a href="#" class="test">
 							<img src="images/icon/report.png" class="icon-menu" />
 							<div class="judul-menu">Report</div>
-							<span class="title">Report</span>
+							<!-- <span class="title">Report</span> -->
 						</a>
 						<ul>
 							<li>
@@ -104,7 +104,7 @@
 						<a href="#" class="test">
 							<img src="images/icon/company_info.png" class="icon-menu" />
 							<div class="judul-menu">Company</div>
-							<span class="title">Company</span>
+							<!-- <span class="title">Company</span> -->
 						</a>
 						<ul>
 							<li>
@@ -150,7 +150,7 @@
 						<a href="#" class="test">
 							<img src="images/icon/user.png" class="icon-menu" />
 							<div class="judul-menu"> Admin</div>
-							<span class="title"> Admin</span>
+							<!-- <span class="title"> Admin</span> -->
 						</a>
 						<ul>
 							<li>

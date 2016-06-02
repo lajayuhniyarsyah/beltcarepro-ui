@@ -3,11 +3,11 @@
 				<!-- Left links for user info navbar -->
 				<ul class="user-info-menu left-links list-inline list-unstyled">
 			
-					<li class="hidden-sm hidden-xs">
+					<!-- <li class="hidden-sm hidden-xs">
 						<a href="#" data-toggle="sidebar">
 							<i class="fa-bars"></i>
 						</a>
-					</li>
+					</li> -->
 			
 					<li class="dropdown hover-line">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown">

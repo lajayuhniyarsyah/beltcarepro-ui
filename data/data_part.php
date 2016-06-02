@@ -1,9 +1,9 @@
 <?php
 $data = array(
-	array('id' => 1,	'name' => 'Part 1'),
-	array('id' => 2,	'name' => 'Part 2'),
-	array('id' => 3,	'name' => 'Part 3'),
-	array('id' => 4,	'name' => 'Part 4'),
+	array('id' => 1,	'name' => 'Belt Conveyor'),
+	array('id' => 2,	'name' => 'Frame'),
+	array('id' => 3,	'name' => 'Roller'),
+	array('id' => 4,	'name' => 'Pulley'),
 );
 
 $q = isset($_REQUEST['q']) ? $_REQUEST['q'] : '';

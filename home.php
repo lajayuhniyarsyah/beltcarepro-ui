@@ -139,6 +139,9 @@
 				            case "posted_routine_inspection":
 				            	$pg =  "content/posted_routine_inspection.php";
 				            break;
+				            case "add_action":
+				            	$pg =  "content/add_action.php";
+				            break;
 				        }
 				    }else{
 				        $pg="content/dasboard.php";
