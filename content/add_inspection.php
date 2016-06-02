@@ -86,7 +86,7 @@
 					</div>
 					<label class="col-sm-2 control-label" for="field-1">Action Ref <span class="font-red">*</span></label>
 					<div class="col-sm-3">
-						: <a href="#"><div class="label label-danger">#HOL/NRG/11111</div></a>
+						<a href="#"><div class="label label-danger">#HOL/NRG/11111</div></a>
 					</div>
 				</div>
 				<div class="form-group-separator"></div>

@@ -29,18 +29,14 @@
 			<!-- <div class="table-responsive">  -->
 			<form role="form" id="form1" method="post" class="validate form-horizontal">
 				<div class="form-group required">
-					<label class="col-sm-2 control-label" for="field-1">Date <span class="font-red">*</span></label>
-					<div class="col-sm-10">
+					<label class="col-sm-2 control-label" for="field-1">Date</label>
+					<div class="col-sm-4">
 						<input type="text" id="field-2" class="form-control daterange" data-format="YYYY-MM-DD" data-start-date="2013-08-02" data-end-date="2013-08-15" data-separator="," />
 					</div>
-				</div>
-				<div class="form-group-separator"></div>
 
-
-				<div class="form-group required">
 					<label class="col-sm-2 control-label" for="field-1">Only Weekday</label>
-					<div class="col-sm-10">
-						<div class="style-radio">
+					<div class="col-sm-3">
+						<div class="style-radio" style="margin-top:-22px;">
 							<input type="checkbox" name="radio" id="toggle-1.1" class="checkbox"/>
 							<label class="label-radio default-checkbox" for="toggle-1.1">Only Weekday</label>
 						</div>
@@ -48,10 +44,9 @@
 				</div>
 				<div class="form-group-separator"></div>
 
-
 				<div class="form-group required">
-					<label class="col-sm-2 control-label" for="field-1">Customer <span class="font-red">*</span></label>
-					<div class="col-sm-10">
+					<label class="col-sm-2 control-label" for="field-1">Customer</label>
+					<div class="col-sm-4">
 						<script type="text/javascript">
 							jQuery(document).ready(function($)
 							{
@@ -84,12 +79,9 @@
 						</script>
 						<input type="hidden" class="form-control validasi" name="data_customer" id="data_customer" data-validate="required" data-message-required="Please Input Data Customer." placeholder="Search Data Customer" />
 					</div>
-				</div>
-				<div class="form-group-separator"></div>
 
-				<div class="form-group required">
-					<label class="col-sm-2 control-label" for="field-1">Site <span class="font-red">*</span></label>
-					<div class="col-sm-10">
+					<label class="col-sm-2 control-label" for="field-1">Site </label>
+					<div class="col-sm-3">
 						<script type="text/javascript">
 							jQuery(document).ready(function($)
 							{
@@ -122,12 +114,12 @@
 						</script>
 						<input type="hidden" class="form-control validasi" name="data_site" id="data_site" data-validate="required" data-message-required="Please Input Data Site." placeholder="Search Data Site" />
 					</div>
+
 				</div>
 				<div class="form-group-separator"></div>
 
-
 				<div class="form-group required">
-					<label class="col-sm-2 control-label" for="field-1">Conveyor <span class="font-red">*</span></label>
+					<label class="col-sm-2 control-label" for="field-1">Conveyor</label>
 					<div class="col-sm-10">
 						<script type="text/javascript">
 							jQuery(document).ready(function($)
@@ -164,17 +156,17 @@
 				</div>
 				<div class="form-group-separator"></div>
 
-				<div class="form-group required">
+<!-- 				<div class="form-group required">
 					<label class="col-sm-2 control-label" for="field-1">Interval</label>
 					<div class="col-sm-2">
 						<input type="text" class="form-control" name="number" data-validate="number" value="10" />
 					</div>
 				</div>
-				<div class="form-group-separator"></div>
+				<div class="form-group-separator"></div> -->
 
 				<div class="form-group required">
 					<label class="col-sm-2 control-label" for="field-1">Action Type</label>
-					<div class="col-sm-10">
+					<div class="col-sm-4">
 						<script type="text/javascript">
 							jQuery(document).ready(function($)
 							{
@@ -191,6 +183,10 @@
 							<option value="proactive">Proactive</option>
 						</select>
 						
+					</div>
+					<label class="col-sm-2 control-label" for="field-1">Interval</label>
+					<div class="col-sm-3">
+						<input type="text" class="form-control" name="number" data-validate="number" value="10" />
 					</div>
 				</div>
 				<div class="form-group-separator"></div>
