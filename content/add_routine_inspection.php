@@ -20,17 +20,20 @@
 </div>
 
 <div class="col-md-12">
-	<div class="panel panel-color"><!-- Add class "collapsed" to minimize the panel -->
+	<div class="panel panel-color">
+
 		<div class="panel-heading" style="padding-bottom:0px;">
-			<h3 class="panel-title"><b>FORM CREATE RUOTINE INSPECTION</b></h3>			
-				<a href="#" class="float-right">
+			<h3 class="panel-title">FORM CREATE RUOTINE INSPECTION</h3>
+			<div class="panel-options">
+				<a href="#" >
 					<button class="btn btn-blue btn-icon btn-icon-standalone error_validasi">
 						<i class="fa-plus-circle"></i>
 						<span>Create Route Inspection</span>
 					</button>
 				</a>
-
+			</div>
 		</div>
+
 		<hr/>
 		<div class="panel-body">
 			<!-- <div class="table-responsive">  -->
