@@ -47,7 +47,9 @@
   float: left;
   top: 0px;
 }
-
+.label-left .control-label{
+  text-align: left;
+}
 .images-conveyor {
   position: relative;
 }
@@ -393,6 +395,8 @@ input.radio:focus ~ label:before {
 .judul-detail-table{
   font-size: 18px !important;
   font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: -15px;
 }
 .no-bold th{
   font-weight: 
@@ -522,6 +526,9 @@ input.radio:focus ~ label:before {
     padding-left: 15px;
     margin-left: 15px;
   }
+  .page-container .main-content .page-title{
+    margin-right: 0px !important;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -529,6 +536,9 @@ input.radio:focus ~ label:before {
     width: 90%;
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .page-container .main-content .page-title{
+    margin-right: 0px !important;
   }
 }
 /*#uploader_start{

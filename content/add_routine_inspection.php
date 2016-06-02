@@ -35,7 +35,7 @@
 					</div>
 
 					<label class="col-sm-2 control-label" for="field-1">Only Weekday</label>
-					<div class="col-sm-3">
+					<div class="col-sm-4">
 						<div class="style-radio" style="margin-top:-22px;">
 							<input type="checkbox" name="radio" id="toggle-1.1" class="checkbox"/>
 							<label class="label-radio default-checkbox" for="toggle-1.1">Only Weekday</label>
@@ -81,7 +81,7 @@
 					</div>
 
 					<label class="col-sm-2 control-label" for="field-1">Site </label>
-					<div class="col-sm-3">
+					<div class="col-sm-4">
 						<script type="text/javascript">
 							jQuery(document).ready(function($)
 							{
@@ -185,7 +185,7 @@
 						
 					</div>
 					<label class="col-sm-2 control-label" for="field-1">Interval</label>
-					<div class="col-sm-3">
+					<div class="col-sm-4">
 						<input type="text" class="form-control" name="number" data-validate="number" value="10" />
 					</div>
 				</div>

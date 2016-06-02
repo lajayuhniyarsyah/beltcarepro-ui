@@ -28,155 +28,170 @@
 			</div>
 		</div>
 		<div class="panel-body">
-			<form id="form" method="post" action="#">
+			<form id="form" method="post" action="#" class="validate form-horizontal label-left">
 				<div class="col-md-6">
-					<table class="table no-bold">
-						<thead>
-							<tr>
-								<th class="col-md-22" colspan="2"><h3 class="panel-title judul-detail-table"><b>SCHEDULE INFORMATION</b></h3></th>
-							</tr>
-							<tr>
-								<th class="col-md-3">No</th>
-								<th class="col-md-9"> 
-									<input type="text" name="no_action" id="no_action" class="form-control" value="#SBM/HOL/16/0101" disabled/>
-								</th>
-							</tr>
-							<tr>
-								<th class="col-md-3">Schedule Date</th>
-								<th class="col-md-9">
-									<div class="input-group">
-									<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="4/1/2016" disabled>
-										<div class="input-group-addon">
-											<a href="#"><i class="linecons-calendar"></i></a>
-										</div>
-									</div>
-								</th>
-							</tr>
-							<tr>
-								<th class="col-md-3">Action Type</th>
-								<th class="col-md-9"> 
-									<select name="action_type" class="form-control" disabled>
-										<option value="1">Corrective</option>
-									</select>
-								</th>
-							</tr>
-							<tr>
-								<th class="col-md-3">Schedule Status</th>
-								<th class="col-md-9">
-									<select name="schedule_type" class="form-control" disabled>
-										<option value="1">On Progress</option>
-									</select> 
-								</th>
-							</tr>
-							<tr>
-								<th class="col-md-3">Doc No</th>
-								<th class="col-md-9"> 
-									<input type="text" name="doc_no" id="doc_no" class="form-control" value="Contract No 1/XII/15" disabled/>
-								</th>
-							</tr>
-							<tr>
-								<th class="col-md-3" style="vertical-align: text-top;">Notes</th>
-								<th class="col-md-9"> 
-									<textarea class="form-control" cols="5" id="field-5" name="notes" disabled>Some notes here Maybe it can multilines Please prepare it Some</textarea>
-								</th>
-							</tr>
-							<tr>
-								<th class="col-md-3">Action Reference</th>
-								<th class="col-md-9"> 
-									<input type="text" name="doc_no" id="doc_no" class="form-control" value="#SBM/HOL/16/0099" disabled/>
-								</th>
-							</tr>
-						</thead>
-					</table>
+					<h3 class="panel-title judul-detail-table"><br/><b>SCHEDULE INFORMATION</b><br/></h3>
+					<div class="form-group-separator"></div>
+					
+					<div class="form-group required">
+						<label class="col-sm-3 control-label" for="field-1">No</label>
+						<div class="col-sm-9">
+							<input type="text" name="no_action" id="no_action" class="form-control" value="#SBM/HOL/16/0101" disabled/>
+						</div>
+					</div>
+					<div class="form-group-separator"></div>
+
+					<div class="form-group required">
+						<label class="col-sm-3 control-label" for="field-1">Schedule Date</label>
+						<div class="col-sm-9">
+							<div class="input-group">
+								<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="4/1/2016" disabled>
+								<div class="input-group-addon">
+									<a href="#"><i class="linecons-calendar"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-group-separator"></div>
+
+					<div class="form-group required">
+						<label class="col-sm-3 control-label" for="field-1">Action Type</label>
+						<div class="col-sm-9">
+							<select name="action_type" class="form-control" disabled>
+								<option value="1">Corrective</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group-separator"></div>
+
+					<div class="form-group required">
+						<label class="col-sm-3 control-label" for="field-1">Schedule Status</label>
+						<div class="col-sm-9">
+							<select name="schedule_type" class="form-control" disabled>
+								<option value="1">On Progress</option>
+							</select> 
+						</div>
+					</div>
+					<div class="form-group-separator"></div>
+
+					<div class="form-group required">
+						<label class="col-sm-3 control-label" for="field-1">Doc No</label>
+						<div class="col-sm-9">
+							<input type="text" name="doc_no" id="doc_no" class="form-control" value="Contract No 1/XII/15" disabled/>
+						</div>
+					</div>
+					<div class="form-group-separator"></div>
+
+
+					<div class="form-group required">
+						<label class="col-sm-3 control-label" for="field-1">Notes</label>
+						<div class="col-sm-9">
+							<textarea class="form-control" cols="5" id="field-5" name="notes" disabled>Some notes here Maybe it can multilines Please prepare it Some</textarea>
+						</div>
+					</div>
+					<div class="form-group-separator"></div>
+
+
+					<div class="form-group required">
+						<label class="col-sm-3 control-label" for="field-1">Action Reference</label>
+						<div class="col-sm-9">
+							<input type="text" name="doc_no" id="doc_no" class="form-control" value="#SBM/HOL/16/0099" disabled/>
+						</div>
+					</div>
+					<div class="form-group-separator"></div>
 				</div>
 
 				<div class="col-md-6">
-					<table class="table">
-						<thead>
-							<tr>
-								<th class="col-md-22" colspan="2"><h3 class="panel-title judul-detail-table"><b>CONVEYOR INFORMATION</b></h3></th>
-							</tr>
-							<tr>
-								<th class="col-md-3">Customer</th>
-								<th class="col-md-9"> 
-									<input type="text" name="customer" id="customer" class="form-control" value="Holcim, tbk" disabled/>
-								</th>
-							</tr>
-							<tr>
-								<th class="col-md-3">Site/Project</th>
-								<th class="col-md-9"> 
-									<input type="text" name="site" id="site" class="form-control" value="Narogong" disabled/>
-								</th>
-							</tr>
-							<tr>
-								<th class="col-md-3">Conveyor</th>
-								<th class="col-md-9"> 
-									<input type="text" name="conveyor" id="conveyor" class="form-control" value="NRG001" disabled/>
-								</th>
-							</tr>
-						</thead>
-					</table>
+					<h3 class="panel-title judul-detail-table"><br/><b>CONVEYOR INFORMATION</b><br/></h3>
+					<div class="form-group-separator"></div>
+
+					<div class="form-group required">
+						<label class="col-sm-3 control-label" for="field-1">Customer</label>
+						<div class="col-sm-9">
+							<input type="text" name="customer" id="customer" class="form-control" value="Holcim, tbk" disabled/>
+						</div>
+					</div>
+					<div class="form-group-separator"></div>
+
+					<div class="form-group required">
+						<label class="col-sm-3 control-label" for="field-1">Site/Project</label>
+						<div class="col-sm-9">
+							<input type="text" name="site" id="site" class="form-control" value="Narogong" disabled/>
+						</div>
+					</div>
+					<div class="form-group-separator"></div>
+
+					
+					<div class="form-group required">
+						<label class="col-sm-3 control-label" for="field-1">Conveyor</label>
+						<div class="col-sm-9">
+							<input type="text" name="conveyor" id="conveyor" class="form-control" value="NRG001" disabled/>
+						</div>
+					</div>
+					<div class="form-group-separator"></div>
+
 				</div>
+
 
 				<div class="col-md-12 well well-lg min-padding-left">
+					<h3 class="panel-title judul-detail-table"><br/><b>RESULTS INFORMATION</b><br/></h3><hr/>
 					<div class="col-md-6">
-						<table class="table">
-							<thead>
-								<tr>
-									<th class="col-md-22" colspan="2"><h3 class="panel-title judul-detail-table"><b>RESULTS INFORMATION</b></h3></th>
-								</tr>
-								<tr>
-									<th class="col-md-3">Action Start On</th>
-									<th class="col-md-9">
-										<div class="date-and-time">
-											<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="13 May 2016" disabled>
-											<input type="text" class="form-control timepicker" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="true" data-minute-step="5" data-second-step="5" disabled/>
-										</div>
-									</th>
-								</tr>
-								<tr>
-									<th class="col-md-3">Input On</th>
-									<th class="col-md-9">
-										<div class="date-and-time">
-											<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="13 May 2016" >
-											<input type="text" class="form-control timepicker" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="true" data-minute-step="5" data-second-step="5" />
-										</div>
-									</th>
-								</tr>
-								<tr>
-									<th class="col-md-3">Input By</th>
-									<th class="col-md-9"> 
-										<input type="text" name="input_by" id="input_by" class="form-control" value="Agustian"/>
-									</th>
-								</tr>
-							</thead>
-						</table>
+
+						<div class="form-group required">
+							<label class="col-sm-3 control-label" for="field-1">Action Start On</label>
+							<div class="col-sm-9">
+								<div class="date-and-time">
+									<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="13 May 2016" disabled>
+									<input type="text" class="form-control timepicker" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="true" data-minute-step="5" data-second-step="5" disabled/>
+								</div>
+							</div>
+						</div>
+						<div class="form-group-separator"></div>
+
+						<div class="form-group required">
+							<label class="col-sm-3 control-label" for="field-1">Input On</label>
+							<div class="col-sm-9">
+								<div class="date-and-time">
+									<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="13 May 2016" >
+									<input type="text" class="form-control timepicker" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="true" data-minute-step="5" data-second-step="5" />
+								</div>
+							</div>
+						</div>
+						<div class="form-group-separator"></div>
+
+						<div class="form-group required">
+							<label class="col-sm-3 control-label" for="field-1">Input By</label>
+							<div class="col-sm-9">
+								<input type="text" name="input_by" id="input_by" class="form-control" value="Agustian"/>
+							</div>
+						</div>
+						<div class="form-group-separator"></div>
+
+
 					</div>
 					<div class="col-md-6">
-						<table class="table">
-							<thead>
-								<tr>
-									<th class="col-md-22" colspan="2"><h3 class="panel-title">&nbsp;<b></b></h3></th>
-								</tr>
-								<tr>
-									<th class="col-md-3">Action End On</th>
-									<th class="col-md-9"> 
-										<div class="date-and-time">
-											<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="13 May 2016">
-											<input type="text" class="form-control timepicker" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="true" data-minute-step="5" data-second-step="5" />
-										</div>
-									</th>
-								</tr>
-								<tr>
-									<th class="col-md-3">Action Status</th>
-									<th class="col-md-9">
-										<select name="action_type" class="form-control">
-											<option value="1">Open</option>
-										</select>
-									</th>
-								</tr>
-							</thead>
-						</table>
+						<div class="form-group required">
+							<label class="col-sm-3 control-label" for="field-1">Action End On</label>
+							<div class="col-sm-9">
+								<div class="date-and-time">
+									<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="13 May 2016">
+									<input type="text" class="form-control timepicker" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="true" data-minute-step="5" data-second-step="5" />
+								</div>
+							</div>
+						</div>
+						<div class="form-group-separator"></div>
+
+						<div class="form-group required">
+							<label class="col-sm-3 control-label" for="field-1">Action Status</label>
+							<div class="col-sm-9">
+								<select name="action_type" class="form-control">
+									<option value="1">Open</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group-separator"></div>
+
+
 					</div>
 				</div>
 			</form>
