@@ -510,6 +510,26 @@ input.radio:focus ~ label:before {
 
 }
 
+@media only screen and (max-width: 780px) {
+  .col-xs-6 {
+    width: 49%;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .col-xs-6 {
+    width: 45%;
+    margin-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .col-xs-6 {
+    width: 90%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
 /*#uploader_start{
   display: none;
 }*/
