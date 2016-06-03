@@ -64,7 +64,9 @@
     box-shadow: 1px 1px 3px 1px #777;
 }
 
-
+.table-condensed th{
+  min-width: 10px !important;
+}
 .images-conveyor img{
   max-width: 250px;
 }
@@ -553,6 +555,16 @@ input.radio:focus ~ label:before {
   }
   .modal-title{
     text-align: center !important;
+  }
+  .panel-title{
+    text-align: center !important;
+    float: none !important;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .btn.btn-icon-standalone span{
+    float: left;
+    padding-left: 5px !important;
   }
 }
 

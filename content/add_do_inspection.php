@@ -62,6 +62,27 @@
 								</div>
 							</th>
 						</tr>
+						<tr>
+							<th class="col-md-2">Inspect Done</th>
+							<th class="col-md-10"> 
+								<div class="input-group">
+									<input type="text" class="form-control datepicker" data-format="D, dd MM yyyy" value="Tue, 17 May 2016">
+									
+									<div class="input-group-addon">
+										<a href="#"><i class="linecons-calendar"></i></a>
+									</div>
+								</div>
+							</th>
+						</tr>
+						<tr>
+							<th class="col-md-2">Clean</th>
+							<th class="col-md-12"> 
+								<div class="style-radio" style="width:150px;">
+									<input type="checkbox" name="radio" id="clean" class="checkbox" />
+									<label class="label-radio waiting-step" for="clean">Clean</label>
+								</div>
+							</th>
+						</tr>
 					</thead>
 				</table>
 			</form>
