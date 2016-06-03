@@ -513,10 +513,46 @@ input.radio:focus ~ label:before {
 }
 
 }
-
+@media only screen and (max-width: 800px) {
+   .btn-sm {
+    display: block !important;
+    width: 100% !important;
+  }
+   .btn {
+    display: block !important;
+    outline: 0 none;
+    width: 100% !important;
+  }
+}
 @media only screen and (max-width: 780px) {
   .col-xs-6 {
     width: 49%;
+  }
+  .panel .panel-heading > .panel-options {
+    display: block;
+    float: right;
+    font-size: 13px;
+    margin-top: 10px;
+    width: 100%;
+  }
+  .panel .panel-heading > .panel-options a{
+    display: block !important;
+  }
+  .btn {
+    display: block !important;
+    outline: 0 none;
+    width: 100% !important;
+  }
+  .modal-footer .btn+.btn {
+    margin-left: 0px !important; 
+    margin-bottom: 0;
+    margin-top: 7px;
+  }
+  .btn+.btn {
+    margin-left: 0px !important; 
+  }
+  .modal-title{
+    text-align: center !important;
   }
 }
 
@@ -751,7 +787,7 @@ input.radio:focus ~ label:before {
 }
 .warning:not(:required):before {
   height: 50px;
-    left: -2px;
+    left: 10px;
     width: 50px;
 }
 .warning:not(:required):after {
@@ -760,5 +796,4 @@ input.radio:focus ~ label:before {
     top: 0;
     width: 95px;
 }
-
 

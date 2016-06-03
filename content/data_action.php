@@ -103,7 +103,7 @@
 			<h3 class="panel-title">LIST ACTION SCHEDULE</h3>
 			<div class="panel-options">
 				<a href="home.php?page=add_action">
-					<button class="btn btn-primary btn-icon btn-icon-standalone">
+					<button class="btn btn-primary btn-icon btn-icon-standalone ">
 						<i class="fa-plus-circle"></i>
 						<span>Add Action </span>
 					</button>
