@@ -118,7 +118,7 @@
 	    	$(this).siblings('label').addClass('status-step');
 	    	$(this).siblings('label').removeClass('waiting-step');
 	  	} else {
-	    	$(this).siblings('label').html('Waiting Action');
+	    	$(this).siblings('label').html('Waiting');
 	    	$(this).siblings('label').addClass('waiting-step');
 	    	$(this).siblings('label').removeClass('status-step');
 	  	}
@@ -132,7 +132,7 @@
 	    $(this).siblings('label').addClass('status-step');
 	    $(this).siblings('label').removeClass('waiting-step');
 	  } else {
-	    $(this).siblings('label').html('Waiting Action');
+	    $(this).siblings('label').html('Waiting');
 	    $(this).siblings('label').addClass('waiting-step');
 	    $(this).siblings('label').removeClass('status-step');
 	  }

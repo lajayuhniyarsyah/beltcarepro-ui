@@ -515,6 +515,18 @@ input.radio:focus ~ label:before {
 }
 
 }
+
+@media only screen and (max-width: 1000px) {
+  .style-radio{
+     font-size: 9px !important;
+  }
+}
+@media only screen and (max-width: 1310px) {
+   .collapse-feature-list .btn {
+    display: block !important;
+    width: 100% !important;
+  }
+}
 @media only screen and (max-width: 800px) {
    .btn-sm {
     display: block !important;
@@ -529,6 +541,9 @@ input.radio:focus ~ label:before {
 @media only screen and (max-width: 780px) {
   .col-xs-6 {
     width: 49%;
+  }
+  .panel .panel-heading > .panel-options a{
+    margin-left: 0px !important;
   }
   .panel .panel-heading > .panel-options {
     display: block;
