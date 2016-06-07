@@ -19,7 +19,7 @@
 	</div>
 </div>
 
-<div class="col-md-22">
+<div class="col-md-32">
 	<div class="panel panel-color panel-info"><!-- Add class "collapsed" to minimize the panel -->
 		<div class="panel-heading">
 			<h3 class="panel-title"><b>Action #SBM/HOL/16/0101</b></h3>			
@@ -201,7 +201,7 @@
 </div>
 
 
-<div class="col-md-22">
+<div class="col-md-32">
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h3 class="panel-title"><b>ACTION WORK</b></h3>
@@ -251,55 +251,45 @@
 			                	<div class="judul-table-detail">FRM001-CB Replace Roller Work Step </div>
 			                  <div class="collapse-feature-list">
 
-			                    <ul class="detail-table">
-			                      <li>
-			                      	
-				                      	<div class="table-responsive">
-				                      		<table class="table">
-				                      			<tr>
-				                      				<td width="10">
-				                      					1
-				                      				</td>
-				                      				<td class="col-md-7">
-				                      					Shutdown Conveyor Make sure conveyor stoped
-				                      				</td>
-				                      				<td class="float-right col-md-3">
-														<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
-															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
-																<i>+</i>
-																<span>Add Photo</span>
-															</button>
-														</a>
-														<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
-															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
-																<i>2</i>
-																<span>View Photo</span>
-															</button>
-														</a>
-				                      				</td>
-				                      				<td class="col-md-2">
-				                      					<span class="float-right">
-				                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
-					                      						<div class="style-radio">
-																	<input type="checkbox" name="radio" id="toggle-1.1" class="checkbox status-action"/>
-																	<label class="label-radio " for="toggle-1.1">Passed</label>
-																</div>
-															<!-- </a> -->
-				                      					</span>
-				                      				</td>
-				                      			</tr>
-				                      		</table>
-				                      	 </div>
-			                      </li>
-
-			                      <li>
-			                      	<div class="table-responsive">
+		                    	<div class="table-responsive">
 			                      		<table class="table">
+			                      			<tr>
+			                      				<td width="10">
+			                      					1
+			                      				</td>
+			                      				<td class="col-md-6">
+			                      					Shutdown Conveyor Make sure conveyor stoped
+			                      				</td>
+			                      				<td class="float-right col-md-3">
+													<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
+														<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
+															<i>+</i>
+															<span>Add Photo</span>
+														</button>
+													</a>
+													<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
+														<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
+															<i>2</i>
+															<span>View Photo</span>
+														</button>
+													</a>
+			                      				</td>
+			                      				<td class="col-md-3">
+			                      					<span class="float-right">
+			                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
+				                      						<div class="style-radio">
+																<input type="checkbox" name="radio" id="toggle-1.1" class="checkbox status-action"/>
+																<label class="label-radio " for="toggle-1.1">Passed</label>
+															</div>
+														<!-- </a> -->
+			                      					</span>
+			                      				</td>
+			                      			</tr>
 			                      			<tr>
 			                      				<td width="10">
 			                      					2
 			                      				</td>
-			                      				<td class="col-md-7">
+			                      				<td class="col-md-6">
 			                      					De attach Old Roller
 			                      				</td>
 			                      				<td class="float-right col-md-3">
@@ -319,7 +309,7 @@
 														</button>
 													</a>	
 			                      				</td>
-			                      				<td class="col-md-2">
+			                      				<td class="col-md-3">
 			                      					<span class="float-right">
 			                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
 			                      						<div class="style-radio">
@@ -330,62 +320,47 @@
 			                      					</span>
 			                      				</td>
 			                      			</tr>
-			                      		</table>
-			                      	 </div>
-			                      </li>
+			                      			<tr>
+			                      				<td width="10">
+			                      					3
+			                      				</td>
+			                      				<td class="col-md-6">
+			                      					Put New Rollet in frame
+			                      				</td>
+			                      				<td class="float-right col-md-3">
+			                      					<!-- <a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
+														<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
+													</a> -->
+													<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
+														<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
+															<i>+</i>
+															<span>Add Photo</span>
+														</button>
+													</a>
+													<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
+														<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
+															<i>5</i>
+															<span>View Photo</span>
+														</button>
+													</a>
 
-
-									<li>
-				                      	<div class="table-responsive">
-				                      		<table class="table">
-				                      			<tr>
-				                      				<td width="10">
-				                      					3
-				                      				</td>
-				                      				<td class="col-md-7">
-				                      					Put New Rollet in frame
-				                      				</td>
-				                      				<td class="float-right col-md-3">
-				                      					<!-- <a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
-															<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
-														</a> -->
-														<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
-															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
-																<i>+</i>
-																<span>Add Photo</span>
-															</button>
-														</a>
-														<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
-															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
-																<i>5</i>
-																<span>View Photo</span>
-															</button>
-														</a>
-
-				                      				</td>
-				                      				<td class="col-md-2">
-				                      					<span class="float-right">
-				                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
-				                      						<div class="style-radio">
-																<input type="checkbox" name="radio" id="toggle-1.3" class="checkbox status-action"/>
-																<label class="label-radio " for="toggle-1.3">Passed</label>
-															</div>
-															<!-- </a> -->
-				                      					</span>
-				                      				</td>
-				                      			</tr>
-				                      		</table>
-				                      	 </div>
-				                    </li>
-									
-									<li>
-										<div class="table-responsive">
-				                      		<table class="table">
-				                      			<tr>
+			                      				</td>
+			                      				<td class="col-md-3">
+			                      					<span class="float-right">
+			                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
+			                      						<div class="style-radio">
+															<input type="checkbox" name="radio" id="toggle-1.3" class="checkbox status-action"/>
+															<label class="label-radio " for="toggle-1.3">Passed</label>
+														</div>
+														<!-- </a> -->
+			                      					</span>
+			                      				</td>
+			                      			</tr>
+			                      			<tr>
 				                      				<td width="10">
 				                      					4
 				                      				</td>
-				                      				<td class="col-md-7">
+				                      				<td class="col-md-6">
 				                      					Make sure all rings pressed
 				                      				</td>
 				                      				<td class="float-right col-md-3">
@@ -405,7 +380,7 @@
 															</button>
 														</a>
 				                      				</td>
-				                      				<td class="col-md-2">
+				                      				<td class="col-md-3">
 				                      					<span class="float-right">
 				                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
 					                      						<div class="style-radio">
@@ -415,54 +390,44 @@
 															<!-- </a> -->
 				                      					</span>
 				                      				</td>
-				                      			</tr>
-				                      		</table>
-				                      	 </div>
-				                    </li>
-
-
-				                    <li>
-			                    	  	<div class="table-responsive">
-				                      		<table class="table">
-				                      			<tr>
-				                      				<td width="10">
-				                      					5
-				                      				</td>
-				                      				<td class="col-md-7">
-				                      					Testing
-				                      				</td>
-				                      				<td class="float-right col-md-3">
-				                      					<!-- <a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
-															<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
-														</a> -->
-														<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
-															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
-																<i>+</i>
-																<span>Add Photo</span>
-															</button>
-														</a>
-														<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
-															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
-																<i>0</i>
-																<span>View Photo</span>
-															</button>
-														</a>
-				                      				</td>
-				                      				<td class="col-md-2">
-				                      					<span class="float-right">
-				                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
-					                      						<div class="style-radio">
-																	<input type="checkbox" name="radio" id="toggle-1.5" class="checkbox status-action"/>
-																	<label class="label-radio " for="toggle-1.5">Passed</label>
-																</div>
-															<!-- </a> -->
-				                      					</span>
-				                      				</td>
-				                      			</tr>
-				                      		</table>
-				                      	 </div>
-				                    </li>
-			                    </ul>
+				                      		</tr>
+				                      		<tr>
+			                      				<td width="10">
+			                      					5
+			                      				</td>
+			                      				<td class="col-md-6">
+			                      					Testing
+			                      				</td>
+			                      				<td class="float-right col-md-3">
+			                      					<!-- <a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
+														<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
+													</a> -->
+													<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
+														<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
+															<i>+</i>
+															<span>Add Photo</span>
+														</button>
+													</a>
+													<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
+														<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
+															<i>0</i>
+															<span>View Photo</span>
+														</button>
+													</a>
+			                      				</td>
+			                      				<td class="col-md-3">
+			                      					<span class="float-right">
+			                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
+				                      						<div class="style-radio">
+																<input type="checkbox" name="radio" id="toggle-1.5" class="checkbox status-action"/>
+																<label class="label-radio " for="toggle-1.5">Passed</label>
+															</div>
+														<!-- </a> -->
+			                      					</span>
+			                      				</td>
+			                      			</tr>
+			                      		</table>
+			                     </div>
 			                  </div>
 			                </div>
 			            </td>
@@ -503,58 +468,48 @@
 			                	<div class="judul-table-detail">FRM001-CB Replace Roller Work Step </div>
 			                  <div class="collapse-feature-list">
 
-			                    <ul class="detail-table">
-			                      <li>
-			                      	
-				                      	<div class="table-responsive">
-				                      		<table class="table">
-				                      			<tr>
-				                      				<td width="10">
-				                      					1
-				                      				</td>
-				                      				<td class="col-md-7">
-				                      					Shutdown Conveyor Make sure conveyor stoped
-				                      				</td>
-				                      				<td class="float-right col-md-3">
-				                      					<!-- <a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
-															<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
-														</a> -->
-														<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
-															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
-																<i>+</i>
-																<span>Add Photo</span>
-															</button>
-														</a>
-														<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
-															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
-																<i>2</i>
-																<span>View Photo</span>
-															</button>
-														</a>
-				                      				</td>
-				                      				<td class="col-md-2">
-				                      					<span class="float-right">
-				                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
-					                      						<div class="style-radio">
-																	<input type="checkbox" name="radio" id="toggle-2.1" class="checkbox status-action"/>
-																	<label class="label-radio " for="toggle-2.1">Passed</label>
-																</div>
-															<!-- </a> -->
-				                      					</span>
-				                      				</td>
-				                      			</tr>
-				                      		</table>
-				                      	 </div>
-			                      </li>
-
-			                      <li>
-			                      	<div class="table-responsive">
-			                      		<table class="table">
-			                      			<tr>
+			                   	<div class="table-responsive">
+				                   	<table class="table">
+		                      			<tr>
+		                      				<td width="10">
+		                      					1
+		                      				</td>
+		                      				<td class="col-md-6">
+		                      					Shutdown Conveyor Make sure conveyor stoped
+		                      				</td>
+		                      				<td class="float-right col-md-3">
+		                      					<!-- <a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
+													<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
+												</a> -->
+												<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
+													<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
+														<i>+</i>
+														<span>Add Photo</span>
+													</button>
+												</a>
+												<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
+													<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
+														<i>2</i>
+														<span>View Photo</span>
+													</button>
+												</a>
+		                      				</td>
+		                      				<td class="col-md-3">
+		                      					<span class="float-right">
+		                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
+			                      						<div class="style-radio">
+															<input type="checkbox" name="radio" id="toggle-2.1" class="checkbox status-action"/>
+															<label class="label-radio " for="toggle-2.1">Passed</label>
+														</div>
+													<!-- </a> -->
+		                      					</span>
+		                      				</td>
+		                      			</tr>
+		                      			<tr>
 			                      				<td width="10">
 			                      					2
 			                      				</td>
-			                      				<td class="col-md-7">
+			                      				<td class="col-md-6">
 			                      					De attach Old Roller
 			                      				</td>
 			                      				<td class="float-right col-md-3">
@@ -574,7 +529,7 @@
 														</button>
 													</a>	
 			                      				</td>
-			                      				<td class="col-md-2">
+			                      				<td class="col-md-3">
 			                      					<span class="float-right">
 			                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
 			                      						<div class="style-radio">
@@ -584,138 +539,113 @@
 															<!-- </a> -->
 			                      					</span>
 			                      				</td>
-			                      			</tr>
-			                      		</table>
-			                      	 </div>
-			                      </li>
+			                      		</tr>
+			                      		<tr>
+			                      				<td width="10">
+			                      					3
+			                      				</td>
+			                      				<td class="col-md-6">
+			                      					Put New Rollet in frame
+			                      				</td>
+			                      				<td class="float-right col-md-3">
+			                      					<!-- <a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
+														<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
+													</a> -->
+													<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
+														<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
+															<i>+</i>
+															<span>Add Photo</span>
+														</button>
+													</a>
+													<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
+														<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
+															<i>5</i>
+															<span>View Photo</span>
+														</button>
+													</a>
 
-
-									<li>
-				                      	<div class="table-responsive">
-				                      		<table class="table">
-				                      			<tr>
-				                      				<td width="10">
-				                      					3
-				                      				</td>
-				                      				<td class="col-md-7">
-				                      					Put New Rollet in frame
-				                      				</td>
-				                      				<td class="float-right col-md-3">
-				                      					<!-- <a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
-															<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
-														</a> -->
-														<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
-															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
-																<i>+</i>
-																<span>Add Photo</span>
-															</button>
-														</a>
-														<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
-															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
-																<i>5</i>
-																<span>View Photo</span>
-															</button>
-														</a>
-
-				                      				</td>
-				                      				<td class="col-md-2">
-				                      					<span class="float-right">
-				                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
-				                      						<div class="style-radio">
-																<input type="checkbox" name="radio" id="toggle-2.3" class="checkbox status-action"/>
-																<label class="label-radio " for="toggle-2.3">Passed</label>
-															</div>
-															<!-- </a> -->
-				                      					</span>
-				                      				</td>
-				                      			</tr>
-				                      		</table>
-				                      	 </div>
-				                    </li>
-									
-									<li>
-										<div class="table-responsive">
-				                      		<table class="table">
-				                      			<tr>
-				                      				<td width="10">
-				                      					4
-				                      				</td>
-				                      				<td class="col-md-7">
-				                      					Make sure all rings pressed
-				                      				</td>
-				                      				<td class="float-right col-md-3">
-				                      					<!-- <a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
-															<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
-														</a> -->
-														<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
-															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
-																<i>+</i>
-																<span>Add Photo</span>
-															</button>
-														</a>
-														<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
-															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
-																<i>1</i>
-																<span>View Photo</span>
-															</button>
-														</a>
-				                      				</td>
-				                      				<td class="col-md-2">
-				                      					<span class="float-right">
-				                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
-					                      						<div class="style-radio">
-																	<input type="checkbox" name="radio" id="toggle-2.4" class="checkbox status-action"/>
-																	<label class="label-radio " for="toggle-2.4">Passed</label>
-																</div>
-															<!-- </a> -->
-				                      					</span>
-				                      				</td>
-				                      			</tr>
-				                      		</table>
-				                      	 </div>
-				                    </li>
-
-
-				                    <li>
-			                    	  	<div class="table-responsive">
-				                      		<table class="table">
-				                      			<tr>
-				                      				<td width="10">
-				                      					5
-				                      				</td>
-				                      				<td class="col-md-7">
-				                      					Testing
-				                      				</td>
-				                      				<td class="float-right col-md-3">
-				                      					<!-- <a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
-															<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
-														</a> -->
-														<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
-															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
-																<i>+</i>
-																<span>Add Photo</span>
-															</button>
-														</a>
-														<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
-															<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
-																<i>0</i>
-																<span>View Photo</span>
-															</button>
-														</a>
-				                      				</td>
-				                      				<td class="col-md-2">
-				                      					<span class="float-right">
-				                      						<div class="style-radio">
-																	<input type="checkbox" name="radio" id="toggle-2.5" class="checkbox status-action"/>
-																	<label class="label-radio " for="toggle-2.5">Passed</label>
-																</div>
-				                      					</span>
-				                      				</td>
-				                      			</tr>
-				                      		</table>
-				                      	 </div>
-				                    </li>
-			                    </ul>
+			                      				</td>
+			                      				<td class="col-md-3">
+			                      					<span class="float-right">
+			                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
+			                      						<div class="style-radio">
+															<input type="checkbox" name="radio" id="toggle-2.3" class="checkbox status-action"/>
+															<label class="label-radio " for="toggle-2.3">Passed</label>
+														</div>
+														<!-- </a> -->
+			                      					</span>
+			                      				</td>
+			                      		</tr>
+			                      		<tr>
+		                      				<td width="10">
+		                      					4
+		                      				</td>
+		                      				<td class="col-md-6">
+		                      					Make sure all rings pressed
+		                      				</td>
+		                      				<td class="float-right col-md-3">
+		                      					<!-- <a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
+													<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
+												</a> -->
+												<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
+													<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
+														<i>+</i>
+														<span>Add Photo</span>
+													</button>
+												</a>
+												<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
+													<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
+														<i>1</i>
+														<span>View Photo</span>
+													</button>
+												</a>
+		                      				</td>
+		                      				<td class="col-md-3">
+		                      					<span class="float-right">
+		                      						<!-- <a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});"> -->
+			                      						<div class="style-radio">
+															<input type="checkbox" name="radio" id="toggle-2.4" class="checkbox status-action"/>
+															<label class="label-radio " for="toggle-2.4">Passed</label>
+														</div>
+													<!-- </a> -->
+		                      					</span>
+		                      				</td>
+		                      			</tr>
+		                      			<tr>
+		                      				<td width="10">
+		                      					5
+		                      				</td>
+		                      				<td class="col-md-6">
+		                      					Testing
+		                      				</td>
+		                      				<td class="float-right col-md-3">
+		                      					<!-- <a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
+													<img src="images/inspection/thumbnail/1384822703-576-1.png" class="bordered img-squre" />
+												</a> -->
+												<a href="javascript:;" onclick="jQuery('.inspect_corrective').modal('show', {backdrop: 'static'});">
+													<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
+														<i>+</i>
+														<span>Add Photo</span>
+													</button>
+												</a>
+												<a href="images/inspection/1384822703-576-1.png" class="beltsection-bls0002 image-Lightbox" rel-image="beltsection-bls0002" title="Belt (Section)">
+													<button class="btn btn-white btn-icon btn-icon-standalone btn-sm">
+														<i>0</i>
+														<span>View Photo</span>
+													</button>
+												</a>
+		                      				</td>
+		                      				<td class="col-md-3">
+		                      					<span class="float-right">
+		                      						<div class="style-radio">
+															<input type="checkbox" name="radio" id="toggle-2.5" class="checkbox status-action"/>
+															<label class="label-radio " for="toggle-2.5">Passed</label>
+														</div>
+		                      					</span>
+		                      				</td>
+		                      			</tr>
+		                      		</table>
+			                   	</div>
 			                  </div>
 			                </div>
 			            </td>
