@@ -73,6 +73,7 @@
 .font-red{
   color: red;
 }
+
 .widget-list{
   font-size: 14px !Important;
   font-weight: bold;
@@ -476,6 +477,11 @@ input.radio:focus ~ label:before {
     padding:0px;
 }
 
+.errorlist ul, .errorlist li { 
+    display: none; 
+}
+
+
 @media only screen and (max-width: 770px) {
    .icon-menu{
     width: 30px;
@@ -823,4 +829,144 @@ input.radio:focus ~ label:before {
     top: 0;
     width: 95px;
 }
+/*
+.breadcrumb-arrow {
+    background-color: #e6e9ed;
+    height: 57px;
+    line-height: 44px;
+    list-style: outside none none;
+    margin-bottom: -20px;
+    margin-top: -19px;
+    padding: 0;
+}
+.breadcrumb-arrow li:first-child a {
+    border-radius: 4px 0 0 4px;
+    -webkit-border-radius: 4px 0 0 4px;
+    -moz-border-radius: 4px 0 0 4px
+}
+.breadcrumb-arrow li, .breadcrumb-arrow li a, .breadcrumb-arrow li span {
+    display: inline-block;
+    vertical-align: top;
+}
+.breadcrumb-arrow li:not(:first-child) {
+    margin-left: -5px
+}
+.breadcrumb-arrow li+li:before {
+    padding: 0;
+    content: ""
+}
+.breadcrumb-arrow li span {
+    padding: 0 10px
+    padding-top: 20px;
+}
+.breadcrumb-arrow li a, .breadcrumb-arrow li:not(:first-child) span {
+    height: 57px;
+    padding: 0 10px 0 25px;
+    line-height: 36px;
+    padding-top: 10px;
+}
+.breadcrumb-arrow li:first-child a {
+    padding: 0 10px;
+    padding-top:20px;
+}
+.breadcrumb-arrow li a {
+    position: relative;
+    padding-top:20px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #3bafda;
+    border: 1px solid #3bafda
+}
+.breadcrumb-arrow li:first-child a {
+    padding-left: 10px
+}
+.breadcrumb-arrow li a:after, .breadcrumb-arrow li a:before {
+    border-bottom: 30px solid transparent;
+    border-top: 30px solid transparent;
+    content: "";
+    height: 0;
+    position: absolute;
+    top: -1px;
+    width: 0;
+}
+.breadcrumb-arrow li a:before {
+    right: -10px;
+    z-index: 3;
+    border-left-color: #3bafda;
+    border-left-style: solid;
+    border-left-width: 11px
+}
+.breadcrumb-arrow li a:after {
+    right: -11px;
+    z-index: 2;
+    border-left: 11px solid #2494be
+}
+.breadcrumb-arrow li a:focus, .breadcrumb-arrow li a:hover {
+    background-color: #4fc1e9;
+    border: 1px solid #4fc1e9
+}
+.breadcrumb-arrow li a:focus:before, .breadcrumb-arrow li a:hover:before {
+    border-left-color: #4fc1e9
+}
+.breadcrumb-arrow li a:active {
+    background-color: #2494be;
+    border: 1px solid #2494be
+}
+.breadcrumb-arrow li a:active:after, .breadcrumb-arrow li a:active:before {
+    border-left-color: #2494be
+}
+.breadcrumb-arrow li span {
+    color: #434a54
+}*/
 
+/*
+.openerp .oe_form header ul {
+    display: inline-block;
+    float: right;
+}
+
+.openerp .oe_form header ul {
+    display: inline-block;
+    float: right;
+}
+.openerp ul.oe_form_status, .openerp ul.oe_form_status_clickable {
+    margin: 0;
+    padding: 0 18px 0 0;
+}
+.openerp ul.oe_form_status li, .openerp ul.oe_form_status_clickable li {
+    background-color: #ededed;
+    background-image: linear-gradient(to bottom, #fcfcfc, #dedede);
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 -18px 0 0;
+    padding: 0;
+}
+
+.openerp ul.oe_form_status li:first-child .label, .openerp ul.oe_form_status_clickable li:first-child .label {
+    border-left: 1px solid #cacaca;
+    padding-left: 14px;
+}
+.openerp ul.oe_form_status li .arrow, .openerp ul.oe_form_status_clickable li .arrow {
+    display: inline-block;
+    margin-left: -5px;
+    overflow: hidden;
+    vertical-align: top;
+    width: 17px;
+}
+.openerp ul.oe_form_status li .arrow span, .openerp ul.oe_form_status_clickable li .arrow span {
+    background: rgba(0, 0, 0, 0) -moz-linear-gradient(135deg, #dedede, #fcfcfc) repeat scroll 0 0;
+    border-radius: 3px;
+    box-shadow: -1px 1px 2px rgba(255, 255, 255, 0.2), -1px 1px 1px rgba(0, 0, 0, 0.2) inset;
+    display: inline-block;
+    height: 24px;
+    margin-left: -12px;
+    margin-top: 3px;
+    position: relative;
+    transform: rotate(45deg);
+    width: 24px;
+}
+
+.openerp ul.oe_form_status li.oe_active, .openerp ul.oe_form_status_clickable li.oe_active {
+    background-color: #5382b9;
+    background-image: linear-gradient(to bottom, #729fcf, #3465a4);
+}*/
