@@ -98,6 +98,13 @@
 		});	
 	});
 
+
+	// Validasi Image
+	var a = $('ul.errorlist li ul').find('li');
+	if(a.length >= 1){
+		validasi_error_message('This field is required.','Information');
+	}
+
 	//  Image Lightbox
 	$('.image-Lightbox').each(function() {
 		var rel_image = $(this).attr( "rel-image" );
