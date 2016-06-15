@@ -31,6 +31,17 @@
 			</div>
 			
 			<div class="panel-body">
+				<ul class="crumbs2">
+					<li class="first"><a href="#">
+						<i class="fa fa-plus-circle"></i>
+						Add New Area</a></li>
+					<li><a href="#">
+						<i class="fa fa-pencil-square-o"></i>
+						Update Area</a></li>
+					<li class="last"><a href="#">
+						<i class="fa fa-trash-o"></i>
+						Delete Area</a></li>
+				</ul>
 				<div class="form-group">
 					<!-- <label class="col-sm-3 control-label">Customer Name</label> -->
 					<div class="col-sm-12">

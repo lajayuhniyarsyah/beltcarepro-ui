@@ -1,3 +1,11 @@
+<ul class="errorlist">
+	<li>icon
+		<ul class="errorlist">
+			<li>This field is required.</li>
+		</ul>
+	</li>
+</ul>
+
 <div class="page-title">
 	<div class="title-env">
 		<h1 class="title">Create New Conveyor Part </h1>
@@ -43,7 +51,7 @@
 					<div class="form-group">
 						<label class="col-sm-2 control-label" for="field-1">Part Code <span class="font-red"> * </span></label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control validasi" name="code" data-validate="required" data-message-required="Please Input Part Code." placeholder="Part Code" />
+							<input type="text" class="form-control validasi border-red" name="code" data-validate="required" data-message-required="Please Input Part Code." placeholder="Part Code" />
 						</div>
 					</div>
 					<div class="form-group">

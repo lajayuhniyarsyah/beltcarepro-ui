@@ -92,7 +92,7 @@
 			if ($(this).val()==='' && select===false){
 				var message = $(this).attr( "data-message-required" );		
 				if(message){
-					validasi_error_message(message,'Information');	
+					validasi_error_message(message,'Information');
 				}
 			}
 		});	
@@ -102,6 +102,7 @@
 	// Validasi Image
 	var a = $('ul.errorlist li ul').find('li');
 	if(a.length >= 1){
+		$('.filer-dropzone').addClass('border-red');
 		validasi_error_message('This field is required.','Information');
 	}
 

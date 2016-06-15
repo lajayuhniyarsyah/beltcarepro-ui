@@ -142,7 +142,7 @@
 							<div class="col-sm-9">
 								<div class="date-and-time">
 									<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="13 May 2016" disabled>
-									<input type="text" class="form-control timepicker" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="true" data-minute-step="5" data-second-step="5" disabled/>
+									<input type="text" class="form-control timepicker" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="false" data-minute-step="5" data-second-step="5" disabled/>
 								</div>
 							</div>
 						</div>
@@ -153,7 +153,7 @@
 							<div class="col-sm-9">
 								<div class="date-and-time">
 									<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="13 May 2016" >
-									<input type="text" class="form-control timepicker" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="true" data-minute-step="5" data-second-step="5" />
+									<input type="text" class="form-control timepicker" data-template="dropdown" data-show-seconds="true" data-default-time="11:25:00 AM" data-show-meridian="false" data-minute-step="5" data-second-step="5" />
 								</div>
 							</div>
 						</div>
@@ -175,7 +175,7 @@
 							<div class="col-sm-9">
 								<div class="date-and-time">
 									<input type="text" class="form-control datepicker" data-format="dd MM yyyy" value="13 May 2016">
-									<input type="text" class="form-control timepicker" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="true" data-minute-step="5" data-second-step="5" />
+									<input type="text" class="form-control timepicker" data-template="dropdown" data-show-seconds="true" data-default-time="11:25 AM" data-show-meridian="false" data-minute-step="5" data-second-step="5" />
 								</div>
 							</div>
 						</div>
