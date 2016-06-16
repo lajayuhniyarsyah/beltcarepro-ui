@@ -30,6 +30,17 @@
 			</div>
 			
 			<div class="panel-body">
+			<ul class="crumbs2">
+					<li class="first"><a href="#">
+						<i class="fa fa-plus-circle"></i>
+						Add New Part Type</a></li>
+					<li><a href="#">
+						<i class="fa fa-pencil-square-o"></i>
+						Update Part Type</a></li>
+					<li class="last"><a href="#">
+						<i class="fa fa-trash-o"></i>
+						Delete Part Type</a></li>
+				</ul>
 				<table class="table table-hover">
 				<thead>
 					<tr>

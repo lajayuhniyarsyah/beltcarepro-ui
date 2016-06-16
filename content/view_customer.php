@@ -24,10 +24,23 @@
 			<div class="row">
 				<div class="col-md-12">
 					<div class="panel panel-color panel-info">
-						<div class="panel-heading">
-							<h3 class="panel-title"><center>Detail Information Customer</center></h3>
+						<div class="panel-heading-view">
+						<h3 class="detail-view">DETAIL INFORMATION CUSTOMER</h3>
+						<ul class="crumbs2">
+								<li class="first"><a href="#">
+									<i class="fa fa-plus-circle"></i>
+									Add New Customer</a></li>
+								<li><a href="#">
+									<i class="fa fa-pencil-square-o"></i>
+									Update Customer</a></li>
+								<li class="last"><a href="#">
+									<i class="fa fa-trash-o"></i>
+									Delete Customer</a></li>
+							</ul>
 						</div>
-						
+						<br/>
+						<hr/>
+
 						<div class="panel-body">
 							<div class="form-group">
 								<!-- <label class="col-sm-3 control-label">Customer Name</label> -->
@@ -64,30 +77,6 @@
 						</div>
 					</div>
 				</div>
-				<!-- <div class="col-md-6">
-					<div class="panel panel-color panel-danger">
-						<div class="panel-heading">
-							<h3 class="panel-title text-center">Detail Information Conveyor</h3>
-						</div>
-						
-						<div class="panel-body">
-							<div class="form-group">
-								<label class="col-sm-4 control-label">Jumlah Site</label>
-								<div class="col-sm-8">10 SITE</div>
-							</div>
-							<div class="sparator"></div>
-							<div class="form-group">
-								<label class="col-sm-4 control-label">Jumlah Area</label>
-								<div class="col-sm-8">10 AREA</div>
-							</div>
-							<div class="sparator"></div>
-							<div class="form-group">
-								<label class="col-sm-4 control-label">Jumlah Conveyor</label>
-								<div class="col-sm-8">50 CONVEYOR</div>
-							</div>
-						</div>
-					</div>
-				</div> -->
 				<div class="col-md-12">
 					
 					<ul class="nav nav-tabs nav-tabs-justified">

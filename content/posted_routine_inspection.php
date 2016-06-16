@@ -27,6 +27,13 @@
 			</div>
 		</div>
 		<div class="panel-body">
+		<ul class="crumbs2">
+				<li class="first"><a href="#">Draft</a></li>
+				<li><a href="#">Scheduled</a></li>
+				<li><a href="#" class="active">On Progress</a></li>
+				<li class="last"><a href="#">Done</a></li>				
+			</ul>
+			<br/><br/><br/>
 			<!-- <div class="table-responsive">  -->
 				<div class="panel-body">
 			<!-- <div class="table-responsive">  -->

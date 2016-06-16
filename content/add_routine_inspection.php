@@ -36,6 +36,7 @@
 
 		<hr/>
 		<div class="panel-body">
+			
 			<!-- <div class="table-responsive">  -->
 			<form role="form" id="form1" method="post" class="validate form-horizontal label-left">
 				<div class="form-group required">
@@ -43,7 +44,7 @@
 					<div class="col-sm-4">
 						<input type="text" id="field-2" class="form-control daterange" data-format="YYYY-MM-DD" data-start-date="2013-08-02" data-end-date="2013-08-15" data-separator="," />
 					</div>
-
+					
 					<label class="col-sm-2 control-label" for="field-1">Only Weekday  <span class="font-red">*</span></label>
 					<div class="col-sm-4">
 						<div class="style-radio" style="margin-top:-22px;">

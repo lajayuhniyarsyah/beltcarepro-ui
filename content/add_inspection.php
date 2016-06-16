@@ -23,8 +23,41 @@
 	<div class="panel panel-color panel-info"><!-- Add class "collapsed" to minimize the panel -->
 		<div class="panel-heading">
 			<h3 class="panel-title"><b>Action #HOL/NRG/006</b></h3>			
-			<div class="panel-options">
-				
+			<div class="panel-options" style="margin-right:-29px;">
+			   <!--  <ol class="breadcrumb-arrow">
+					<li><a href="#">Draft</a></li>
+					<li><a href="#">Scheduled</a></li>
+					<li class="active"><span>On Progress</span></li>
+					<li><a href="#">Done</a></li>
+				</ol> -->
+			<!-- 	<div class="openerp">
+					<ul class="oe_form_field_status oe_form_status">
+				        <li data-id="draft" class="">
+				            <span class="label">Draft Quotation</span>
+				            
+				            <span class="arrow"><span></span></span>
+				        </li>
+				    
+				        <li data-id="sent" class="">
+				            <span class="label">Quotation Sent</span>
+				            
+				            <span class="arrow"><span></span></span>
+				        </li>
+				    
+				        <li data-id="manual" class="oe_active">
+				            <span class="label">Sale to Invoice</span>
+				            
+				            <span class="arrow"><span></span></span>
+				        </li>
+				    
+				        <li data-id="done" class="">
+				            <span class="label">Done</span>
+				            
+				            <span class="arrow"><span></span></span>
+				        </li>
+				    
+					</ul>
+				</div> -->
 			</div>
 		</div>
 		<div class="panel-body">

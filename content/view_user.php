@@ -32,14 +32,23 @@
 			</div>
 			
 			<div class="panel-body">
-				
+				<ul class="crumbs2">
+					<li class="first"><a href="#">
+						<i class="fa fa-plus-circle"></i>
+						Add New User</a></li>
+					<li><a href="#">
+						<i class="fa fa-pencil-square-o"></i>
+						Update User</a></li>
+					<li class="last"><a href="#">
+						<i class="fa fa-trash-o"></i>
+						Delete User</a></li>
+				</ul>
 
 				<div class="form-group">
 					<div class="col-sm-1">
 						<span class="images-User"><img src="images/employee/user.png"></span>
 					</div>
 					<div class="col-sm-11">
-						<br/>
 						<span class="font-bold font16">EKA CHANDRA SETIAWAN</span><br/>
 						<span class="font14">chandra@beltcare.com</span><br/>
 						<div class="label label-secondary">Active</div>

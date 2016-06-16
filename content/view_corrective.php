@@ -21,13 +21,19 @@
 
 <div class="col-md-12">
 	<div class="panel panel-color panel-info"><!-- Add class "collapsed" to minimize the panel -->
+
 		<div class="panel-heading">
-			<h3 class="panel-title"><b>Action #SBM/HOL/16/0101</b></h3>			
-			<div class="panel-options">
+				<h3 class="panel-title"><center>DETAIL INFORMATION CUSTOMER SITE AREA</center></h3>
 				
 			</div>
-		</div>
 		<div class="panel-body">
+			<ul class="crumbs2">
+				<li class="first"><a href="#">Draft</a></li>
+				<li><a href="#">Scheduled</a></li>
+				<li><a href="#" class="active">On Progress</a></li>
+				<li class="last"><a href="#">Done</a></li>				
+			</ul>
+			<br/><br/><br/>
 			<form id="form" method="post" action="#">
 				<div class="col-md-6">
 					<table class="table no-bold">

@@ -32,6 +32,17 @@
 			</div>
 			
 			<div class="panel-body">
+			<ul class="crumbs2">
+					<li class="first"><a href="#">
+						<i class="fa fa-plus-circle"></i>
+						Add New User</a></li>
+					<li><a href="#">
+						<i class="fa fa-pencil-square-o"></i>
+						Update User</a></li>
+					<li class="last"><a href="#">
+						<i class="fa fa-trash-o"></i>
+						Delete User</a></li>
+				</ul>
 				<span class="images-conveyor">
 				<a href="images/conveyor/thumb/conveyor.jpg" class="conveyor-image image-Lightbox" rel-image="conveyor-image" title="Conveyor Image">
 					<img src="images/conveyor/conveyor.jpg">
