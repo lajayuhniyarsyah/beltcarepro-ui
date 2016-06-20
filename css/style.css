@@ -12,8 +12,8 @@
   color: black !Important;
 }
 .nav.nav-tabs > li.active > a{
-  background-color: #1BBC9B;
-  color: white;
+  background-color: #DADFE1;
+  color: black;
 }
 .nav.nav-tabs > li > a {
     background-color: #f4f4f4;
@@ -105,7 +105,7 @@ input[type="file"] {
     display: block;
     padding-top: 0;
 }
-.validate-has-error{
+span .validate-has-error{
   color: red;
   font-size: 10px;
 }

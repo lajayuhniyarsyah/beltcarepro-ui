@@ -142,7 +142,13 @@
 										</a>
 									</li>
 								</ul>
-							</li>	
+							</li>
+							<li>
+								<a href="home.php?page=data_frame_roller_queue">
+									<img src="images/icon/area.png" class="icon-menu-detail" />
+									<span class="title">Frame Roller Queue</span>
+								</a>
+							</li>
 						</ul>
 					</li>
 
