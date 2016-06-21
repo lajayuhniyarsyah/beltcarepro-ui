@@ -47,7 +47,8 @@
   <script src="assets/js/jquery-validate/jquery.validate.min.js"></script>
 
   <script src="assets/js/toastr/toastr.min.js"></script>
-
+  <script src="assets/js/inputmask/jquery.inputmask.bundle.js"></script>
+  
   <!-- JavaScripts initializations and stuff -->
   <script src="assets/js/xenon-custom.js"></script>
 

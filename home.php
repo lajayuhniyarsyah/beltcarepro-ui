@@ -142,6 +142,15 @@
 				            case "add_action":
 				            	$pg =  "content/add_action.php";
 				            break;
+				            case "data_frame_roller_queue":
+				            	$pg =  "content/data_frame_roller_queue.php";
+				            break;
+				            case "add_frame_roller_queue":
+				            	$pg =  "content/add_frame_roller_queue.php";
+				            break;
+				            case "view_frame_roller_queue":
+				            	$pg =  "content/view_frame_roller_queue.php";
+				            break;
 				        }
 				    }else{
 				        $pg="content/dasboard.php";
