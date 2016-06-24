@@ -51,4 +51,15 @@
   
   <!-- JavaScripts initializations and stuff -->
   <script src="assets/js/xenon-custom.js"></script>
+<script>
+  $( ".select2-single, .select2-multiple" ).select2( {
+    theme: "bootstrap",
+    placeholder: "Select a State",
+    maximumSelectionSize: 6,
+    containerCssClass: ':all:'
+  } );
 
+  $( ":checkbox" ).on( "click", function() {
+    $( this ).parent().nextAll( "select" ).prop( "disabled", !this.checked );
+  });
+</script>

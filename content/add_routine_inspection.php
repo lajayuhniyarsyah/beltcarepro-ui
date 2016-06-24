@@ -162,7 +162,7 @@
 								});
 							});
 						</script>
-						<input type="hidden" name="data_conveyor" id="data_conveyor" placeholder="Search Conveyor" />
+						<input type="hidden" class="form-control validasi" name="data_conveyor" id="data_conveyor" placeholder="Search Conveyor" />
 					</div>
 				</div>
 				<div class="form-group-separator"></div>

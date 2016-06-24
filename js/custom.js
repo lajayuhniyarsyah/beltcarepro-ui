@@ -24,7 +24,7 @@
 	}		
 
 
-
+	
 
 	function information_message(a,b) {	
 		var opts = {
@@ -99,11 +99,13 @@
 	});
 
 
-	// Validasi Image
+	// Validasi Django
 	var a = $('ul.errorlist li ul').find('li');
 	if(a.length >= 1){
 		$('.filer-dropzone').addClass('border-red');
-		validasi_error_message('This field is required.','Information');
+		for(x=1; x<=a.length; x++){
+			validasi_error_message(a.html(),'Information');
+		}
 	}
 
 	//  Image Lightbox
