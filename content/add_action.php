@@ -42,7 +42,7 @@
 					<label class="col-sm-2 control-label" for="field-1">Doc No <span class="font-red">*</span></label>
 					<div class="col-sm-3">
 						<div class="input-group">
-							<input type="text" name="doc_no" id="doc_no" class="form-control" value="Contract No 1/XII/15"/>
+							<input type="text" name="doc_no" id="doc_no" class="form-control" data-validate="number,minlength[4]" />
 						</div>
 					</div>
 				</div>
@@ -56,6 +56,7 @@
 									jQuery(document).ready(function($)
 									{
 										$("#data_customer").select2({
+											theme: "bootstrap",
 											minimumInputLength: 1,
 											placeholder: 'Search',
 											ajax: {

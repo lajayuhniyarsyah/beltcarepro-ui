@@ -24,7 +24,7 @@
 	}		
 
 
-
+	
 
 	function information_message(a,b) {	
 		var opts = {

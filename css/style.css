@@ -56,7 +56,58 @@
 .table-responsive{
   padding: 15px;
 }
+.select2-container-active{
+  border-color: rgba(104, 184, 40, 0.5) !important;
+  box-shadow: inset 0 2px 3px 0 rgba(0,0,0,.06) !important;
 
+}
+.select2-with-searchbox{
+border-color: rgba(104, 184, 40, 0.5) !important;  
+}
+.select2-container .select2-choice:focus {
+  border: 1px solid #999;
+  box-shadow: inset 0 2px 3px 0 rgba(0,0,0,.06);
+}
+  .select2-container-active .select2-choice {
+  border: 1px solid #999;
+  box-shadow: inset 0 2px 3px 0 rgba(0,0,0,.06);
+  border-radius: 4px;
+} 
+ 
+.select2-container-active.select2-dropdown-open .select2-choice {
+  border-bottom: 2px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-top: 1px solid #ccc;
+  box-shadow: none;
+}
+.checkbox:focus{
+   border: 1px solid red;
+}
+
+
+.select2-default:focus {
+    border-color: rgba(104, 184, 40, 0.5) !important;
+    box-shadow: inset 0 2px 3px 0 rgba(0,0,0,.06);
+}
+.select2-container:focus{
+   border-color: rgba(104, 184, 40, 0.5) !important; 
+   box-shadow: inset 0 2px 3px 0 rgba(0,0,0,.06);
+}
+.select2-choice:focus{
+  border-color: rgba(104, 184, 40, 0.5) !important; 
+  box-shadow: inset 0 2px 3px 0 rgba(0,0,0,.06);
+}
+#s2id_inputcustomer:focus{
+ border-color: rgba(104, 184, 40, 0.5) !important;  
+ box-shadow: inset 0 2px 3px 0 rgba(0,0,0,.06);
+}
+.select2-container:focus .select2-choice:focus{
+ border-color: rgba(104, 184, 40, 0.5) !important;   
+}
+.select2-input:focus{
+ border-color: rgba(104, 184, 40, 0.5) !important; 
+}
 .images-conveyor img {
   border: 10px solid #fff;
   -webkit-box-shadow: 1px 1px 3px 1px #777;

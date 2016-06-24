@@ -125,6 +125,7 @@
 									<span class="title">Area</span>
 								</a>
 							</li>
+							
 							<li>
 								<a href="#" class="test">
 									<img src="images/icon/asset.png" class="icon-menu-detail" />
@@ -141,14 +142,14 @@
 											<span class="title">Conveyor Asset</span>
 										</a>
 									</li>
+									<li>
+										<a href="home.php?page=data_frame_roller_queue">
+											<span class="title">Frame &amp; Roller</span>
+										</a>
+									</li>
 								</ul>
 							</li>
-							<li>
-								<a href="home.php?page=data_frame_roller_queue">
-									<img src="images/icon/area.png" class="icon-menu-detail" />
-									<span class="title">Frame Roller Queue</span>
-								</a>
-							</li>
+							
 						</ul>
 					</li>
 
